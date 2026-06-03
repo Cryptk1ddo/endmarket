@@ -1,0 +1,1813 @@
+{
+  "source": "public/generated/ac-campaigns/image-generation-queue.json",
+  "generatedAt": "2026-05-30T14:51:02.481Z",
+  "quality": 84,
+  "count": 200,
+  "sourceTotalBytes": 449407291,
+  "webpTotalBytes": 28234806,
+  "sourceTotalReadable": "428.6 MiB",
+  "webpTotalReadable": "26.9 MiB",
+  "items": [
+    {
+      "productName": "Ballu BSW-07HN1",
+      "slug": "ballu-bsw-07hn1",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-07hn1/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-07hn1/a-studio-hero.webp",
+      "sourceBytes": 2148940,
+      "webpBytes": 133690
+    },
+    {
+      "productName": "Ballu BSW-07HN1",
+      "slug": "ballu-bsw-07hn1",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-07hn1/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-07hn1/b-lifestyle-interior.webp",
+      "sourceBytes": 2364806,
+      "webpBytes": 157362
+    },
+    {
+      "productName": "Ballu BSW-07HN1",
+      "slug": "ballu-bsw-07hn1",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-07hn1/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-07hn1/c-exterior-weather.webp",
+      "sourceBytes": 2407903,
+      "webpBytes": 163754
+    },
+    {
+      "productName": "Ballu BSW-07HN1",
+      "slug": "ballu-bsw-07hn1",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-07hn1/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-07hn1/d-product-card-bento.webp",
+      "sourceBytes": 1910535,
+      "webpBytes": 72372
+    },
+    {
+      "productName": "Ballu BSW-07HN1",
+      "slug": "ballu-bsw-07hn1",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-07hn1/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-07hn1/e-smart-home.webp",
+      "sourceBytes": 1979964,
+      "webpBytes": 105256
+    },
+    {
+      "productName": "Ballu BSW-09HN1",
+      "slug": "ballu-bsw-09hn1",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-09hn1/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-09hn1/a-studio-hero.webp",
+      "sourceBytes": 1982421,
+      "webpBytes": 99060
+    },
+    {
+      "productName": "Ballu BSW-09HN1",
+      "slug": "ballu-bsw-09hn1",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-09hn1/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-09hn1/b-lifestyle-interior.webp",
+      "sourceBytes": 2403545,
+      "webpBytes": 159882
+    },
+    {
+      "productName": "Ballu BSW-09HN1",
+      "slug": "ballu-bsw-09hn1",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-09hn1/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-09hn1/c-exterior-weather.webp",
+      "sourceBytes": 2357942,
+      "webpBytes": 171420
+    },
+    {
+      "productName": "Ballu BSW-09HN1",
+      "slug": "ballu-bsw-09hn1",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-09hn1/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-09hn1/d-product-card-bento.webp",
+      "sourceBytes": 1897634,
+      "webpBytes": 72390
+    },
+    {
+      "productName": "Ballu BSW-09HN1",
+      "slug": "ballu-bsw-09hn1",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-09hn1/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-09hn1/e-smart-home.webp",
+      "sourceBytes": 2182334,
+      "webpBytes": 123480
+    },
+    {
+      "productName": "Ballu BSW-12HN1",
+      "slug": "ballu-bsw-12hn1",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-12hn1/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-12hn1/a-studio-hero.webp",
+      "sourceBytes": 2104000,
+      "webpBytes": 130166
+    },
+    {
+      "productName": "Ballu BSW-12HN1",
+      "slug": "ballu-bsw-12hn1",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-12hn1/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-12hn1/b-lifestyle-interior.webp",
+      "sourceBytes": 2362559,
+      "webpBytes": 159696
+    },
+    {
+      "productName": "Ballu BSW-12HN1",
+      "slug": "ballu-bsw-12hn1",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-12hn1/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-12hn1/c-exterior-weather.webp",
+      "sourceBytes": 2588618,
+      "webpBytes": 227090
+    },
+    {
+      "productName": "Ballu BSW-12HN1",
+      "slug": "ballu-bsw-12hn1",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-12hn1/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-12hn1/d-product-card-bento.webp",
+      "sourceBytes": 2058532,
+      "webpBytes": 93940
+    },
+    {
+      "productName": "Ballu BSW-12HN1",
+      "slug": "ballu-bsw-12hn1",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-12hn1/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-12hn1/e-smart-home.webp",
+      "sourceBytes": 2117066,
+      "webpBytes": 118302
+    },
+    {
+      "productName": "Ballu BSW-18HN1",
+      "slug": "ballu-bsw-18hn1",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-18hn1/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-18hn1/a-studio-hero.webp",
+      "sourceBytes": 2175559,
+      "webpBytes": 129716
+    },
+    {
+      "productName": "Ballu BSW-18HN1",
+      "slug": "ballu-bsw-18hn1",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-18hn1/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-18hn1/b-lifestyle-interior.webp",
+      "sourceBytes": 2298502,
+      "webpBytes": 160450
+    },
+    {
+      "productName": "Ballu BSW-18HN1",
+      "slug": "ballu-bsw-18hn1",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-18hn1/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-18hn1/c-exterior-weather.webp",
+      "sourceBytes": 2208391,
+      "webpBytes": 176960
+    },
+    {
+      "productName": "Ballu BSW-18HN1",
+      "slug": "ballu-bsw-18hn1",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-18hn1/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-18hn1/d-product-card-bento.webp",
+      "sourceBytes": 1972128,
+      "webpBytes": 81862
+    },
+    {
+      "productName": "Ballu BSW-18HN1",
+      "slug": "ballu-bsw-18hn1",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/ballu-bsw-18hn1/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bsw-18hn1/e-smart-home.webp",
+      "sourceBytes": 2154738,
+      "webpBytes": 141380
+    },
+    {
+      "productName": "Ballu BSWI-09HN1",
+      "slug": "ballu-bswi-09hn1",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-09hn1/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-09hn1/a-studio-hero.webp",
+      "sourceBytes": 2001922,
+      "webpBytes": 99142
+    },
+    {
+      "productName": "Ballu BSWI-09HN1",
+      "slug": "ballu-bswi-09hn1",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-09hn1/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-09hn1/b-lifestyle-interior.webp",
+      "sourceBytes": 2436487,
+      "webpBytes": 176366
+    },
+    {
+      "productName": "Ballu BSWI-09HN1",
+      "slug": "ballu-bswi-09hn1",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-09hn1/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-09hn1/c-exterior-weather.webp",
+      "sourceBytes": 2328382,
+      "webpBytes": 170018
+    },
+    {
+      "productName": "Ballu BSWI-09HN1",
+      "slug": "ballu-bswi-09hn1",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-09hn1/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-09hn1/d-product-card-bento.webp",
+      "sourceBytes": 1912260,
+      "webpBytes": 71190
+    },
+    {
+      "productName": "Ballu BSWI-09HN1",
+      "slug": "ballu-bswi-09hn1",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-09hn1/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-09hn1/e-smart-home.webp",
+      "sourceBytes": 2207364,
+      "webpBytes": 134670
+    },
+    {
+      "productName": "Ballu BSWI-12HN1",
+      "slug": "ballu-bswi-12hn1",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-12hn1/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-12hn1/a-studio-hero.webp",
+      "sourceBytes": 1934465,
+      "webpBytes": 94682
+    },
+    {
+      "productName": "Ballu BSWI-12HN1",
+      "slug": "ballu-bswi-12hn1",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-12hn1/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-12hn1/b-lifestyle-interior.webp",
+      "sourceBytes": 2355593,
+      "webpBytes": 158710
+    },
+    {
+      "productName": "Ballu BSWI-12HN1",
+      "slug": "ballu-bswi-12hn1",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-12hn1/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-12hn1/c-exterior-weather.webp",
+      "sourceBytes": 2384295,
+      "webpBytes": 174022
+    },
+    {
+      "productName": "Ballu BSWI-12HN1",
+      "slug": "ballu-bswi-12hn1",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-12hn1/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-12hn1/d-product-card-bento.webp",
+      "sourceBytes": 2072450,
+      "webpBytes": 111504
+    },
+    {
+      "productName": "Ballu BSWI-12HN1",
+      "slug": "ballu-bswi-12hn1",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-12hn1/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-12hn1/e-smart-home.webp",
+      "sourceBytes": 2038303,
+      "webpBytes": 114426
+    },
+    {
+      "productName": "Ballu BSWI-18HN1",
+      "slug": "ballu-bswi-18hn1",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-18hn1/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-18hn1/a-studio-hero.webp",
+      "sourceBytes": 2165521,
+      "webpBytes": 128296
+    },
+    {
+      "productName": "Ballu BSWI-18HN1",
+      "slug": "ballu-bswi-18hn1",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-18hn1/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-18hn1/b-lifestyle-interior.webp",
+      "sourceBytes": 2416021,
+      "webpBytes": 181182
+    },
+    {
+      "productName": "Ballu BSWI-18HN1",
+      "slug": "ballu-bswi-18hn1",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-18hn1/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-18hn1/c-exterior-weather.webp",
+      "sourceBytes": 2280473,
+      "webpBytes": 163104
+    },
+    {
+      "productName": "Ballu BSWI-18HN1",
+      "slug": "ballu-bswi-18hn1",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-18hn1/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-18hn1/d-product-card-bento.webp",
+      "sourceBytes": 1959563,
+      "webpBytes": 79756
+    },
+    {
+      "productName": "Ballu BSWI-18HN1",
+      "slug": "ballu-bswi-18hn1",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-18hn1/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-18hn1/e-smart-home.webp",
+      "sourceBytes": 2174969,
+      "webpBytes": 113338
+    },
+    {
+      "productName": "Ballu BSWI-24HN1",
+      "slug": "ballu-bswi-24hn1",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-24hn1/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-24hn1/a-studio-hero.webp",
+      "sourceBytes": 2029816,
+      "webpBytes": 121656
+    },
+    {
+      "productName": "Ballu BSWI-24HN1",
+      "slug": "ballu-bswi-24hn1",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-24hn1/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-24hn1/b-lifestyle-interior.webp",
+      "sourceBytes": 2333951,
+      "webpBytes": 158438
+    },
+    {
+      "productName": "Ballu BSWI-24HN1",
+      "slug": "ballu-bswi-24hn1",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-24hn1/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-24hn1/c-exterior-weather.webp",
+      "sourceBytes": 2311865,
+      "webpBytes": 168892
+    },
+    {
+      "productName": "Ballu BSWI-24HN1",
+      "slug": "ballu-bswi-24hn1",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-24hn1/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-24hn1/d-product-card-bento.webp",
+      "sourceBytes": 1899564,
+      "webpBytes": 68960
+    },
+    {
+      "productName": "Ballu BSWI-24HN1",
+      "slug": "ballu-bswi-24hn1",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/ballu-bswi-24hn1/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bswi-24hn1/e-smart-home.webp",
+      "sourceBytes": 2061950,
+      "webpBytes": 108888
+    },
+    {
+      "productName": "Ballu BLC-07HN1",
+      "slug": "ballu-blc-07hn1",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/ballu-blc-07hn1/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/ballu-blc-07hn1/a-studio-hero.webp",
+      "sourceBytes": 2184055,
+      "webpBytes": 146374
+    },
+    {
+      "productName": "Ballu BLC-07HN1",
+      "slug": "ballu-blc-07hn1",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/ballu-blc-07hn1/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/ballu-blc-07hn1/b-lifestyle-interior.webp",
+      "sourceBytes": 2501714,
+      "webpBytes": 184944
+    },
+    {
+      "productName": "Ballu BLC-07HN1",
+      "slug": "ballu-blc-07hn1",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/ballu-blc-07hn1/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/ballu-blc-07hn1/c-exterior-weather.webp",
+      "sourceBytes": 2708686,
+      "webpBytes": 247668
+    },
+    {
+      "productName": "Ballu BLC-07HN1",
+      "slug": "ballu-blc-07hn1",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/ballu-blc-07hn1/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/ballu-blc-07hn1/d-product-card-bento.webp",
+      "sourceBytes": 2567862,
+      "webpBytes": 152818
+    },
+    {
+      "productName": "Ballu BLC-07HN1",
+      "slug": "ballu-blc-07hn1",
+      "variant": "e-editorial-detail",
+      "sourcePath": "/generated/ac-campaigns/ballu-blc-07hn1/e-editorial-detail.png",
+      "webpPath": "/generated/ac-campaigns/ballu-blc-07hn1/e-editorial-detail.webp",
+      "sourceBytes": 2395786,
+      "webpBytes": 149990
+    },
+    {
+      "productName": "Ballu BLD-09HN1",
+      "slug": "ballu-bld-09hn1",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/ballu-bld-09hn1/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bld-09hn1/a-studio-hero.webp",
+      "sourceBytes": 2217191,
+      "webpBytes": 147524
+    },
+    {
+      "productName": "Ballu BLD-09HN1",
+      "slug": "ballu-bld-09hn1",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/ballu-bld-09hn1/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bld-09hn1/b-lifestyle-interior.webp",
+      "sourceBytes": 2259045,
+      "webpBytes": 150932
+    },
+    {
+      "productName": "Ballu BLD-09HN1",
+      "slug": "ballu-bld-09hn1",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/ballu-bld-09hn1/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bld-09hn1/c-exterior-weather.webp",
+      "sourceBytes": 2425108,
+      "webpBytes": 184962
+    },
+    {
+      "productName": "Ballu BLD-09HN1",
+      "slug": "ballu-bld-09hn1",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/ballu-bld-09hn1/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bld-09hn1/d-product-card-bento.webp",
+      "sourceBytes": 2064515,
+      "webpBytes": 99382
+    },
+    {
+      "productName": "Ballu BLD-09HN1",
+      "slug": "ballu-bld-09hn1",
+      "variant": "e-editorial-detail",
+      "sourcePath": "/generated/ac-campaigns/ballu-bld-09hn1/e-editorial-detail.png",
+      "webpPath": "/generated/ac-campaigns/ballu-bld-09hn1/e-editorial-detail.webp",
+      "sourceBytes": 2457727,
+      "webpBytes": 162604
+    },
+    {
+      "productName": "Haier AS07TT4HRA",
+      "slug": "haier-as07tt4hra",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/haier-as07tt4hra/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/haier-as07tt4hra/a-studio-hero.webp",
+      "sourceBytes": 1919528,
+      "webpBytes": 90594
+    },
+    {
+      "productName": "Haier AS07TT4HRA",
+      "slug": "haier-as07tt4hra",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/haier-as07tt4hra/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/haier-as07tt4hra/b-lifestyle-interior.webp",
+      "sourceBytes": 2331773,
+      "webpBytes": 138598
+    },
+    {
+      "productName": "Haier AS07TT4HRA",
+      "slug": "haier-as07tt4hra",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/haier-as07tt4hra/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/haier-as07tt4hra/c-exterior-weather.webp",
+      "sourceBytes": 2386282,
+      "webpBytes": 177848
+    },
+    {
+      "productName": "Haier AS07TT4HRA",
+      "slug": "haier-as07tt4hra",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/haier-as07tt4hra/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/haier-as07tt4hra/d-product-card-bento.webp",
+      "sourceBytes": 2004413,
+      "webpBytes": 67246
+    },
+    {
+      "productName": "Haier AS07TT4HRA",
+      "slug": "haier-as07tt4hra",
+      "variant": "e-editorial-detail",
+      "sourcePath": "/generated/ac-campaigns/haier-as07tt4hra/e-editorial-detail.png",
+      "webpPath": "/generated/ac-campaigns/haier-as07tt4hra/e-editorial-detail.webp",
+      "sourceBytes": 2414412,
+      "webpBytes": 145042
+    },
+    {
+      "productName": "Haier AS09TT4HRA",
+      "slug": "haier-as09tt4hra",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/haier-as09tt4hra/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/haier-as09tt4hra/a-studio-hero.webp",
+      "sourceBytes": 2033161,
+      "webpBytes": 104258
+    },
+    {
+      "productName": "Haier AS09TT4HRA",
+      "slug": "haier-as09tt4hra",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/haier-as09tt4hra/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/haier-as09tt4hra/b-lifestyle-interior.webp",
+      "sourceBytes": 2486096,
+      "webpBytes": 170878
+    },
+    {
+      "productName": "Haier AS09TT4HRA",
+      "slug": "haier-as09tt4hra",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/haier-as09tt4hra/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/haier-as09tt4hra/c-exterior-weather.webp",
+      "sourceBytes": 2424106,
+      "webpBytes": 188002
+    },
+    {
+      "productName": "Haier AS09TT4HRA",
+      "slug": "haier-as09tt4hra",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/haier-as09tt4hra/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/haier-as09tt4hra/d-product-card-bento.webp",
+      "sourceBytes": 2263941,
+      "webpBytes": 129104
+    },
+    {
+      "productName": "Haier AS09TT4HRA",
+      "slug": "haier-as09tt4hra",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/haier-as09tt4hra/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/haier-as09tt4hra/e-smart-home.webp",
+      "sourceBytes": 2055870,
+      "webpBytes": 116702
+    },
+    {
+      "productName": "Haier AS12TT4HRA",
+      "slug": "haier-as12tt4hra",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/haier-as12tt4hra/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/haier-as12tt4hra/a-studio-hero.webp",
+      "sourceBytes": 2041658,
+      "webpBytes": 110168
+    },
+    {
+      "productName": "Haier AS12TT4HRA",
+      "slug": "haier-as12tt4hra",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/haier-as12tt4hra/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/haier-as12tt4hra/b-lifestyle-interior.webp",
+      "sourceBytes": 2512231,
+      "webpBytes": 181726
+    },
+    {
+      "productName": "Haier AS12TT4HRA",
+      "slug": "haier-as12tt4hra",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/haier-as12tt4hra/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/haier-as12tt4hra/c-exterior-weather.webp",
+      "sourceBytes": 2500594,
+      "webpBytes": 211116
+    },
+    {
+      "productName": "Haier AS12TT4HRA",
+      "slug": "haier-as12tt4hra",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/haier-as12tt4hra/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/haier-as12tt4hra/d-product-card-bento.webp",
+      "sourceBytes": 2045540,
+      "webpBytes": 83016
+    },
+    {
+      "productName": "Haier AS12TT4HRA",
+      "slug": "haier-as12tt4hra",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/haier-as12tt4hra/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/haier-as12tt4hra/e-smart-home.webp",
+      "sourceBytes": 2184665,
+      "webpBytes": 127978
+    },
+    {
+      "productName": "Haier AS18TT4HRA",
+      "slug": "haier-as18tt4hra",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/haier-as18tt4hra/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/haier-as18tt4hra/a-studio-hero.webp",
+      "sourceBytes": 2007283,
+      "webpBytes": 105038
+    },
+    {
+      "productName": "Haier AS18TT4HRA",
+      "slug": "haier-as18tt4hra",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/haier-as18tt4hra/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/haier-as18tt4hra/b-lifestyle-interior.webp",
+      "sourceBytes": 2238564,
+      "webpBytes": 148044
+    },
+    {
+      "productName": "Haier AS18TT4HRA",
+      "slug": "haier-as18tt4hra",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/haier-as18tt4hra/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/haier-as18tt4hra/c-exterior-weather.webp",
+      "sourceBytes": 2720247,
+      "webpBytes": 253480
+    },
+    {
+      "productName": "Haier AS18TT4HRA",
+      "slug": "haier-as18tt4hra",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/haier-as18tt4hra/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/haier-as18tt4hra/d-product-card-bento.webp",
+      "sourceBytes": 2333412,
+      "webpBytes": 122074
+    },
+    {
+      "productName": "Haier AS18TT4HRA",
+      "slug": "haier-as18tt4hra",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/haier-as18tt4hra/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/haier-as18tt4hra/e-smart-home.webp",
+      "sourceBytes": 2080569,
+      "webpBytes": 119974
+    },
+    {
+      "productName": "Haier AS07QM2HIA",
+      "slug": "haier-as07qm2hia",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/haier-as07qm2hia/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/haier-as07qm2hia/a-studio-hero.webp",
+      "sourceBytes": 2224922,
+      "webpBytes": 126902
+    },
+    {
+      "productName": "Haier AS07QM2HIA",
+      "slug": "haier-as07qm2hia",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/haier-as07qm2hia/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/haier-as07qm2hia/b-lifestyle-interior.webp",
+      "sourceBytes": 2226779,
+      "webpBytes": 144580
+    },
+    {
+      "productName": "Haier AS07QM2HIA",
+      "slug": "haier-as07qm2hia",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/haier-as07qm2hia/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/haier-as07qm2hia/c-exterior-weather.webp",
+      "sourceBytes": 2419503,
+      "webpBytes": 186464
+    },
+    {
+      "productName": "Haier AS07QM2HIA",
+      "slug": "haier-as07qm2hia",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/haier-as07qm2hia/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/haier-as07qm2hia/d-product-card-bento.webp",
+      "sourceBytes": 1835023,
+      "webpBytes": 58402
+    },
+    {
+      "productName": "Haier AS07QM2HIA",
+      "slug": "haier-as07qm2hia",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/haier-as07qm2hia/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/haier-as07qm2hia/e-smart-home.webp",
+      "sourceBytes": 2026024,
+      "webpBytes": 97586
+    },
+    {
+      "productName": "Haier AS09QM2HIA",
+      "slug": "haier-as09qm2hia",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/haier-as09qm2hia/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/haier-as09qm2hia/a-studio-hero.webp",
+      "sourceBytes": 2002511,
+      "webpBytes": 101324
+    },
+    {
+      "productName": "Haier AS09QM2HIA",
+      "slug": "haier-as09qm2hia",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/haier-as09qm2hia/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/haier-as09qm2hia/b-lifestyle-interior.webp",
+      "sourceBytes": 2571951,
+      "webpBytes": 180262
+    },
+    {
+      "productName": "Haier AS09QM2HIA",
+      "slug": "haier-as09qm2hia",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/haier-as09qm2hia/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/haier-as09qm2hia/c-exterior-weather.webp",
+      "sourceBytes": 2640437,
+      "webpBytes": 237116
+    },
+    {
+      "productName": "Haier AS09QM2HIA",
+      "slug": "haier-as09qm2hia",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/haier-as09qm2hia/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/haier-as09qm2hia/d-product-card-bento.webp",
+      "sourceBytes": 1953992,
+      "webpBytes": 92466
+    },
+    {
+      "productName": "Haier AS09QM2HIA",
+      "slug": "haier-as09qm2hia",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/haier-as09qm2hia/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/haier-as09qm2hia/e-smart-home.webp",
+      "sourceBytes": 2125465,
+      "webpBytes": 126920
+    },
+    {
+      "productName": "Haier AS12QM2HIA",
+      "slug": "haier-as12qm2hia",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/haier-as12qm2hia/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/haier-as12qm2hia/a-studio-hero.webp",
+      "sourceBytes": 2119522,
+      "webpBytes": 132136
+    },
+    {
+      "productName": "Haier AS12QM2HIA",
+      "slug": "haier-as12qm2hia",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/haier-as12qm2hia/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/haier-as12qm2hia/b-lifestyle-interior.webp",
+      "sourceBytes": 2367594,
+      "webpBytes": 149964
+    },
+    {
+      "productName": "Haier AS12QM2HIA",
+      "slug": "haier-as12qm2hia",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/haier-as12qm2hia/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/haier-as12qm2hia/c-exterior-weather.webp",
+      "sourceBytes": 2448394,
+      "webpBytes": 191816
+    },
+    {
+      "productName": "Haier AS12QM2HIA",
+      "slug": "haier-as12qm2hia",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/haier-as12qm2hia/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/haier-as12qm2hia/d-product-card-bento.webp",
+      "sourceBytes": 2145739,
+      "webpBytes": 95200
+    },
+    {
+      "productName": "Haier AS12QM2HIA",
+      "slug": "haier-as12qm2hia",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/haier-as12qm2hia/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/haier-as12qm2hia/e-smart-home.webp",
+      "sourceBytes": 2117771,
+      "webpBytes": 122214
+    },
+    {
+      "productName": "Haier AS18QM2HIA",
+      "slug": "haier-as18qm2hia",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/haier-as18qm2hia/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/haier-as18qm2hia/a-studio-hero.webp",
+      "sourceBytes": 1959967,
+      "webpBytes": 86406
+    },
+    {
+      "productName": "Haier AS18QM2HIA",
+      "slug": "haier-as18qm2hia",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/haier-as18qm2hia/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/haier-as18qm2hia/b-lifestyle-interior.webp",
+      "sourceBytes": 2234728,
+      "webpBytes": 135914
+    },
+    {
+      "productName": "Haier AS18QM2HIA",
+      "slug": "haier-as18qm2hia",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/haier-as18qm2hia/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/haier-as18qm2hia/c-exterior-weather.webp",
+      "sourceBytes": 2365807,
+      "webpBytes": 188254
+    },
+    {
+      "productName": "Haier AS18QM2HIA",
+      "slug": "haier-as18qm2hia",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/haier-as18qm2hia/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/haier-as18qm2hia/d-product-card-bento.webp",
+      "sourceBytes": 2035783,
+      "webpBytes": 87916
+    },
+    {
+      "productName": "Haier AS18QM2HIA",
+      "slug": "haier-as18qm2hia",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/haier-as18qm2hia/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/haier-as18qm2hia/e-smart-home.webp",
+      "sourceBytes": 2252156,
+      "webpBytes": 129440
+    },
+    {
+      "productName": "Haier AB48S2SD1FA",
+      "slug": "haier-ab48s2sd1fa",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/haier-ab48s2sd1fa/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/haier-ab48s2sd1fa/a-studio-hero.webp",
+      "sourceBytes": 2161268,
+      "webpBytes": 144562
+    },
+    {
+      "productName": "Haier AB48S2SD1FA",
+      "slug": "haier-ab48s2sd1fa",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/haier-ab48s2sd1fa/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/haier-ab48s2sd1fa/b-lifestyle-interior.webp",
+      "sourceBytes": 2494608,
+      "webpBytes": 174822
+    },
+    {
+      "productName": "Haier AB48S2SD1FA",
+      "slug": "haier-ab48s2sd1fa",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/haier-ab48s2sd1fa/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/haier-ab48s2sd1fa/c-exterior-weather.webp",
+      "sourceBytes": 2627845,
+      "webpBytes": 235638
+    },
+    {
+      "productName": "Haier AB48S2SD1FA",
+      "slug": "haier-ab48s2sd1fa",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/haier-ab48s2sd1fa/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/haier-ab48s2sd1fa/d-product-card-bento.webp",
+      "sourceBytes": 2205905,
+      "webpBytes": 128482
+    },
+    {
+      "productName": "Haier AB48S2SD1FA",
+      "slug": "haier-ab48s2sd1fa",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/haier-ab48s2sd1fa/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/haier-ab48s2sd1fa/e-smart-home.webp",
+      "sourceBytes": 2334232,
+      "webpBytes": 126208
+    },
+    {
+      "productName": "Haier AC36CS1ERA",
+      "slug": "haier-ac36cs1era",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/haier-ac36cs1era/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/haier-ac36cs1era/a-studio-hero.webp",
+      "sourceBytes": 2222474,
+      "webpBytes": 142358
+    },
+    {
+      "productName": "Haier AC36CS1ERA",
+      "slug": "haier-ac36cs1era",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/haier-ac36cs1era/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/haier-ac36cs1era/b-lifestyle-interior.webp",
+      "sourceBytes": 2274316,
+      "webpBytes": 154888
+    },
+    {
+      "productName": "Haier AC36CS1ERA",
+      "slug": "haier-ac36cs1era",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/haier-ac36cs1era/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/haier-ac36cs1era/c-exterior-weather.webp",
+      "sourceBytes": 2536401,
+      "webpBytes": 199004
+    },
+    {
+      "productName": "Haier AC36CS1ERA",
+      "slug": "haier-ac36cs1era",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/haier-ac36cs1era/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/haier-ac36cs1era/d-product-card-bento.webp",
+      "sourceBytes": 1941438,
+      "webpBytes": 101264
+    },
+    {
+      "productName": "Haier AC36CS1ERA",
+      "slug": "haier-ac36cs1era",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/haier-ac36cs1era/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/haier-ac36cs1era/e-smart-home.webp",
+      "sourceBytes": 2124483,
+      "webpBytes": 123324
+    },
+    {
+      "productName": "Hisense AS-07HR4SYDKG",
+      "slug": "hisense-as07hr4sydkg",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/hisense-as07hr4sydkg/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as07hr4sydkg/a-studio-hero.webp",
+      "sourceBytes": 2115547,
+      "webpBytes": 119416
+    },
+    {
+      "productName": "Hisense AS-07HR4SYDKG",
+      "slug": "hisense-as07hr4sydkg",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/hisense-as07hr4sydkg/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as07hr4sydkg/b-lifestyle-interior.webp",
+      "sourceBytes": 2482650,
+      "webpBytes": 178740
+    },
+    {
+      "productName": "Hisense AS-07HR4SYDKG",
+      "slug": "hisense-as07hr4sydkg",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/hisense-as07hr4sydkg/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as07hr4sydkg/c-exterior-weather.webp",
+      "sourceBytes": 2268926,
+      "webpBytes": 166804
+    },
+    {
+      "productName": "Hisense AS-07HR4SYDKG",
+      "slug": "hisense-as07hr4sydkg",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/hisense-as07hr4sydkg/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as07hr4sydkg/d-product-card-bento.webp",
+      "sourceBytes": 1907275,
+      "webpBytes": 76120
+    },
+    {
+      "productName": "Hisense AS-07HR4SYDKG",
+      "slug": "hisense-as07hr4sydkg",
+      "variant": "e-editorial-detail",
+      "sourcePath": "/generated/ac-campaigns/hisense-as07hr4sydkg/e-editorial-detail.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as07hr4sydkg/e-editorial-detail.webp",
+      "sourceBytes": 2407683,
+      "webpBytes": 129410
+    },
+    {
+      "productName": "Hisense AS-09HR4SYDKG",
+      "slug": "hisense-as09hr4sydkg",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09hr4sydkg/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09hr4sydkg/a-studio-hero.webp",
+      "sourceBytes": 2095581,
+      "webpBytes": 104196
+    },
+    {
+      "productName": "Hisense AS-09HR4SYDKG",
+      "slug": "hisense-as09hr4sydkg",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09hr4sydkg/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09hr4sydkg/b-lifestyle-interior.webp",
+      "sourceBytes": 2053110,
+      "webpBytes": 117636
+    },
+    {
+      "productName": "Hisense AS-09HR4SYDKG",
+      "slug": "hisense-as09hr4sydkg",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09hr4sydkg/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09hr4sydkg/c-exterior-weather.webp",
+      "sourceBytes": 2593020,
+      "webpBytes": 211900
+    },
+    {
+      "productName": "Hisense AS-09HR4SYDKG",
+      "slug": "hisense-as09hr4sydkg",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09hr4sydkg/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09hr4sydkg/d-product-card-bento.webp",
+      "sourceBytes": 2072426,
+      "webpBytes": 104924
+    },
+    {
+      "productName": "Hisense AS-09HR4SYDKG",
+      "slug": "hisense-as09hr4sydkg",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09hr4sydkg/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09hr4sydkg/e-smart-home.webp",
+      "sourceBytes": 2088439,
+      "webpBytes": 127934
+    },
+    {
+      "productName": "Hisense AS-12HR4SYDKG",
+      "slug": "hisense-as12hr4sydkg",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12hr4sydkg/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12hr4sydkg/a-studio-hero.webp",
+      "sourceBytes": 2171112,
+      "webpBytes": 125192
+    },
+    {
+      "productName": "Hisense AS-12HR4SYDKG",
+      "slug": "hisense-as12hr4sydkg",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12hr4sydkg/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12hr4sydkg/b-lifestyle-interior.webp",
+      "sourceBytes": 2341791,
+      "webpBytes": 169320
+    },
+    {
+      "productName": "Hisense AS-12HR4SYDKG",
+      "slug": "hisense-as12hr4sydkg",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12hr4sydkg/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12hr4sydkg/c-exterior-weather.webp",
+      "sourceBytes": 2495963,
+      "webpBytes": 204040
+    },
+    {
+      "productName": "Hisense AS-12HR4SYDKG",
+      "slug": "hisense-as12hr4sydkg",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12hr4sydkg/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12hr4sydkg/d-product-card-bento.webp",
+      "sourceBytes": 2138321,
+      "webpBytes": 91826
+    },
+    {
+      "productName": "Hisense AS-12HR4SYDKG",
+      "slug": "hisense-as12hr4sydkg",
+      "variant": "e-editorial-detail",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12hr4sydkg/e-editorial-detail.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12hr4sydkg/e-editorial-detail.webp",
+      "sourceBytes": 2346590,
+      "webpBytes": 124294
+    },
+    {
+      "productName": "Hisense AS-18HR4SYDKG",
+      "slug": "hisense-as18hr4sydkg",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/hisense-as18hr4sydkg/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as18hr4sydkg/a-studio-hero.webp",
+      "sourceBytes": 2273465,
+      "webpBytes": 152420
+    },
+    {
+      "productName": "Hisense AS-18HR4SYDKG",
+      "slug": "hisense-as18hr4sydkg",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/hisense-as18hr4sydkg/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as18hr4sydkg/b-lifestyle-interior.webp",
+      "sourceBytes": 2204808,
+      "webpBytes": 149098
+    },
+    {
+      "productName": "Hisense AS-18HR4SYDKG",
+      "slug": "hisense-as18hr4sydkg",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/hisense-as18hr4sydkg/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as18hr4sydkg/c-exterior-weather.webp",
+      "sourceBytes": 2484428,
+      "webpBytes": 185874
+    },
+    {
+      "productName": "Hisense AS-18HR4SYDKG",
+      "slug": "hisense-as18hr4sydkg",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/hisense-as18hr4sydkg/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as18hr4sydkg/d-product-card-bento.webp",
+      "sourceBytes": 2132350,
+      "webpBytes": 95862
+    },
+    {
+      "productName": "Hisense AS-18HR4SYDKG",
+      "slug": "hisense-as18hr4sydkg",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/hisense-as18hr4sydkg/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as18hr4sydkg/e-smart-home.webp",
+      "sourceBytes": 2121391,
+      "webpBytes": 122916
+    },
+    {
+      "productName": "Hisense AS07QC4SVETG4",
+      "slug": "hisense-as07qc4svetg4",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/hisense-as07qc4svetg4/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as07qc4svetg4/a-studio-hero.webp",
+      "sourceBytes": 2190832,
+      "webpBytes": 122082
+    },
+    {
+      "productName": "Hisense AS07QC4SVETG4",
+      "slug": "hisense-as07qc4svetg4",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/hisense-as07qc4svetg4/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as07qc4svetg4/b-lifestyle-interior.webp",
+      "sourceBytes": 2654942,
+      "webpBytes": 198180
+    },
+    {
+      "productName": "Hisense AS07QC4SVETG4",
+      "slug": "hisense-as07qc4svetg4",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/hisense-as07qc4svetg4/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as07qc4svetg4/c-exterior-weather.webp",
+      "sourceBytes": 2462965,
+      "webpBytes": 194776
+    },
+    {
+      "productName": "Hisense AS07QC4SVETG4",
+      "slug": "hisense-as07qc4svetg4",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/hisense-as07qc4svetg4/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as07qc4svetg4/d-product-card-bento.webp",
+      "sourceBytes": 2014547,
+      "webpBytes": 73540
+    },
+    {
+      "productName": "Hisense AS07QC4SVETG4",
+      "slug": "hisense-as07qc4svetg4",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/hisense-as07qc4svetg4/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as07qc4svetg4/e-smart-home.webp",
+      "sourceBytes": 2151412,
+      "webpBytes": 120662
+    },
+    {
+      "productName": "Hisense AS09QC4SVETG4",
+      "slug": "hisense-as09qc4svetg4",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09qc4svetg4/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09qc4svetg4/a-studio-hero.webp",
+      "sourceBytes": 2260106,
+      "webpBytes": 151022
+    },
+    {
+      "productName": "Hisense AS09QC4SVETG4",
+      "slug": "hisense-as09qc4svetg4",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09qc4svetg4/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09qc4svetg4/b-lifestyle-interior.webp",
+      "sourceBytes": 2444687,
+      "webpBytes": 168984
+    },
+    {
+      "productName": "Hisense AS09QC4SVETG4",
+      "slug": "hisense-as09qc4svetg4",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09qc4svetg4/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09qc4svetg4/c-exterior-weather.webp",
+      "sourceBytes": 2513188,
+      "webpBytes": 195950
+    },
+    {
+      "productName": "Hisense AS09QC4SVETG4",
+      "slug": "hisense-as09qc4svetg4",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09qc4svetg4/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09qc4svetg4/d-product-card-bento.webp",
+      "sourceBytes": 2204049,
+      "webpBytes": 116772
+    },
+    {
+      "productName": "Hisense AS09QC4SVETG4",
+      "slug": "hisense-as09qc4svetg4",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09qc4svetg4/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09qc4svetg4/e-smart-home.webp",
+      "sourceBytes": 2150074,
+      "webpBytes": 108066
+    },
+    {
+      "productName": "Hisense AS12QC4SVETG4",
+      "slug": "hisense-as12qc4svetg4",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12qc4svetg4/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12qc4svetg4/a-studio-hero.webp",
+      "sourceBytes": 2097554,
+      "webpBytes": 119494
+    },
+    {
+      "productName": "Hisense AS12QC4SVETG4",
+      "slug": "hisense-as12qc4svetg4",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12qc4svetg4/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12qc4svetg4/b-lifestyle-interior.webp",
+      "sourceBytes": 2371645,
+      "webpBytes": 150506
+    },
+    {
+      "productName": "Hisense AS12QC4SVETG4",
+      "slug": "hisense-as12qc4svetg4",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12qc4svetg4/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12qc4svetg4/c-exterior-weather.webp",
+      "sourceBytes": 2236035,
+      "webpBytes": 169028
+    },
+    {
+      "productName": "Hisense AS12QC4SVETG4",
+      "slug": "hisense-as12qc4svetg4",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12qc4svetg4/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12qc4svetg4/d-product-card-bento.webp",
+      "sourceBytes": 2010781,
+      "webpBytes": 83530
+    },
+    {
+      "productName": "Hisense AS12QC4SVETG4",
+      "slug": "hisense-as12qc4svetg4",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12qc4svetg4/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12qc4svetg4/e-smart-home.webp",
+      "sourceBytes": 2199599,
+      "webpBytes": 138716
+    },
+    {
+      "productName": "Hisense AS18QC4SVETG4",
+      "slug": "hisense-as18qc4svetg4",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/hisense-as18qc4svetg4/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as18qc4svetg4/a-studio-hero.webp",
+      "sourceBytes": 2231961,
+      "webpBytes": 129478
+    },
+    {
+      "productName": "Hisense AS18QC4SVETG4",
+      "slug": "hisense-as18qc4svetg4",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/hisense-as18qc4svetg4/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as18qc4svetg4/b-lifestyle-interior.webp",
+      "sourceBytes": 2224764,
+      "webpBytes": 155122
+    },
+    {
+      "productName": "Hisense AS18QC4SVETG4",
+      "slug": "hisense-as18qc4svetg4",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/hisense-as18qc4svetg4/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as18qc4svetg4/c-exterior-weather.webp",
+      "sourceBytes": 2427607,
+      "webpBytes": 195462
+    },
+    {
+      "productName": "Hisense AS18QC4SVETG4",
+      "slug": "hisense-as18qc4svetg4",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/hisense-as18qc4svetg4/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as18qc4svetg4/d-product-card-bento.webp",
+      "sourceBytes": 1934005,
+      "webpBytes": 85210
+    },
+    {
+      "productName": "Hisense AS18QC4SVETG4",
+      "slug": "hisense-as18qc4svetg4",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/hisense-as18qc4svetg4/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as18qc4svetg4/e-smart-home.webp",
+      "sourceBytes": 2103638,
+      "webpBytes": 112508
+    },
+    {
+      "productName": "Hisense AS09UR4SXCDG",
+      "slug": "hisense-as09ur4sxcdg",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09ur4sxcdg/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09ur4sxcdg/a-studio-hero.webp",
+      "sourceBytes": 2228524,
+      "webpBytes": 149308
+    },
+    {
+      "productName": "Hisense AS09UR4SXCDG",
+      "slug": "hisense-as09ur4sxcdg",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09ur4sxcdg/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09ur4sxcdg/b-lifestyle-interior.webp",
+      "sourceBytes": 2467853,
+      "webpBytes": 185672
+    },
+    {
+      "productName": "Hisense AS09UR4SXCDG",
+      "slug": "hisense-as09ur4sxcdg",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09ur4sxcdg/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09ur4sxcdg/c-exterior-weather.webp",
+      "sourceBytes": 2549820,
+      "webpBytes": 217694
+    },
+    {
+      "productName": "Hisense AS09UR4SXCDG",
+      "slug": "hisense-as09ur4sxcdg",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09ur4sxcdg/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09ur4sxcdg/d-product-card-bento.webp",
+      "sourceBytes": 2198564,
+      "webpBytes": 129796
+    },
+    {
+      "productName": "Hisense AS09UR4SXCDG",
+      "slug": "hisense-as09ur4sxcdg",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/hisense-as09ur4sxcdg/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as09ur4sxcdg/e-smart-home.webp",
+      "sourceBytes": 2201223,
+      "webpBytes": 141020
+    },
+    {
+      "productName": "Hisense AS12UR4SXCDG",
+      "slug": "hisense-as12ur4sxcdg",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12ur4sxcdg/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12ur4sxcdg/a-studio-hero.webp",
+      "sourceBytes": 2259398,
+      "webpBytes": 162526
+    },
+    {
+      "productName": "Hisense AS12UR4SXCDG",
+      "slug": "hisense-as12ur4sxcdg",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12ur4sxcdg/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12ur4sxcdg/b-lifestyle-interior.webp",
+      "sourceBytes": 2388020,
+      "webpBytes": 167868
+    },
+    {
+      "productName": "Hisense AS12UR4SXCDG",
+      "slug": "hisense-as12ur4sxcdg",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12ur4sxcdg/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12ur4sxcdg/c-exterior-weather.webp",
+      "sourceBytes": 2737529,
+      "webpBytes": 257710
+    },
+    {
+      "productName": "Hisense AS12UR4SXCDG",
+      "slug": "hisense-as12ur4sxcdg",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12ur4sxcdg/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12ur4sxcdg/d-product-card-bento.webp",
+      "sourceBytes": 2450605,
+      "webpBytes": 150162
+    },
+    {
+      "productName": "Hisense AS12UR4SXCDG",
+      "slug": "hisense-as12ur4sxcdg",
+      "variant": "e-editorial-detail",
+      "sourcePath": "/generated/ac-campaigns/hisense-as12ur4sxcdg/e-editorial-detail.png",
+      "webpPath": "/generated/ac-campaigns/hisense-as12ur4sxcdg/e-editorial-detail.webp",
+      "sourceBytes": 2147592,
+      "webpBytes": 118868
+    },
+    {
+      "productName": "Daikin FTXB20C",
+      "slug": "daikin-ftxb20c",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb20c/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb20c/a-studio-hero.webp",
+      "sourceBytes": 2049643,
+      "webpBytes": 95378
+    },
+    {
+      "productName": "Daikin FTXB20C",
+      "slug": "daikin-ftxb20c",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb20c/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb20c/b-lifestyle-interior.webp",
+      "sourceBytes": 2464618,
+      "webpBytes": 173728
+    },
+    {
+      "productName": "Daikin FTXB20C",
+      "slug": "daikin-ftxb20c",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb20c/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb20c/c-exterior-weather.webp",
+      "sourceBytes": 2487677,
+      "webpBytes": 206682
+    },
+    {
+      "productName": "Daikin FTXB20C",
+      "slug": "daikin-ftxb20c",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb20c/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb20c/d-product-card-bento.webp",
+      "sourceBytes": 1992870,
+      "webpBytes": 67792
+    },
+    {
+      "productName": "Daikin FTXB20C",
+      "slug": "daikin-ftxb20c",
+      "variant": "e-editorial-detail",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb20c/e-editorial-detail.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb20c/e-editorial-detail.webp",
+      "sourceBytes": 2562605,
+      "webpBytes": 150234
+    },
+    {
+      "productName": "Daikin FTXB25C",
+      "slug": "daikin-ftxb25c",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb25c/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb25c/a-studio-hero.webp",
+      "sourceBytes": 2185984,
+      "webpBytes": 136758
+    },
+    {
+      "productName": "Daikin FTXB25C",
+      "slug": "daikin-ftxb25c",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb25c/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb25c/b-lifestyle-interior.webp",
+      "sourceBytes": 2541314,
+      "webpBytes": 176898
+    },
+    {
+      "productName": "Daikin FTXB25C",
+      "slug": "daikin-ftxb25c",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb25c/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb25c/c-exterior-weather.webp",
+      "sourceBytes": 2446118,
+      "webpBytes": 179996
+    },
+    {
+      "productName": "Daikin FTXB25C",
+      "slug": "daikin-ftxb25c",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb25c/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb25c/d-product-card-bento.webp",
+      "sourceBytes": 1938621,
+      "webpBytes": 54886
+    },
+    {
+      "productName": "Daikin FTXB25C",
+      "slug": "daikin-ftxb25c",
+      "variant": "e-editorial-detail",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb25c/e-editorial-detail.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb25c/e-editorial-detail.webp",
+      "sourceBytes": 2283913,
+      "webpBytes": 113152
+    },
+    {
+      "productName": "Daikin FTXB35C",
+      "slug": "daikin-ftxb35c",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb35c/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb35c/a-studio-hero.webp",
+      "sourceBytes": 2210894,
+      "webpBytes": 118384
+    },
+    {
+      "productName": "Daikin FTXB35C",
+      "slug": "daikin-ftxb35c",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb35c/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb35c/b-lifestyle-interior.webp",
+      "sourceBytes": 2451824,
+      "webpBytes": 184176
+    },
+    {
+      "productName": "Daikin FTXB35C",
+      "slug": "daikin-ftxb35c",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb35c/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb35c/c-exterior-weather.webp",
+      "sourceBytes": 2343547,
+      "webpBytes": 169800
+    },
+    {
+      "productName": "Daikin FTXB35C",
+      "slug": "daikin-ftxb35c",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb35c/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb35c/d-product-card-bento.webp",
+      "sourceBytes": 2216011,
+      "webpBytes": 105170
+    },
+    {
+      "productName": "Daikin FTXB35C",
+      "slug": "daikin-ftxb35c",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb35c/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb35c/e-smart-home.webp",
+      "sourceBytes": 2134987,
+      "webpBytes": 109916
+    },
+    {
+      "productName": "Daikin FTXB50C",
+      "slug": "daikin-ftxb50c",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb50c/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb50c/a-studio-hero.webp",
+      "sourceBytes": 2146073,
+      "webpBytes": 136570
+    },
+    {
+      "productName": "Daikin FTXB50C",
+      "slug": "daikin-ftxb50c",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb50c/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb50c/b-lifestyle-interior.webp",
+      "sourceBytes": 2342628,
+      "webpBytes": 153454
+    },
+    {
+      "productName": "Daikin FTXB50C",
+      "slug": "daikin-ftxb50c",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb50c/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb50c/c-exterior-weather.webp",
+      "sourceBytes": 2391056,
+      "webpBytes": 177286
+    },
+    {
+      "productName": "Daikin FTXB50C",
+      "slug": "daikin-ftxb50c",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb50c/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb50c/d-product-card-bento.webp",
+      "sourceBytes": 1961689,
+      "webpBytes": 70518
+    },
+    {
+      "productName": "Daikin FTXB50C",
+      "slug": "daikin-ftxb50c",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxb50c/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxb50c/e-smart-home.webp",
+      "sourceBytes": 2228594,
+      "webpBytes": 138902
+    },
+    {
+      "productName": "Daikin FTXF25D",
+      "slug": "daikin-ftxf25d",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf25d/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf25d/a-studio-hero.webp",
+      "sourceBytes": 2108456,
+      "webpBytes": 124406
+    },
+    {
+      "productName": "Daikin FTXF25D",
+      "slug": "daikin-ftxf25d",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf25d/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf25d/b-lifestyle-interior.webp",
+      "sourceBytes": 2270979,
+      "webpBytes": 143210
+    },
+    {
+      "productName": "Daikin FTXF25D",
+      "slug": "daikin-ftxf25d",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf25d/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf25d/c-exterior-weather.webp",
+      "sourceBytes": 2577872,
+      "webpBytes": 210688
+    },
+    {
+      "productName": "Daikin FTXF25D",
+      "slug": "daikin-ftxf25d",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf25d/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf25d/d-product-card-bento.webp",
+      "sourceBytes": 1993729,
+      "webpBytes": 81138
+    },
+    {
+      "productName": "Daikin FTXF25D",
+      "slug": "daikin-ftxf25d",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf25d/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf25d/e-smart-home.webp",
+      "sourceBytes": 2036981,
+      "webpBytes": 123056
+    },
+    {
+      "productName": "Daikin FTXF35D",
+      "slug": "daikin-ftxf35d",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf35d/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf35d/a-studio-hero.webp",
+      "sourceBytes": 2021597,
+      "webpBytes": 108024
+    },
+    {
+      "productName": "Daikin FTXF35D",
+      "slug": "daikin-ftxf35d",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf35d/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf35d/b-lifestyle-interior.webp",
+      "sourceBytes": 2536484,
+      "webpBytes": 179976
+    },
+    {
+      "productName": "Daikin FTXF35D",
+      "slug": "daikin-ftxf35d",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf35d/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf35d/c-exterior-weather.webp",
+      "sourceBytes": 2499659,
+      "webpBytes": 194540
+    },
+    {
+      "productName": "Daikin FTXF35D",
+      "slug": "daikin-ftxf35d",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf35d/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf35d/d-product-card-bento.webp",
+      "sourceBytes": 2157597,
+      "webpBytes": 101218
+    },
+    {
+      "productName": "Daikin FTXF35D",
+      "slug": "daikin-ftxf35d",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf35d/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf35d/e-smart-home.webp",
+      "sourceBytes": 2274016,
+      "webpBytes": 135292
+    },
+    {
+      "productName": "Daikin FTXF50D",
+      "slug": "daikin-ftxf50d",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf50d/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf50d/a-studio-hero.webp",
+      "sourceBytes": 2038241,
+      "webpBytes": 96494
+    },
+    {
+      "productName": "Daikin FTXF50D",
+      "slug": "daikin-ftxf50d",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf50d/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf50d/b-lifestyle-interior.webp",
+      "sourceBytes": 2248976,
+      "webpBytes": 132388
+    },
+    {
+      "productName": "Daikin FTXF50D",
+      "slug": "daikin-ftxf50d",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf50d/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf50d/c-exterior-weather.webp",
+      "sourceBytes": 2397688,
+      "webpBytes": 194486
+    },
+    {
+      "productName": "Daikin FTXF50D",
+      "slug": "daikin-ftxf50d",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf50d/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf50d/d-product-card-bento.webp",
+      "sourceBytes": 2187122,
+      "webpBytes": 96268
+    },
+    {
+      "productName": "Daikin FTXF50D",
+      "slug": "daikin-ftxf50d",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/daikin-ftxf50d/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/daikin-ftxf50d/e-smart-home.webp",
+      "sourceBytes": 2206515,
+      "webpBytes": 144760
+    },
+    {
+      "productName": "Daikin FHA60A",
+      "slug": "daikin-fha60a",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/daikin-fha60a/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fha60a/a-studio-hero.webp",
+      "sourceBytes": 2233372,
+      "webpBytes": 141220
+    },
+    {
+      "productName": "Daikin FHA60A",
+      "slug": "daikin-fha60a",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/daikin-fha60a/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fha60a/b-lifestyle-interior.webp",
+      "sourceBytes": 2232428,
+      "webpBytes": 150726
+    },
+    {
+      "productName": "Daikin FHA60A",
+      "slug": "daikin-fha60a",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/daikin-fha60a/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fha60a/c-exterior-weather.webp",
+      "sourceBytes": 2356059,
+      "webpBytes": 192200
+    },
+    {
+      "productName": "Daikin FHA60A",
+      "slug": "daikin-fha60a",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/daikin-fha60a/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fha60a/d-product-card-bento.webp",
+      "sourceBytes": 2177356,
+      "webpBytes": 127808
+    },
+    {
+      "productName": "Daikin FHA60A",
+      "slug": "daikin-fha60a",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/daikin-fha60a/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fha60a/e-smart-home.webp",
+      "sourceBytes": 2329084,
+      "webpBytes": 149540
+    },
+    {
+      "productName": "Daikin FBQ35D",
+      "slug": "daikin-fbq35d",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/daikin-fbq35d/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fbq35d/a-studio-hero.webp",
+      "sourceBytes": 2095056,
+      "webpBytes": 128222
+    },
+    {
+      "productName": "Daikin FBQ35D",
+      "slug": "daikin-fbq35d",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/daikin-fbq35d/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fbq35d/b-lifestyle-interior.webp",
+      "sourceBytes": 2389437,
+      "webpBytes": 166622
+    },
+    {
+      "productName": "Daikin FBQ35D",
+      "slug": "daikin-fbq35d",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/daikin-fbq35d/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fbq35d/c-exterior-weather.webp",
+      "sourceBytes": 2795235,
+      "webpBytes": 261902
+    },
+    {
+      "productName": "Daikin FBQ35D",
+      "slug": "daikin-fbq35d",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/daikin-fbq35d/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fbq35d/d-product-card-bento.webp",
+      "sourceBytes": 1941847,
+      "webpBytes": 90410
+    },
+    {
+      "productName": "Daikin FBQ35D",
+      "slug": "daikin-fbq35d",
+      "variant": "e-smart-home",
+      "sourcePath": "/generated/ac-campaigns/daikin-fbq35d/e-smart-home.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fbq35d/e-smart-home.webp",
+      "sourceBytes": 2078471,
+      "webpBytes": 110744
+    },
+    {
+      "productName": "Daikin FDXS25E",
+      "slug": "daikin-fdxs25e",
+      "variant": "a-studio-hero",
+      "sourcePath": "/generated/ac-campaigns/daikin-fdxs25e/a-studio-hero.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fdxs25e/a-studio-hero.webp",
+      "sourceBytes": 2087324,
+      "webpBytes": 113746
+    },
+    {
+      "productName": "Daikin FDXS25E",
+      "slug": "daikin-fdxs25e",
+      "variant": "b-lifestyle-interior",
+      "sourcePath": "/generated/ac-campaigns/daikin-fdxs25e/b-lifestyle-interior.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fdxs25e/b-lifestyle-interior.webp",
+      "sourceBytes": 2557864,
+      "webpBytes": 198784
+    },
+    {
+      "productName": "Daikin FDXS25E",
+      "slug": "daikin-fdxs25e",
+      "variant": "c-exterior-weather",
+      "sourcePath": "/generated/ac-campaigns/daikin-fdxs25e/c-exterior-weather.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fdxs25e/c-exterior-weather.webp",
+      "sourceBytes": 2760909,
+      "webpBytes": 245646
+    },
+    {
+      "productName": "Daikin FDXS25E",
+      "slug": "daikin-fdxs25e",
+      "variant": "d-product-card-bento",
+      "sourcePath": "/generated/ac-campaigns/daikin-fdxs25e/d-product-card-bento.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fdxs25e/d-product-card-bento.webp",
+      "sourceBytes": 2306600,
+      "webpBytes": 129954
+    },
+    {
+      "productName": "Daikin FDXS25E",
+      "slug": "daikin-fdxs25e",
+      "variant": "e-editorial-detail",
+      "sourcePath": "/generated/ac-campaigns/daikin-fdxs25e/e-editorial-detail.png",
+      "webpPath": "/generated/ac-campaigns/daikin-fdxs25e/e-editorial-detail.webp",
+      "sourceBytes": 2076873,
+      "webpBytes": 118640
+    }
+  ],
+  "missing": []
+}

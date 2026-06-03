@@ -1,0 +1,162 @@
+services:
+  caddy:
+    image: caddy:2.10-alpine
+    depends_on:
+      frontend:
+        condition: service_healthy
+      medusa:
+        condition: service_healthy
+      strapi:
+        condition: service_healthy
+      meilisearch:
+        condition: service_started
+    environment:
+      PRIMARY_DOMAIN: ${PRIMARY_DOMAIN}
+      ACME_EMAIL: ${ACME_EMAIL}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./docker/caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_MEDUSA_BACKEND_URL: https://api.${PRIMARY_DOMAIN}
+        NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY: ${NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY}
+        NEXT_PUBLIC_STRAPI_URL: https://cms.${PRIMARY_DOMAIN}
+        NEXT_PUBLIC_MEILISEARCH_URL: https://search.${PRIMARY_DOMAIN}
+        NEXT_PUBLIC_MEILISEARCH_SEARCH_KEY: ${NEXT_PUBLIC_MEILISEARCH_SEARCH_KEY}
+        NEXT_PUBLIC_FRONTEND_URL: https://${PRIMARY_DOMAIN}
+    depends_on:
+      medusa:
+        condition: service_healthy
+      strapi:
+        condition: service_healthy
+      meilisearch:
+        condition: service_started
+    environment:
+      NODE_ENV: production
+      NEXT_PUBLIC_FRONTEND_URL: https://${PRIMARY_DOMAIN}
+      NEXT_PUBLIC_MEDUSA_BACKEND_URL: https://api.${PRIMARY_DOMAIN}
+      NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY: ${NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY}
+      NEXT_PUBLIC_STRAPI_URL: https://cms.${PRIMARY_DOMAIN}
+      NEXT_PUBLIC_MEILISEARCH_URL: https://search.${PRIMARY_DOMAIN}
+      NEXT_PUBLIC_MEILISEARCH_SEARCH_KEY: ${NEXT_PUBLIC_MEILISEARCH_SEARCH_KEY}
+      STRAPI_API_TOKEN: ${STRAPI_API_TOKEN}
+      REVALIDATION_SECRET: ${REVALIDATION_SECRET}
+      YOOKASSA_SHOP_ID: ${YOOKASSA_SHOP_ID:-}
+      YOOKASSA_SECRET_KEY: ${YOOKASSA_SECRET_KEY:-}
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+      RESEND_AUDIENCE_ID: ${RESEND_AUDIENCE_ID:-}
+      EMAIL_FROM: ${EMAIL_FROM:-}
+      EMAIL_NOTIFY: ${EMAIL_NOTIFY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      NEXT_PUBLIC_YANDEX_METRIKA_ID: ${NEXT_PUBLIC_YANDEX_METRIKA_ID:-}
+      R2_PUBLIC_URL: ${R2_PUBLIC_URL:-}
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: postgres
+      POSTGRES_MEDUSA_DB: ${POSTGRES_MEDUSA_DB}
+      POSTGRES_STRAPI_DB: ${POSTGRES_STRAPI_DB}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/postgres-init-production.sh:/docker-entrypoint-initdb.d/10-init-app-databases.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  meilisearch:
+    image: getmeili/meilisearch:v1.7
+    environment:
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY}
+      MEILI_ENV: production
+    volumes:
+      - meilisearch_data:/meili_data
+    restart: unless-stopped
+
+  medusa:
+    build:
+      context: ./apps/medusa
+      dockerfile: Dockerfile
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      meilisearch:
+        condition: service_started
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_MEDUSA_DB}
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: ${MEDUSA_JWT_SECRET}
+      COOKIE_SECRET: ${MEDUSA_COOKIE_SECRET}
+      STORE_CORS: https://${PRIMARY_DOMAIN},https://www.${PRIMARY_DOMAIN}
+      AUTH_CORS: https://${PRIMARY_DOMAIN},https://www.${PRIMARY_DOMAIN}
+      ADMIN_CORS: https://api.${PRIMARY_DOMAIN},https://${PRIMARY_DOMAIN},https://www.${PRIMARY_DOMAIN}
+      MEDUSA_BACKEND_URL: https://api.${PRIMARY_DOMAIN}
+      MEILISEARCH_HOST: http://meilisearch:7700
+      MEILISEARCH_API_KEY: ${MEILI_MASTER_KEY}
+    restart: unless-stopped
+
+  strapi:
+    build:
+      context: ./apps/strapi
+      dockerfile: Dockerfile
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 1337
+      PUBLIC_URL: https://cms.${PRIMARY_DOMAIN}
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: postgres
+      DATABASE_PORT: 5432
+      DATABASE_NAME: ${POSTGRES_STRAPI_DB}
+      DATABASE_USERNAME: ${POSTGRES_USER}
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD}
+      DATABASE_SSL: "false"
+      APP_KEYS: ${STRAPI_APP_KEYS}
+      API_TOKEN_SALT: ${STRAPI_API_TOKEN_SALT}
+      ADMIN_JWT_SECRET: ${STRAPI_ADMIN_JWT_SECRET}
+      JWT_SECRET: ${STRAPI_JWT_SECRET}
+      R2_ACCOUNT_ID: ${R2_ACCOUNT_ID:-}
+      R2_ACCESS_KEY_ID: ${R2_ACCESS_KEY_ID:-}
+      R2_SECRET_ACCESS_KEY: ${R2_SECRET_ACCESS_KEY:-}
+      R2_BUCKET_NAME: ${R2_BUCKET_NAME:-}
+    restart: unless-stopped
+
+volumes:
+  caddy_config:
+  caddy_data:
+  postgres_data:
+  redis_data:
+  meilisearch_data:

@@ -1,0 +1,53 @@
+{
+  email {$ACME_EMAIL}
+}
+
+{$PRIMARY_DOMAIN} {
+  encode zstd gzip
+  reverse_proxy frontend:3000
+}
+
+www.{$PRIMARY_DOMAIN} {
+  redir https://{$PRIMARY_DOMAIN}{uri} permanent
+}
+
+api.{$PRIMARY_DOMAIN} {
+  encode zstd gzip
+  reverse_proxy medusa:9000
+}
+
+cms.{$PRIMARY_DOMAIN} {
+  encode zstd gzip
+  reverse_proxy strapi:1337
+}
+
+search.{$PRIMARY_DOMAIN} {
+  encode zstd gzip
+  reverse_proxy meilisearch:7700
+}{
+  email {$ACME_EMAIL}
+}
+
+{$PRIMARY_DOMAIN} {
+  encode zstd gzip
+  reverse_proxy frontend:3000
+}
+
+www.{$PRIMARY_DOMAIN} {
+  redir https://{$PRIMARY_DOMAIN}{uri} permanent
+}
+
+api.{$PRIMARY_DOMAIN} {
+  encode zstd gzip
+  reverse_proxy medusa:9000
+}
+
+cms.{$PRIMARY_DOMAIN} {
+  encode zstd gzip
+  reverse_proxy strapi:1337
+}
+
+search.{$PRIMARY_DOMAIN} {
+  encode zstd gzip
+  reverse_proxy meilisearch:7700
+}

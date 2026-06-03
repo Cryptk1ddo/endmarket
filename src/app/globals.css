@@ -1,26 +1,245 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Brand palette — aligned to concept spec */
+  --color-void: #0a0a0a;          /* Deep black */
+  --color-bone: #f3f3f1;          /* Matte white */
+  --color-concrete: #a8a8a2;      /* Concrete gray */
+  --color-steel: #c7c7c5;         /* Stainless steel silver */
+  --color-chrome: #d8d8d6;        /* Chrome highlight */
+  --color-mist: #eaeae8;          /* Off-white surface */
+  --color-water: #afc6d6;         /* Water-blue accent (hover only) */
+  --color-ink: #2a2a28;           /* Secondary text */
+
+  /* Typography */
+  --font-display: var(--font-barlow-condensed), "IBM Plex Sans Condensed", sans-serif;
+  --font-body: var(--font-barlow), "IBM Plex Sans", sans-serif;
+  --tracking-display: -0.035em;
+  --tracking-body: -0.012em;
+  --tracking-label: 0.18em;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* Kill the blue tap flash on iOS/Android */
+  -webkit-tap-highlight-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  font-size: 16px;
+  scroll-behavior: auto;
+  /* Prevent width jumping from scrollbar appearing */
+  scrollbar-gutter: stable;
+  /* Lock width to viewport on mobile — prevents horizontal scroll */
+  overflow-x: clip;
+  max-width: 100%;
+  /* Match nav black — iOS overscroll area + liquid glass chrome blends seamlessly */
+  background-color: #0a0a0a;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f3f1;
+  color: #0a0a0a;
+  font-family: var(--font-body);
+  font-weight: 400;
+  letter-spacing: var(--tracking-body);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "calt" 1, "ss01" 1;
+  overflow-x: clip;
+  max-width: 100%;
+  /* iOS momentum scrolling */
+  -webkit-overflow-scrolling: touch;
+  /* iOS safe areas: only apply bottom (handles notch/home indicator) */
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  letter-spacing: var(--tracking-display);
+  text-wrap: balance;
+}
+
+p,
+li {
+  text-wrap: pretty;
+}
+
+/* Prevent any child from blowing out the mobile viewport width */
+@media (max-width: 768px) {
+  img, video, iframe, section, div {
+    max-width: 100%;
+  }
+}
+
+::selection {
+  background-color: #0a0a0a;
+  color: #f3f3f1;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eaeae8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a8a8a2;
+}
+
+/* Utility: architectural label */
+.label {
+  font-family: var(--font-body);
+  font-size: 0.5625rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #a8a8a2;
+}
+
+/* Grayscale image treatment */
+.img-arch {
+  filter: grayscale(30%) contrast(1.05);
+  transition: filter 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.img-arch:hover {
+  filter: grayscale(0%) contrast(1.1);
+}
+
+/* Hide scrollbar cross-browser while keeping functionality */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Minimum tap target — 44×44px per Apple HIG */
+.tap-target {
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Prevent text size inflation on orientation change in iOS */
+@media screen and (orientation: landscape) {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+
+/* ─── Animation keyframes ──────────────────────────────────────────────────── */
+@keyframes em-fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes em-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes em-slide-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes em-slide-left {
+  from { opacity: 0; transform: translateX(18px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes em-scale-in {
+  from { opacity: 0; transform: scale(0.94); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes em-shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+@keyframes em-pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.85); }
+}
+
+/* ─── Animation utility classes ────────────────────────────────────────────── */
+.anim-fade-up   { animation: em-fade-up   0.55s cubic-bezier(0.22,1,0.36,1) both; }
+.anim-fade-in   { animation: em-fade-in   0.45s ease both; }
+.anim-slide-up  { animation: em-slide-up  0.40s cubic-bezier(0.22,1,0.36,1) both; }
+.anim-scale-in  { animation: em-scale-in  0.35s cubic-bezier(0.22,1,0.36,1) both; }
+
+.anim-delay-1 { animation-delay: 0.07s; }
+.anim-delay-2 { animation-delay: 0.14s; }
+.anim-delay-3 { animation-delay: 0.21s; }
+.anim-delay-4 { animation-delay: 0.28s; }
+
+/* Reveal-on-scroll — JS adds .is-visible */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s cubic-bezier(0.22,1,0.36,1),
+              transform 0.6s cubic-bezier(0.22,1,0.36,1);
+}
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+.reveal.delay-1 { transition-delay: 0.08s; }
+.reveal.delay-2 { transition-delay: 0.16s; }
+.reveal.delay-3 { transition-delay: 0.24s; }
+.reveal.delay-4 { transition-delay: 0.32s; }
+
+/* Collection card hover */
+.collection-card {
+  transition: transform 0.45s cubic-bezier(0.22,1,0.36,1),
+              box-shadow 0.45s cubic-bezier(0.22,1,0.36,1);
+}
+.collection-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,.10); }
+.collection-card .card-img { transition: transform 0.7s cubic-bezier(0.22,1,0.36,1); }
+.collection-card:hover .card-img { transform: scale(1.06); }
+.collection-card .card-label { transition: letter-spacing 0.35s ease, color 0.25s ease; }
+.collection-card:hover .card-label { letter-spacing: 0.22em; }
+
+/* Product card hover */
+.product-card {
+  transition: transform 0.35s cubic-bezier(0.22,1,0.36,1),
+              box-shadow 0.35s cubic-bezier(0.22,1,0.36,1);
+}
+.product-card:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(0,0,0,.09); }
+.product-card .pcard-img { transition: transform 0.6s cubic-bezier(0.22,1,0.36,1); }
+.product-card:hover .pcard-img { transform: scale(1.04); }
+
+/* FAB chat panel */
+.fab-panel { animation: em-slide-up 0.32s cubic-bezier(0.22,1,0.36,1) both; transform-origin: bottom right; }
+/* Online dot pulse */
+.fab-dot   { animation: em-pulse-dot 2.2s ease-in-out infinite; }
+
+/* Shimmer skeleton */
+.aw-shimmer {
+  background: linear-gradient(90deg,#ebebeb 25%,#f5f5f5 50%,#ebebeb 75%);
+  background-size: 200% 100%;
+  animation: em-shimmer 1.4s ease-in-out infinite;
 }

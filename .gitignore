@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+apps/medusa/node_modules
+apps/strapi/node_modules
 /.pnp
 .pnp.*
 .yarn/*
@@ -20,9 +22,41 @@
 # production
 /build
 
+# Medusa / Strapi build artifacts
+apps/medusa/dist/
+apps/medusa/.medusa/
+apps/strapi/dist/
+apps/strapi/.cache/
+apps/strapi/.strapi/
+# Strapi runtime data (user uploads go to R2 in prod)
+apps/strapi/public/uploads/*
+!apps/strapi/public/uploads/.gitkeep
+
 # misc
 .DS_Store
 *.pem
+
+# Design prototypes (not part of Next.js app)
+designhtml/
+
+# Build tooling (image generation pipeline, run outside Next.js)
+# tools/ is committed — only output artefacts below are ignored
+
+# Temporary working directory
+/tmp/
+
+# Generated campaign images (886MB, regeneratable via scripts)
+/public/generated/ac-campaigns/_batch/
+/public/generated/ac-campaigns/**/*.webp
+/public/generated/ac-campaigns/**/*.png
+
+# Internal business documents (not for public repo)
+ALL_AC_PROMPT_PACKS.txt
+FEATURED_AC_PROMPT_PACKS.txt
+EMAIL_SEQUENCES.md
+plan.md
+Waterwereconcept.md
+DEPLOY_VDSINA.md
 
 # debug
 npm-debug.log*
@@ -32,6 +66,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.hosting.example
 
 # vercel
 .vercel

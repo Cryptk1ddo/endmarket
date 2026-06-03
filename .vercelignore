@@ -1,0 +1,3 @@
+tmp/imagegen/
+public/generated/ac-campaigns/_batch/
+public/generated/ac-campaigns/**/*.png
