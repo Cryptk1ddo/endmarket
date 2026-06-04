@@ -1,27 +1,46 @@
-FROM node:22-alpine AS base
+# syntax=docker/dockerfile:1.7
+
+FROM node:20-bookworm-slim AS builder
+
 WORKDIR /app
 
-FROM base AS deps
-COPY package.json package-lock.json ./
-RUN npm ci --production
+ENV NODE_ENV=development
+ENV npm_config_audit=false
+ENV npm_config_fund=false
+ENV MEDUSA_TELEMETRY_DISABLED=true
 
-FROM base AS builder
-COPY package.json package-lock.json ./
-RUN npm ci
+COPY package*.json ./
+
+RUN --mount=type=cache,target=/root/.npm \
+    npm ci --no-audit --no-fund
+
 COPY . .
+
 RUN npm run build
 
-FROM base AS runner
+
+FROM node:20-bookworm-slim AS runner
+
+WORKDIR /app
+
 ENV NODE_ENV=production
-COPY --from=deps /app/node_modules ./node_modules
+ENV npm_config_audit=false
+ENV npm_config_fund=false
+ENV MEDUSA_TELEMETRY_DISABLED=true
+
+COPY package*.json ./
+
+# Full install because medusa-config.js loads medusa-config.ts through ts-node.
+RUN --mount=type=cache,target=/root/.npm \
+    npm ci --include=dev --no-audit --no-fund
+
+COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/.medusa ./.medusa
-COPY --from=builder /app/medusa-config.ts ./medusa-config.ts
-# Needed at runtime for `npm run db:migrate`, `npm run seed`, and
-# `npx medusa user ...` (admin creation) inside the container.
-COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/tsconfig.json ./tsconfig.json
 COPY --from=builder /app/src ./src
+COPY --from=builder /app/medusa-config.ts ./medusa-config.ts
+COPY --from=builder /app/medusa-config.js ./medusa-config.js
+COPY --from=builder /app/tsconfig.json ./tsconfig.json
+
 EXPOSE 9000
-HEALTHCHECK --interval=30s --timeout=10s --start-period=90s --retries=5 \
-  CMD wget -qO- http://localhost:9000/health || exit 1
-CMD ["node", ".medusa/server/src/main.js"]
+
+CMD ["sh", "-c", "npm run predeploy && npm run start"]

@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "build": "medusa build",
-    "start": "node .medusa/server/src/main.js",
+    "start": "medusa start",
     "develop": "medusa develop",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "db:migrate": "medusa db:migrate",
-    "db:create-migration": "medusa db:create-migration"
+    "db:create-migration": "medusa db:create-migration",
+    "predeploy": "medusa db:migrate"
   },
   "dependencies": {
     "@medusajs/admin-sdk": "^2.15.2",

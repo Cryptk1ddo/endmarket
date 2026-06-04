@@ -1,0 +1,95 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: medusa-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: medusa
+      POSTGRES_PASSWORD: qgnAxLUiKpZAh3fhzFWHeibb8RYnzU3ZvjU1jUph+3M4tyxovGEmM+SWH1vPmvzr
+      POSTGRES_DB: medusa
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - commerce
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medusa -d medusa"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: medusa-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis_data:/data
+    networks:
+      - commerce
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  medusa-server:
+    image: endmarket-medusa:latest
+    build:
+      context: ./backend/medusa
+    container_name: medusa-server
+    restart: unless-stopped
+    command: sh -c "npm run predeploy && npm run start"
+    env_file:
+      - .env.backend
+    environment:
+      MEDUSA_WORKER_MODE: server
+      DISABLE_MEDUSA_ADMIN: "false"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:9000:9000"
+    networks:
+      - commerce
+
+  medusa-worker:
+    image: endmarket-medusa:latest
+    container_name: medusa-worker
+    restart: unless-stopped
+    command: sh -c "npm run start"
+    env_file:
+      - .env.backend
+    environment:
+      MEDUSA_WORKER_MODE: worker
+      DISABLE_MEDUSA_ADMIN: "true"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - commerce
+
+  storefront:
+    build:
+      context: ./storefront
+    container_name: storefront
+    restart: unless-stopped
+    env_file:
+      - .env.frontend
+    depends_on:
+      - medusa-server
+    ports:
+      - "127.0.0.1:3000:3000"
+    networks:
+      - commerce
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  commerce:
+    driver: bridge
