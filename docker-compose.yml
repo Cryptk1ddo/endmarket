@@ -49,7 +49,7 @@ services:
 
   medusa:
     build:
-      context: ./apps/medusa
+      context: ./backend/medusa
       dockerfile: Dockerfile
     depends_on:
       postgres:
@@ -70,7 +70,7 @@ services:
 
   strapi:
     build:
-      context: ./apps/strapi
+      context: ./backend/strapi
       dockerfile: Dockerfile
     depends_on:
       postgres:

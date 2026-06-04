@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * index-products.mjs — Push all 12 products to Meilisearch
- * Usage: node src/scripts/index-products.mjs
+ * Usage: npm run index-products
  * Env: NEXT_PUBLIC_MEILISEARCH_URL, MEILI_MASTER_KEY
  */
 

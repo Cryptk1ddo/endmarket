@@ -1,6 +1,6 @@
 /**
  * Medusa v2 seed script — idempotent, seeds ArtWater AC catalog (40 products)
- * Run: npm run seed (from apps/medusa)
+ * Run: npm run seed (from backend/medusa)
  */
 import { ExecArgs } from "@medusajs/framework/types"
 import { ContainerRegistrationKeys, Modules } from "@medusajs/utils"

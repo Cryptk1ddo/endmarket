@@ -2,8 +2,9 @@
 
 # dependencies
 /node_modules
-apps/medusa/node_modules
-apps/strapi/node_modules
+storefront/node_modules
+backend/medusa/node_modules
+backend/strapi/node_modules
 /.pnp
 .pnp.*
 .yarn/*
@@ -16,21 +17,21 @@ apps/strapi/node_modules
 /coverage
 
 # next.js
-/.next/
-/out/
+/storefront/.next/
+/storefront/out/
 
 # production
 /build
 
 # Medusa / Strapi build artifacts
-apps/medusa/dist/
-apps/medusa/.medusa/
-apps/strapi/dist/
-apps/strapi/.cache/
-apps/strapi/.strapi/
+backend/medusa/dist/
+backend/medusa/.medusa/
+backend/strapi/dist/
+backend/strapi/.cache/
+backend/strapi/.strapi/
 # Strapi runtime data (user uploads go to R2 in prod)
-apps/strapi/public/uploads/*
-!apps/strapi/public/uploads/.gitkeep
+backend/strapi/public/uploads/*
+!backend/strapi/public/uploads/.gitkeep
 
 # misc
 .DS_Store
@@ -46,9 +47,9 @@ designhtml/
 /tmp/
 
 # Generated campaign images (886MB, regeneratable via scripts)
-/public/generated/ac-campaigns/_batch/
-/public/generated/ac-campaigns/**/*.webp
-/public/generated/ac-campaigns/**/*.png
+/storefront/public/generated/ac-campaigns/_batch/
+/storefront/public/generated/ac-campaigns/**/*.webp
+/storefront/public/generated/ac-campaigns/**/*.png
 
 # Internal business documents (not for public repo)
 ALL_AC_PROMPT_PACKS.txt

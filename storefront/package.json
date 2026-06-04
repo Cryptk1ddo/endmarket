@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "type-check": "tsc --noEmit",
-    "dev:medusa": "cd apps/medusa && npm run develop",
-    "dev:strapi": "cd apps/strapi && npm run develop",
+    "dev:medusa": "cd ../backend/medusa && npm run develop",
+    "dev:strapi": "cd ../backend/strapi && npm run develop",
     "index-products": "node src/scripts/index-products.mjs"
   },
   "dependencies": {

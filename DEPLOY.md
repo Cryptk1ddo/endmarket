@@ -4,7 +4,7 @@ Recommended path: run the full stack on a VPS or VM you control with Docker Comp
 
 This avoids the Vercel dependency entirely. It also keeps the frontend, Medusa, Strapi, Meilisearch, Postgres, and Redis portable across providers.
 
-For a provider-specific walkthrough on VDSina, see `DEPLOY_VDSINA.md`.
+For a provider-specific walkthrough on VDSina, see `README_DEPLOY_VDSINA.md`.
 
 Important: the current frontend copy and metadata still hardcode `endmarket.ru` in many app files. If your live domain will be different, replace those references before launch. The infrastructure examples below intentionally use placeholders and subdomain patterns rather than treating `tendmarket.ru` as canonical.
 
@@ -48,6 +48,8 @@ Important: the current frontend talks to Meilisearch directly from the browser w
 - `docker/caddy/Caddyfile` - reverse proxy + automatic TLS
 - `docker/postgres-init-production.sh` - creates separate Medusa and Strapi databases on first boot
 - `.env.hosting.example` - production env template
+- `scripts/install-vdsina.sh` - optional Ubuntu/VDSina server bootstrap
+- `templates/medusa-config.example.ts` - Medusa config template
 
 ---
 
@@ -202,6 +204,25 @@ NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY=pk_...
 
 inside `.env.hosting`.
 
+#### Create the Medusa admin user + open the dashboard
+
+The seed does NOT create an admin account, so you cannot log into the Medusa
+dashboard until you make one:
+
+```bash
+docker compose --env-file .env.hosting -f docker-compose.hosting.yml exec medusa \
+  npx medusa user --email you@yourdomain.com --password 'a-strong-password'
+```
+
+Medusa serves the admin dashboard at `/app`, proxied through Caddy:
+
+```text
+https://api.<your-domain>/app
+```
+
+Log in with the email/password above. `ADMIN_CORS` and `MEDUSA_BACKEND_URL` for
+this URL are already set in `docker-compose.hosting.yml`.
+
 ### 5.2 Strapi Admin Setup
 
 Open:
@@ -230,7 +251,7 @@ Run the indexer from any machine that has the repo and Node installed:
 ```bash
 NEXT_PUBLIC_MEILISEARCH_URL=https://search.tendmarket.ru \
 MEILI_MASTER_KEY=<your-meili-master-key> \
-npm run index-products
+npm --prefix storefront run index-products
 ```
 
 This will:
@@ -321,24 +342,21 @@ For developing on this machine:
 docker compose up -d postgres redis meilisearch
 
 # 2. Start Medusa
-cd apps/medusa && npm run develop
+npm --prefix backend/medusa run develop
 
 # 3. Start Strapi
-cd apps/strapi && npm run develop
+npm --prefix backend/strapi run develop
 
 # 4. Start Next.js
-cd ../..
-npm run dev
+npm --prefix storefront run dev
 ```
 
 First time only:
 
 ```bash
-cd apps/medusa
-npm run db:migrate
-npm run seed
-cd ../..
-npm run index-products
+npm --prefix backend/medusa run db:migrate
+npm --prefix backend/medusa run seed
+npm --prefix storefront run index-products
 ```
 
 ---
@@ -394,7 +412,7 @@ curl https://api.tendmarket.ru/store/products \
 # Re-index Meilisearch
 NEXT_PUBLIC_MEILISEARCH_URL=https://search.tendmarket.ru \
 MEILI_MASTER_KEY=<key> \
-npm run index-products
+npm --prefix storefront run index-products
 ```
 
 ---
@@ -405,7 +423,7 @@ npm run index-products
 |---|---|---|
 | `tendmarket.ru` does not open over HTTPS | DNS not propagated or ports `80/443` closed | Verify DNS, firewall, and `docker compose ... logs caddy` |
 | Frontend loads but catalog is empty | Missing Medusa publishable key | Update `NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY`, rebuild frontend |
-| Search returns nothing | Products not indexed or search-only key missing | Run `npm run index-products`, update `NEXT_PUBLIC_MEILISEARCH_SEARCH_KEY`, rebuild frontend |
+| Search returns nothing | Products not indexed or search-only key missing | Run `npm --prefix storefront run index-products`, update `NEXT_PUBLIC_MEILISEARCH_SEARCH_KEY`, rebuild frontend |
 | Strapi requests return 401 | `STRAPI_API_TOKEN` missing or wrong | Regenerate token in Strapi admin, rebuild frontend |
 | Medusa fails on boot | `MEDUSA_JWT_SECRET` or `MEDUSA_COOKIE_SECRET` missing | Set both in `.env.hosting`, restart Medusa |
 | Strapi fails on boot | Strapi secrets missing or invalid | Check `APP_KEYS`, `API_TOKEN_SALT`, `ADMIN_JWT_SECRET`, `JWT_SECRET` |
