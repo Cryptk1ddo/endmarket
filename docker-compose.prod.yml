@@ -1,11 +1,12 @@
 services:
   postgres:
+    env_file:
+      - .env.backend
     image: postgres:16-alpine
     container_name: medusa-postgres
     restart: unless-stopped
     environment:
       POSTGRES_USER: medusa
-      POSTGRES_PASSWORD: qgnAxLUiKpZAh3fhzFWHeibb8RYnzU3ZvjU1jUph+3M4tyxovGEmM+SWH1vPmvzr
       POSTGRES_DB: medusa
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -38,12 +39,12 @@ services:
       context: ./backend/medusa
     container_name: medusa-server
     restart: unless-stopped
-    command: sh -c "npm run predeploy && npm run start"
+    command: sh -c "npx medusa start --host 0.0.0.0 --port 9000"
     env_file:
       - .env.backend
     environment:
       MEDUSA_WORKER_MODE: server
-      DISABLE_MEDUSA_ADMIN: "false"
+      DISABLE_MEDUSA_ADMIN: "true"
     depends_on:
       postgres:
         condition: service_healthy

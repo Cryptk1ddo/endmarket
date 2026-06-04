@@ -3,7 +3,7 @@ services:
     image: postgres:16-alpine
     environment:
       POSTGRES_USER: artwater
-      POSTGRES_PASSWORD: artwater_dev
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-dev_password_change_me}
       POSTGRES_DB: postgres
     volumes:
       - postgres_data:/var/lib/postgresql/data

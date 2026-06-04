@@ -17,8 +17,23 @@ function requireSecret(name: string, fallback: string): string {
 }
 
 module.exports = defineConfig({
+  admin: {
+    disable: true,
+    path: "/dashboard",
+  },
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
+    databaseDriverOptions: {
+      pool: {
+        min: 0,
+        max: 50,
+        acquireTimeoutMillis: 120000,
+        createTimeoutMillis: 30000,
+        idleTimeoutMillis: 30000,
+        reapIntervalMillis: 1000,
+        createRetryIntervalMillis: 200,
+      },
+    },
     redisUrl: process.env.REDIS_URL,
     http: {
       storeCors: process.env.STORE_CORS || "http://localhost:3000",
