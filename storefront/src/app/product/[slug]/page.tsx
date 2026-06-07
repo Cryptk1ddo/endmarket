@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getProductBySlug, products } from "@/lib/products";
-import { getProduct, adaptMedusaProduct } from "@/lib/medusa";
+import { getProduct, adaptMedusaProduct, listProducts } from "@/lib/medusa";
 import type { Product } from "@/lib/products";
 import ProductDetail from "@/components/product/ProductDetail";
 
@@ -19,6 +19,10 @@ async function resolveProduct(slug: string): Promise<Product | null> {
   try {
     const medusaProduct = await getProduct(slug);
     if (medusaProduct) return adaptMedusaProduct(medusaProduct);
+
+    const { products: medusaProducts } = await listProducts({ limit: 200 });
+    const matched = medusaProducts.find((product: { handle?: string }) => product.handle === slug);
+    if (matched) return adaptMedusaProduct(matched);
   } catch {
     // Medusa unavailable
   }

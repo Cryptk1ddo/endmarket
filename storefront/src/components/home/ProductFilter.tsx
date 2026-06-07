@@ -15,23 +15,115 @@ export default function ProductFilter({ products }: { products: Product[] }) {
   const visible = products.filter((p) => p.collection === activeTab);
 
   return (
-    <section style={{ maxWidth: "1920px", margin: "0 auto", padding: "0 1.5rem 5rem" }}>
+    <section className="pfSection" style={{ maxWidth: "1920px", margin: "0 auto", padding: "0 1.5rem 5rem", backgroundColor: "#f3f3f1" }}>
+      <style>{`
+        .pfSection {
+          position: relative;
+        }
+        .pfTopBar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 1rem;
+          padding: 2rem 0 1.4rem;
+        }
+        .pfTabs {
+          display: flex;
+          gap: 2rem;
+          min-width: 0;
+        }
+        .pfTabButton {
+          white-space: nowrap;
+          flex: 0 0 auto;
+        }
+        .pfHeading {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          gap: 1.25rem;
+          margin-bottom: 2rem;
+        }
+        .aw-strip::-webkit-scrollbar { display: none; }
+        .aw-strip { -ms-overflow-style: none; scrollbar-width: none; }
+        @media (max-width: 960px) {
+          .pfTabs {
+            gap: 1.25rem;
+            overflow-x: auto;
+            padding-bottom: 0.25rem;
+            margin: 0 -0.25rem;
+            padding-right: 0.25rem;
+          }
+        }
+        @media (max-width: 640px) {
+          .pfSection {
+            padding: 0 0 4rem !important;
+          }
+          .pfTopBar {
+            padding: 1.15rem 1rem 0.9rem;
+          }
+          .pfTabs {
+            gap: 0.85rem;
+            margin: 0;
+            padding-bottom: 0.5rem;
+            scroll-snap-type: x proximity;
+          }
+          .pfTabButton {
+            scroll-snap-align: start;
+            font-size: 0.74rem !important;
+            letter-spacing: 0.03em !important;
+            padding-bottom: 0.55rem !important;
+          }
+          .pfHeading {
+            padding: 0 1rem;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-bottom: 1.25rem;
+          }
+          .pfArchiveTitle {
+            font-size: clamp(1.9rem, 9vw, 2.6rem) !important;
+            line-height: 0.92;
+          }
+          .pfArchiveLink {
+            padding-top: 0.15rem;
+            font-size: 0.62rem !important;
+            letter-spacing: 0.16em !important;
+          }
+          .aw-strip {
+            gap: 0.9rem !important;
+            margin: 0 !important;
+            padding: 0 1rem 1.25rem !important;
+          }
+          .pfCard,
+          .pfAllCard {
+            min-width: 76vw !important;
+            width: 76vw !important;
+          }
+          .pfCardTitle {
+            font-size: 1.05rem !important;
+            line-height: 0.96 !important;
+          }
+          .pfCardCopy {
+            font-size: 0.8rem !important;
+            line-height: 1.45 !important;
+          }
+        }
+        @media (min-width: 641px) {
+          .pfHeading {
+            border-top: 1px solid rgba(8, 8, 8, 0.08);
+            padding-top: 1.15rem;
+          }
+        }
+      `}</style>
       {/* Tab nav */}
       <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          flexWrap: "wrap",
-          gap: "1rem",
-          padding: "2rem 0",
-        }}
+        className="pfTopBar"
       >
-        <div style={{ display: "flex", gap: "2rem" }}>
+        <div className="pfTabs">
           {COLLECTIONS.map((col) => (
             <button
               key={col}
               onClick={() => setActiveTab(col)}
+              className="pfTabButton"
               style={{
                 fontFamily: "var(--font-display)",
                 fontSize: "0.9375rem",
@@ -55,18 +147,14 @@ export default function ProductFilter({ products }: { products: Product[] }) {
 
       {/* Product heading */}
       <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "flex-end",
-          marginBottom: "2rem",
-        }}
+        className="pfHeading"
       >
         <div>
           <p style={{ margin: "0 0 0.35rem", fontFamily: "var(--font-body)", fontSize: "0.625rem", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8f8f88" }}>
             Архив моделей
           </p>
           <h3
+            className="pfArchiveTitle"
             style={{
               fontFamily: "var(--font-display)",
               fontSize: "clamp(1.75rem, 3vw, 2.75rem)",
@@ -80,6 +168,7 @@ export default function ProductFilter({ products }: { products: Product[] }) {
           </h3>
         </div>
         <Link
+          className="pfArchiveLink"
           href={`/collection?collection=${encodeURIComponent(activeTab)}`}
           style={{
             display: "flex",
@@ -99,10 +188,6 @@ export default function ProductFilter({ products }: { products: Product[] }) {
       </div>
 
       {/* Product strip */}
-      <style>{`
-        .aw-strip::-webkit-scrollbar { display: none; }
-        .aw-strip { -ms-overflow-style: none; scrollbar-width: none; }
-      `}</style>
       <div
         className="aw-strip"
         style={{
@@ -117,7 +202,7 @@ export default function ProductFilter({ products }: { products: Product[] }) {
           <Link
             key={product.id}
             href={`/product/${product.slug}`}
-            className="product-card"
+            className="product-card pfCard"
             style={{
               minWidth: "260px",
               width: "260px",
@@ -179,6 +264,7 @@ export default function ProductFilter({ products }: { products: Product[] }) {
                 {product.brand}
               </span>
               <h4
+                className="pfCardTitle"
                 style={{
                   fontFamily: "var(--font-display)",
                   fontSize: "1.1875rem",
@@ -192,6 +278,7 @@ export default function ProductFilter({ products }: { products: Product[] }) {
                 {product.name}
               </h4>
               <p
+                className="pfCardCopy"
                 style={{
                   fontFamily: "var(--font-body)",
                   fontSize: "0.75rem",
@@ -234,6 +321,7 @@ export default function ProductFilter({ products }: { products: Product[] }) {
         {/* View all card */}
         <Link
           href="/collection"
+          className="pfAllCard"
           style={{
             minWidth: "260px",
             width: "260px",

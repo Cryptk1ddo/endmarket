@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import LegalDoc from "@/components/editorial/LegalDoc";
 
 export const metadata: Metadata = {
   title: "Публичная оферта",
@@ -51,37 +52,18 @@ const SECTIONS = [
 
 export default function TermsPage() {
   return (
-    <div style={{ minHeight: "100vh", backgroundColor: "#f8f8f6" }}>
-      <div style={{ height: "72px" }} />
-
-      <section style={{ padding: "5rem 2rem 4rem", borderBottom: "1px solid #e0ddd8" }}>
-        <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.6875rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "#a8a8a2", marginBottom: "1.5rem" }}>
-          ENDMARKET / ПРАВОВАЯ ИНФОРМАЦИЯ
-        </p>
-        <h1 style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "clamp(2.5rem, 6vw, 5rem)", fontWeight: 900, letterSpacing: "0.01em", color: "#080808", lineHeight: 0.9, margin: 0 }}>
-          ПУБЛИЧНАЯ<br />
-          <span style={{ fontWeight: 300, color: "#a8a8a2" }}>ОФЕРТА</span>
-        </h1>
-      </section>
-
-      <section style={{ maxWidth: "860px", margin: "0 auto", padding: "4rem 2rem" }}>
-        {SECTIONS.map((s) => (
-          <div key={s.n} style={{ display: "grid", gridTemplateColumns: "48px 1fr", gap: "1.5rem", paddingBottom: "2.5rem", marginBottom: "2.5rem", borderBottom: "1px solid #e0ddd8" }}>
-            <span style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "0.6875rem", fontWeight: 700, letterSpacing: "0.14em", color: "#a8a8a2", paddingTop: "0.25rem" }}>{s.n}</span>
-            <div>
-              <p style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "1.125rem", fontWeight: 700, letterSpacing: "0.03em", color: "#080808", marginBottom: "0.75rem" }}>{s.title}</p>
-              <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.875rem", fontWeight: 300, lineHeight: 1.75, color: "#4a4a44" }}>{s.text}</p>
-            </div>
-          </div>
-        ))}
-
-        <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.8125rem", fontWeight: 300, color: "#6e6e66" }}>
+    <LegalDoc
+      eyebrow="Правовая информация"
+      title="Публичная оферта"
+      sections={SECTIONS}
+      footer={
+        <>
           Вопросы:{" "}
-          <a href="mailto:support@endmarket.ru" style={{ color: "#080808", textDecoration: "underline", textUnderlineOffset: "3px" }}>support@endmarket.ru</a>
+          <a href="mailto:support@endmarket.ru" style={{ color: "#080808", fontWeight: 600, textDecoration: "underline", textUnderlineOffset: "4px" }}>support@endmarket.ru</a>
           {" · "}
-          <Link href="/privacy" style={{ color: "#080808", textDecoration: "underline", textUnderlineOffset: "3px" }}>Политика конфиденциальности</Link>
-        </p>
-      </section>
-    </div>
+          <Link href="/privacy" style={{ color: "#080808", fontWeight: 600, textDecoration: "underline", textUnderlineOffset: "4px" }}>Политика конфиденциальности</Link>
+        </>
+      }
+    />
   );
 }

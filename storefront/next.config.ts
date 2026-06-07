@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import path from "node:path";
 
 const isProd = process.env.NODE_ENV === "production";
 const frontendUrl = process.env.NEXT_PUBLIC_FRONTEND_URL || "http://localhost:3000";
@@ -55,6 +56,9 @@ function envHostname(key: string): string | null {
 }
 
 const nextConfig: NextConfig = {
+  turbopack: {
+    root: path.resolve(process.cwd(), ".."),
+  },
   // Required for Docker standalone deployment
   output: "standalone",
   compress: true,

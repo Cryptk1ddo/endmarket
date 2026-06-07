@@ -6,70 +6,127 @@ export const metadata: Metadata = {
   description: "Сроки и условия доставки кондиционеров ENDMARKET.",
 };
 
-const TIMELINES = [
-  { stage: "Обработка заказа", region: "Москва / МО", other: "Вся Россия", note: "После подтверждения оплаты" },
-  { stage: "Доставка по Москве", region: "1–2 дня", other: "—", note: "Курьерская доставка до двери" },
-  { stage: "Доставка по России", region: "—", other: "3–7 рабочих дней", note: "СДЭК, Boxberry или Почта России" },
-  { stage: "Монтаж (по запросу)", region: "По договорённости", other: "По договорённости", note: "Сертифицированные монтажники" },
+const STEPS = [
+  { stage: "Обработка заказа",    note: "После подтверждения оплаты",        value: "1 день",   region: "Москва/МО · Россия" },
+  { stage: "Доставка по Москве",  note: "Курьер до двери",                   value: "1–2 дня",  region: "Москва / МО" },
+  { stage: "Доставка по России",  note: "СДЭК · Boxberry · Почта России",    value: "3–7 дней", region: "Вся Россия" },
+  { stage: "Монтаж по запросу",   note: "Сертифицированные монтажники",      value: "По записи", region: "По договорённости" },
 ];
+
+const PAY = [
+  { title: "Оплата онлайн",   text: "Банковская карта через YooKassa. Полная оплата при оформлении заказа — безопасный эквайринг." },
+  { title: "Возврат и обмен", text: "Возврат в течение 14 дней при сохранении товарного вида. Обмен по договорённости." },
+];
+
+const INK = "#080808";
+const MUTED = "#6e6e66";
+const FAINT = "#a8a8a2";
+const LINE = "rgba(0,0,0,0.1)";
+const BARLOW = "var(--font-barlow)";
+const COND = "var(--font-barlow-condensed)";
 
 export default function DeliveryPage() {
   return (
-    <div style={{ minHeight: "100vh", backgroundColor: "#f8f8f6" }}>
+    <div style={{ minHeight: "100vh", backgroundColor: "#f4f4f1", color: INK, fontFamily: BARLOW }}>
       <div style={{ height: "72px" }} />
 
-      <section style={{ padding: "5rem 2rem 4rem", borderBottom: "1px solid #e0ddd8" }}>
-        <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.6875rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "#a8a8a2", marginBottom: "1.5rem" }}>
-          ENDMARKET / ДОСТАВКА
-        </p>
-        <h1 style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "clamp(3rem, 7vw, 6rem)", fontWeight: 900, letterSpacing: "0.01em", color: "#080808", lineHeight: 0.9, margin: 0 }}>
-          СРОКИ И<br />
-          <span style={{ fontWeight: 300, color: "#a8a8a2" }}>ЛОГИСТИКА</span>
-        </h1>
-      </section>
+      <div className="dlv-wrap">
+        {/* Hero */}
+        <section style={{ paddingTop: "clamp(3rem, 9vw, 6rem)", paddingBottom: "clamp(2.5rem, 6vw, 4rem)" }}>
+          <p style={{ fontSize: "1.0625rem", color: FAINT, marginBottom: "1.25rem" }}>Доставка и оплата</p>
+          <h1 style={{ fontSize: "clamp(2.5rem, 7vw, 4.75rem)", fontWeight: 700, letterSpacing: "-0.02em", lineHeight: 0.98, margin: 0 }}>
+            Сроки и логистика
+          </h1>
+          <p style={{ fontSize: "1.0625rem", lineHeight: 1.6, color: MUTED, maxWidth: "34rem", marginTop: "1.75rem" }}>
+            Доставляем по всей России. Курьер до двери в Москве, проверенные перевозчики в регионы и монтаж силами сертифицированных специалистов.
+          </p>
+        </section>
 
-      {/* Timeline table */}
-      <section style={{ padding: "4rem 2rem", borderBottom: "1px solid #e0ddd8", maxWidth: "1200px", margin: "0 auto" }}>
-        <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.6875rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "#a8a8a2", marginBottom: "2rem" }}>Сроки</p>
-        <div style={{ borderTop: "1px solid #e0ddd8" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr 2fr", padding: "0.75rem 0", borderBottom: "1px solid #e0ddd8" }}>
-            {["Этап", "Москва / МО", "Вся Россия", "Примечание"].map((h) => (
-              <span key={h} style={{ fontFamily: "var(--font-barlow)", fontSize: "0.625rem", fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", color: "#a8a8a2" }}>{h}</span>
+        {/* Сроки */}
+        <section style={{ paddingBottom: "clamp(2.5rem, 6vw, 4rem)" }}>
+          <h2 style={{ fontSize: "1.75rem", fontWeight: 700, letterSpacing: "-0.01em", margin: "0 0 1.5rem" }}>Сроки</h2>
+          <div>
+            {STEPS.map((s, i) => (
+              <div key={s.stage} className="dlv-row" style={{ borderTop: `1px solid ${LINE}` }}>
+                <span className="dlv-idx" style={{ fontFamily: COND, fontSize: "1.5rem", fontWeight: 700, color: FAINT, lineHeight: 1 }}>
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <div className="dlv-body">
+                  <p style={{ fontSize: "1.375rem", fontWeight: 700, letterSpacing: "-0.01em", margin: 0, lineHeight: 1.15 }}>{s.stage}</p>
+                  <p style={{ fontSize: "1rem", color: MUTED, margin: "0.4rem 0 0" }}>{s.note}</p>
+                </div>
+                <div className="dlv-val">
+                  <p style={{ fontSize: "1.0625rem", fontWeight: 600, margin: 0 }}>{s.value}</p>
+                  <p style={{ fontSize: "0.875rem", color: FAINT, margin: "0.3rem 0 0" }}>{s.region}</p>
+                </div>
+              </div>
+            ))}
+            <div style={{ borderTop: `1px solid ${LINE}` }} />
+          </div>
+        </section>
+
+        {/* Divider */}
+        <div style={{ borderTop: `1px solid ${LINE}` }} />
+
+        {/* Оплата */}
+        <section style={{ paddingTop: "clamp(2.5rem, 6vw, 4rem)", paddingBottom: "clamp(2.5rem, 6vw, 4rem)" }}>
+          <h2 style={{ fontSize: "1.75rem", fontWeight: 700, letterSpacing: "-0.01em", margin: "0 0 1.5rem" }}>Оплата и возврат</h2>
+          <div className="dlv-pay">
+            {PAY.map((p) => (
+              <div key={p.title} className="dlv-pay-item">
+                <p style={{ fontSize: "1.375rem", fontWeight: 700, letterSpacing: "-0.01em", margin: "0 0 0.75rem", lineHeight: 1.15 }}>{p.title}</p>
+                <p style={{ fontSize: "1.0625rem", lineHeight: 1.65, color: MUTED, margin: 0, maxWidth: "30rem" }}>{p.text}</p>
+              </div>
             ))}
           </div>
-          {TIMELINES.map((row) => (
-            <div key={row.stage} style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr 2fr", padding: "1.25rem 0", borderBottom: "1px solid #e0ddd8", alignItems: "center" }}>
-              <span style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "1rem", fontWeight: 700, letterSpacing: "0.03em", color: "#080808" }}>{row.stage}</span>
-              <span style={{ fontFamily: "var(--font-barlow)", fontSize: "0.875rem", fontWeight: 300, color: "#4a4a44" }}>{row.region}</span>
-              <span style={{ fontFamily: "var(--font-barlow)", fontSize: "0.875rem", fontWeight: 300, color: "#4a4a44" }}>{row.other}</span>
-              <span style={{ fontFamily: "var(--font-barlow)", fontSize: "0.75rem", fontWeight: 300, color: "#a8a8a2" }}>{row.note}</span>
-            </div>
-          ))}
-        </div>
-      </section>
+        </section>
 
-      {/* Payment */}
-      <section style={{ padding: "4rem 2rem", borderBottom: "1px solid #e0ddd8", maxWidth: "1200px", margin: "0 auto" }}>
-        <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.6875rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "#a8a8a2", marginBottom: "2rem" }}>Оплата</p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "2rem", borderLeft: "1px solid #e0ddd8" }}>
-          {[
-            { title: "Оплата онлайн", text: "Банковская карта через YooKassa. Полная оплата при оформлении заказа. Безопасный эквайринг." },
-            { title: "Возврат и обмен", text: "Возврат в течение 14 дней при сохранении товарного вида. Обмен по договорённости." },
-          ].map((item) => (
-            <div key={item.title} style={{ padding: "2rem", borderRight: "1px solid #e0ddd8" }}>
-              <p style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "1.25rem", fontWeight: 700, letterSpacing: "0.03em", color: "#080808", marginBottom: "0.75rem" }}>{item.title}</p>
-              <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.875rem", fontWeight: 300, lineHeight: 1.7, color: "#6e6e66" }}>{item.text}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+        {/* Divider */}
+        <div style={{ borderTop: `1px solid ${LINE}` }} />
 
-      <section style={{ padding: "3rem 2rem" }}>
-        <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.875rem", fontWeight: 300, color: "#6e6e66" }}>
-          Вопросы по логистике?{" "}
-          <Link href="/contact" style={{ color: "#080808", textDecoration: "underline", textUnderlineOffset: "3px" }}>Свяжитесь с нами</Link>
-        </p>
-      </section>
+        {/* CTA */}
+        <section style={{ paddingTop: "clamp(2.5rem, 6vw, 4rem)", paddingBottom: "clamp(4rem, 9vw, 6rem)" }}>
+          <p style={{ fontSize: "1.0625rem", color: MUTED, margin: 0 }}>
+            Вопросы по логистике?{" "}
+            <Link href="/contact" style={{ color: INK, fontWeight: 600, textDecoration: "underline", textUnderlineOffset: "4px" }}>
+              Свяжитесь с нами
+            </Link>
+          </p>
+        </section>
+      </div>
+
+      <style>{`
+        .dlv-wrap {
+          max-width: 880px;
+          margin: 0 auto;
+          padding-left: clamp(1.5rem, 5vw, 3rem);
+          padding-right: clamp(1.5rem, 5vw, 3rem);
+        }
+        .dlv-row {
+          display: grid;
+          grid-template-columns: 3rem 1fr auto;
+          gap: 1.75rem;
+          align-items: baseline;
+          padding: 1.75rem 0;
+        }
+        .dlv-val { text-align: right; }
+        .dlv-pay {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: clamp(2rem, 5vw, 4rem);
+        }
+        @media (max-width: 640px) {
+          .dlv-row {
+            grid-template-columns: 2.5rem 1fr;
+            gap: 0.5rem 1.25rem;
+            padding: 1.5rem 0;
+          }
+          .dlv-idx { grid-row: 1; }
+          .dlv-body { grid-column: 2; grid-row: 1; }
+          .dlv-val { grid-column: 2; grid-row: 2; text-align: left; }
+          .dlv-pay { grid-template-columns: 1fr; gap: 2.5rem; }
+        }
+      `}</style>
     </div>
   );
 }

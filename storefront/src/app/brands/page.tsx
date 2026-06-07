@@ -11,9 +11,9 @@ interface ModelEntry { slug: string; name: string; }
 interface BrandEntry {
   id: string; name: string; origin: string; founded: string;
   tagline: string;
-  intro: string[];        // editorial paragraphs
+  intro: string[];
   stats: { label: string; value: string }[];
-  heroSlug: string;       // model slug to pull b-lifestyle-interior from
+  heroSlug: string;
   models: ModelEntry[];
 }
 
@@ -27,7 +27,7 @@ const BRANDS: BrandEntry[] = [
     tagline: "Климатическая техника для реальной жизни",
     intro: [
       "Ballu — один из немногих брендов, сочетающих российскую сборочную историю с производственной базой в Китае. С 1997 года компания последовательно расширяет присутствие: от бюджетных on/off-агрегатов до инверторных серий с обогревом при −25 °C.",
-      "Серия BSW — рабочая лошадь рынка: тихая, надёжная, с прозрачной сервисной сетью по всей России. Серия BSWI Ultra добавляет Wi-Fi, расширенный температурный диапазон и класс A++. Для встраиваемых решений — кассетные BLC и напольно-потолочные BLD."
+      "Серия BSW — рабочая лошадь рынка: тихая, надёжная, с прозрачной сервисной сетью по всей России. Серия BSWI Ultra добавляет Wi-Fi, расширенный температурный диапазон и класс A++.",
     ],
     stats: [
       { label: "Основан", value: "1997" },
@@ -42,13 +42,13 @@ const BRANDS: BrandEntry[] = [
     id: "haier", name: "Haier", origin: "Цинтао, Китай", founded: "1984",
     tagline: "Мировой лидер. Технологии без компромиссов",
     intro: [
-      "Haier — крупнейший производитель бытовой техники в мире по версии Euromonitor International с 2009 по сей день. Основан в 1984 году в Цинтао как небольшой завод холодильников, сегодня производит климатическое оборудование для 160 стран.",
-      "Серия TT4HRA — флагманский настенный инвертор с технологией самоочистки испарителя UV Nano, режимом Self-Clean и встроенным Wi-Fi. Серия QM2HIA предлагает класс A+++ при рекордном КПД. Кассетные и канальные системы Haier проектируются под коммерческие объекты."
+      "Haier — крупнейший производитель бытовой техники в мире по версии Euromonitor International с 2009 года. Основан в 1984 году в Цинтао как небольшой завод холодильников, сегодня производит климатическое оборудование для 160 стран.",
+      "Серия TT4HRA — флагманский настенный инвертор с самоочисткой испарителя UV Nano и встроенным Wi-Fi. Серия QM2HIA предлагает класс A+++ при рекордном КПД.",
     ],
     stats: [
       { label: "Основан", value: "1984" },
-      { label: "Стран присутствия", value: "160+" },
-      { label: "Хладагент", value: "R-32 / R-410A" },
+      { label: "Стран", value: "160+" },
+      { label: "Хладагент", value: "R-32" },
       { label: "Класс КПД", value: "A+++" },
     ],
     heroSlug: "haier-as12tt4hra",
@@ -58,8 +58,8 @@ const BRANDS: BrandEntry[] = [
     id: "hisense", name: "Hisense", origin: "Циндао, Китай", founded: "1969",
     tagline: "Тишина как инженерная ценность",
     intro: [
-      "Hisense основан в 1969 году и прошёл путь от государственного завода радиооборудования до глобального технологического концерна. Сегодня компания активно инвестирует в акустические технологии: уровень шума серии HR4SYDKG — от 17 дБ, что сопоставимо с шелестом листьев.",
-      "Серия QC4SVETG4 ориентирована на энергоэффективность — класс A+++ с SEER до 8.5. Кассетные системы UR4SXCDG закрывают коммерческий сегмент: равномерный воздухораспределитель 4 × 360° и встроенный дренажный насос."
+      "Hisense основан в 1969 году и прошёл путь от государственного завода радиооборудования до глобального технологического концерна. Уровень шума серии HR4SYDKG — от 17 дБ, что сопоставимо с шелестом листьев.",
+      "Серия QC4SVETG4 ориентирована на энергоэффективность — класс A+++ с SEER до 8.5. Кассетные системы UR4SXCDG закрывают коммерческий сегмент.",
     ],
     stats: [
       { label: "Основан", value: "1969" },
@@ -74,8 +74,8 @@ const BRANDS: BrandEntry[] = [
     id: "daikin", name: "Daikin", origin: "Осака, Япония", founded: "1924",
     tagline: "Сто лет точности. Японская инженерная школа",
     intro: [
-      "Daikin основан в 1924 году в Осаке инженером Акирой Ямадой. Компания — единственный в мире производитель климатической техники, самостоятельно выпускающий компрессоры, хладагенты, электронику и холодильные контуры. Вертикальная интеграция — не маркетинг, а факт производственной истории.",
-      "Технология Flash Streamer ионизирует воздух электрическим разрядом, разрушая аллергены, вирусы и летучие органические соединения. Серия FTXB предлагает оптимальный вход в японское качество, FTXF — флагманская линейка с обогревом при −20 °C и управлением через Daikin Mobile Controller. Серии FHA и FBQ — премиальные канальные и кассетные системы."
+      "Daikin основан в 1924 году в Осаке. Компания — единственный в мире производитель климатической техники, самостоятельно выпускающий компрессоры, хладагенты, электронику и холодильные контуры. Вертикальная интеграция — факт производственной истории.",
+      "Технология Flash Streamer ионизирует воздух, разрушая аллергены и летучие соединения. Серия FTXB — вход в японское качество, FTXF — флагман с обогревом при −20 °C.",
     ],
     stats: [
       { label: "Основан", value: "1924" },
@@ -88,125 +88,121 @@ const BRANDS: BrandEntry[] = [
   },
 ];
 
+const INK = "#080808";
+const MUTED = "#6e6e66";
+const FAINT = "#a8a8a2";
+const LINE = "rgba(0,0,0,0.1)";
+const BARLOW = "var(--font-barlow)";
+const COND = "var(--font-barlow-condensed)";
+
 export default function BrandsPage() {
   const totalModels = BRANDS.reduce((n, b) => n + b.models.length, 0);
 
   return (
-    <>
-      <div style={{ height: "64px" }} />
+    <div style={{ backgroundColor: "#f4f4f1", color: INK, fontFamily: BARLOW }}>
+      <div style={{ height: "72px" }} />
 
-      {/* ── Page header ── */}
-      <section style={{ padding: "4rem 2rem 3rem", borderBottom: "1px solid #e0ddd8" }}>
-        <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.5625rem", letterSpacing: "0.22em", textTransform: "uppercase", color: "#a8a8a2", marginBottom: "1rem" }}>
-          ENDMARKET / ОФИЦИАЛЬНЫЕ ПАРТНЁРЫ — {BRANDS.length} БРЕНДА / {totalModels} МОДЕЛЕЙ
-        </p>
-        <h1 style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "clamp(4rem, 10vw, 9rem)", fontWeight: 900, letterSpacing: "-0.01em", color: "#080808", lineHeight: 0.88, margin: 0 }}>
-          БРЕНДЫ
-        </h1>
-      </section>
+      <div className="br-wrap">
+        {/* Hero */}
+        <section style={{ paddingTop: "clamp(3rem, 9vw, 6rem)", paddingBottom: "clamp(2rem, 5vw, 3.5rem)" }}>
+          <p style={{ fontSize: "1.0625rem", color: FAINT, marginBottom: "1.25rem" }}>
+            Официальные партнёры · {BRANDS.length} бренда · {totalModels} моделей
+          </p>
+          <h1 style={{ fontSize: "clamp(3rem, 10vw, 6.5rem)", fontWeight: 700, letterSpacing: "-0.03em", lineHeight: 0.95, margin: 0 }}>
+            Бренды
+          </h1>
+          <p style={{ fontSize: "1.0625rem", lineHeight: 1.6, color: MUTED, maxWidth: "36rem", marginTop: "1.75rem" }}>
+            Четыре инженерные школы — российская, китайская, японская — с официальной гарантией, доставкой и сертифицированным монтажом.
+          </p>
+        </section>
 
-      {/* ── Brand sections ── */}
-      {BRANDS.map((brand, bi) => (
-        <section key={brand.id} style={{ borderBottom: "2px solid #080808" }}>
+        {/* Brand index */}
+        <nav style={{ paddingBottom: "clamp(2rem, 5vw, 3.5rem)" }}>
+          {BRANDS.map((b) => (
+            <a key={b.id} href={`#${b.id}`} className="br-index" style={{ borderTop: `1px solid ${LINE}`, color: INK, textDecoration: "none" }}>
+              <span style={{ fontSize: "clamp(1.5rem, 4vw, 2.25rem)", fontWeight: 700, letterSpacing: "-0.02em" }}>{b.name}</span>
+              <span style={{ fontSize: "0.95rem", color: FAINT }}>{b.origin}</span>
+              <span style={{ fontSize: "0.95rem", color: MUTED, justifySelf: "end" }}>{b.models.length} моделей →</span>
+            </a>
+          ))}
+          <div style={{ borderTop: `1px solid ${LINE}` }} />
+        </nav>
+      </div>
 
-          {/* ── Brand editorial intro ── */}
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr" }} className="brand-intro-grid">
-            {/* Left: text */}
-            <div style={{ padding: "4rem 3rem 4rem 2rem", borderRight: "1px solid #e0ddd8", display: "flex", flexDirection: "column", justifyContent: "space-between", gap: "3rem" }}>
-              <div>
-                <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.5625rem", letterSpacing: "0.22em", textTransform: "uppercase", color: "#a8a8a2", marginBottom: "1rem" }}>
-                  {brand.origin} — осн. {brand.founded}
-                </p>
-                <h2 style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "clamp(4rem, 8vw, 7.5rem)", fontWeight: 900, letterSpacing: "-0.01em", color: "#080808", lineHeight: 0.85, margin: "0 0 2rem" }}>
-                  {brand.name.toUpperCase()}
-                </h2>
-                <p style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "clamp(1rem, 2vw, 1.375rem)", fontWeight: 300, letterSpacing: "0.02em", color: "#6e6e66", lineHeight: 1.3, margin: "0 0 2.5rem", maxWidth: "520px" }}>
-                  {brand.tagline}
-                </p>
-                {brand.intro.map((para, i) => (
-                  <p key={i} style={{ fontFamily: "var(--font-barlow)", fontSize: "0.8125rem", fontWeight: 300, color: "#6e6e66", lineHeight: 1.75, marginBottom: i < brand.intro.length - 1 ? "1.25rem" : 0, maxWidth: "540px" }}>
-                    {para}
-                  </p>
-                ))}
+      {/* Brand sections */}
+      {BRANDS.map((brand, i) => (
+        <section key={brand.id} id={brand.id} style={{ borderTop: `1px solid ${LINE}`, scrollMarginTop: "80px" }}>
+          <div className="br-wrap" style={{ paddingTop: "clamp(3rem, 7vw, 5.5rem)", paddingBottom: "clamp(2.5rem, 6vw, 4rem)" }}>
+            <div className={`br-editorial ${i % 2 ? "br-rev" : ""}`}>
+              {/* Media */}
+              <div className="br-media">
+                <div style={{ position: "relative", aspectRatio: "4/5", overflow: "hidden", backgroundColor: "#e7e6e1" }}>
+                  <Image
+                    src={`/generated/ac-campaigns/${brand.heroSlug}/b-lifestyle-interior.webp`}
+                    alt={brand.name}
+                    fill
+                    className="br-hero-img"
+                    unoptimized
+                    sizes="(max-width: 900px) 100vw, 50vw"
+                    style={{ objectFit: "cover", filter: "grayscale(8%) contrast(1.03)", transition: "transform 1.4s ease" }}
+                    priority={i === 0}
+                  />
+                </div>
               </div>
 
-              {/* Stats row */}
-              <div>
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", borderTop: "1px solid #e0ddd8", paddingTop: "1.5rem", gap: "1rem" }} className="brand-stats-grid">
+              {/* Text */}
+              <div className="br-text">
+                <p style={{ fontSize: "1rem", color: FAINT, marginBottom: "0.85rem" }}>{brand.origin} · осн. {brand.founded}</p>
+                <h2 style={{ fontSize: "clamp(2.75rem, 7vw, 4.5rem)", fontWeight: 700, letterSpacing: "-0.025em", lineHeight: 0.95, margin: "0 0 1.25rem" }}>
+                  {brand.name}
+                </h2>
+                <p style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.6rem)", fontWeight: 400, lineHeight: 1.3, letterSpacing: "-0.01em", color: INK, margin: "0 0 1.75rem", maxWidth: "32rem" }}>
+                  {brand.tagline}
+                </p>
+                {brand.intro.map((para, p) => (
+                  <p key={p} style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: MUTED, margin: "0 0 1rem", maxWidth: "34rem" }}>{para}</p>
+                ))}
+
+                {/* Stats */}
+                <div className="br-stats" style={{ marginTop: "2rem", borderTop: `1px solid ${LINE}`, paddingTop: "1.5rem" }}>
                   {brand.stats.map((s) => (
                     <div key={s.label}>
-                      <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.5rem", letterSpacing: "0.16em", textTransform: "uppercase", color: "#a8a8a2", marginBottom: "0.375rem" }}>{s.label}</p>
-                      <p style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "1.25rem", fontWeight: 700, color: "#080808", margin: 0 }}>{s.value}</p>
+                      <p style={{ fontSize: "0.8125rem", color: FAINT, margin: "0 0 0.35rem" }}>{s.label}</p>
+                      <p style={{ fontFamily: COND, fontSize: "1.5rem", fontWeight: 700, color: INK, margin: 0 }}>{s.value}</p>
                     </div>
                   ))}
                 </div>
-                <div style={{ marginTop: "2rem" }}>
-                  <Link href={`/collection?brand=${brand.id}`} style={{ display: "inline-block", backgroundColor: "#080808", color: "#f8f8f6", fontFamily: "var(--font-barlow)", fontSize: "0.5625rem", fontWeight: 700, letterSpacing: "0.22em", textTransform: "uppercase", textDecoration: "none", padding: "0.875rem 2rem" }}>
-                    Каталог {brand.name} →
-                  </Link>
-                </div>
-              </div>
-            </div>
 
-            {/* Right: lifestyle image */}
-            <div style={{ position: "relative", minHeight: "560px", overflow: "hidden", backgroundColor: "#111" }}>
-              <Image
-                src={`/generated/ac-campaigns/${brand.heroSlug}/b-lifestyle-interior.webp`}
-                alt={brand.name}
-                fill
-                className="brand-hero-img"
-                unoptimized
-                sizes="50vw"
-                style={{ objectFit: "cover", filter: "grayscale(12%) contrast(1.06) brightness(0.82)", transition: "transform 1.4s ease" }}
-                priority={bi === 0}
-              />
-              <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(8,8,8,0.35) 0%, transparent 60%)" }} />
-              <p style={{ position: "absolute", right: "1.25rem", bottom: "1.25rem", margin: 0, fontFamily: "var(--font-barlow)", fontSize: "0.45rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "rgba(248,248,246,0.5)" }}>
-                ENDMARKET / {brand.name.toUpperCase()} / EDITORIAL
-              </p>
+                <Link
+                  href={`/collection?brand=${brand.name}`}
+                  style={{ display: "inline-block", marginTop: "2rem", backgroundColor: INK, color: "#f4f4f1", fontSize: "0.95rem", fontWeight: 600, letterSpacing: "0.02em", textDecoration: "none", padding: "0.95rem 2rem" }}
+                >
+                  Каталог {brand.name} →
+                </Link>
+              </div>
             </div>
           </div>
 
-          {/* ── Model grid ── */}
-          <div style={{ borderTop: "1px solid #e0ddd8" }}>
-            <div style={{ padding: "1.25rem 2rem 1rem", borderBottom: "1px solid #e0ddd8" }}>
-              <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.5rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "#a8a8a2", margin: 0 }}>
-                {brand.name} — {brand.models.length} моделей в каталоге
-              </p>
-            </div>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)" }} className="model-grid">
-              {brand.models.map((model, mi) => (
-                <Link
-                  key={model.slug}
-                  href={`/product/${model.slug}`}
-                  className="model-card"
-                  style={{
-                    display: "block",
-                    textDecoration: "none",
-                    borderRight: mi % 5 !== 4 ? "1px solid #e0ddd8" : "none",
-                    borderBottom: mi < brand.models.length - 5 ? "1px solid #e0ddd8" : "none",
-                    overflow: "hidden",
-                    backgroundColor: "#f0efec",
-                  }}
-                >
-                  <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", backgroundColor: "#e8e7e4" }}>
+          {/* Model grid */}
+          <div className="br-wrap" style={{ paddingBottom: "clamp(3rem, 7vw, 5.5rem)" }}>
+            <p style={{ fontSize: "0.95rem", color: FAINT, margin: "0 0 1.25rem" }}>Модели в каталоге · {brand.models.length}</p>
+            <div className="br-models">
+              {brand.models.map((model) => (
+                <Link key={model.slug} href={`/product/${model.slug}`} className="br-card" style={{ display: "block", textDecoration: "none", backgroundColor: "#f4f4f1" }}>
+                  <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", backgroundColor: "#e7e6e1" }}>
                     <Image
                       src={`/generated/ac-campaigns/${model.slug}/a-studio-hero.webp`}
                       alt={`${brand.name} ${model.name}`}
                       fill
-                      className="model-img"
+                      className="br-card-img"
                       unoptimized
-                      sizes="20vw"
-                      style={{ objectFit: "cover", filter: "grayscale(15%) contrast(1.04)", transition: "transform 0.8s ease, filter 0.4s ease" }}
+                      sizes="(max-width: 560px) 50vw, 20vw"
+                      style={{ objectFit: "cover", filter: "grayscale(12%) contrast(1.03)", transition: "transform 0.8s ease, filter 0.4s ease" }}
                     />
                   </div>
-                  <div style={{ padding: "0.875rem 1rem 1rem" }}>
-                    <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.5rem", letterSpacing: "0.18em", textTransform: "uppercase", color: "#a8a8a2", marginBottom: "0.25rem" }}>
-                      {brand.name}
-                    </p>
-                    <p style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "1rem", fontWeight: 700, letterSpacing: "0.04em", color: "#080808", margin: 0 }}>
-                      {model.name}
-                    </p>
+                  <div style={{ padding: "0.9rem 1rem 1.1rem" }}>
+                    <p style={{ fontSize: "0.8125rem", color: FAINT, margin: "0 0 0.25rem" }}>{brand.name}</p>
+                    <p style={{ fontFamily: COND, fontSize: "1.0625rem", fontWeight: 700, letterSpacing: "0.02em", color: INK, margin: 0 }}>{model.name}</p>
                   </div>
                 </Link>
               ))}
@@ -215,35 +211,71 @@ export default function BrandsPage() {
         </section>
       ))}
 
-      {/* ── CTA ── */}
-      <section style={{ backgroundColor: "#080808", padding: "5rem 2rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "2rem" }}>
-        <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.5625rem", letterSpacing: "0.22em", textTransform: "uppercase", color: "#a8a8a2", margin: 0 }}>
-          ENDMARKET / ПОДБОР ОБОРУДОВАНИЯ
-        </p>
-        <h2 style={{ fontFamily: "var(--font-barlow-condensed)", fontSize: "clamp(2.5rem, 5vw, 4.5rem)", fontWeight: 900, letterSpacing: "0.02em", color: "#f8f8f6", lineHeight: 0.92, margin: 0 }}>
-          {totalModels} МОДЕЛЕЙ.<br />
-          <span style={{ fontWeight: 300, color: "#6e6e66" }}>ОДИН ВЫБОР.</span>
-        </h2>
-        <Link href="/collection" style={{ display: "inline-block", backgroundColor: "#f8f8f6", color: "#080808", fontFamily: "var(--font-barlow)", fontSize: "0.5625rem", fontWeight: 700, letterSpacing: "0.22em", textTransform: "uppercase", textDecoration: "none", padding: "1.125rem 3rem" }}>
-          Смотреть коллекцию
-        </Link>
+      {/* Closing CTA */}
+      <section style={{ borderTop: `1px solid ${LINE}` }}>
+        <div className="br-wrap" style={{ paddingTop: "clamp(3.5rem, 8vw, 6rem)", paddingBottom: "clamp(4rem, 9vw, 7rem)", textAlign: "center" }}>
+          <p style={{ fontSize: "1.0625rem", color: FAINT, marginBottom: "1.25rem" }}>Подбор оборудования</p>
+          <h2 style={{ fontSize: "clamp(2.25rem, 6vw, 4rem)", fontWeight: 700, letterSpacing: "-0.025em", lineHeight: 1, margin: "0 0 2rem" }}>
+            {totalModels} моделей. Один выбор.
+          </h2>
+          <Link
+            href="/collection"
+            style={{ display: "inline-block", backgroundColor: INK, color: "#f4f4f1", fontSize: "0.95rem", fontWeight: 600, letterSpacing: "0.02em", textDecoration: "none", padding: "1.1rem 3rem" }}
+          >
+            Смотреть коллекцию →
+          </Link>
+        </div>
       </section>
 
       <style>{`
-        .brand-hero-img:hover { transform: scale(1.03); }
-        .model-card:hover .model-img {
-          transform: scale(1.06);
-          filter: grayscale(0%) contrast(1.08) !important;
+        .br-wrap {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding-left: clamp(1.5rem, 5vw, 3rem);
+          padding-right: clamp(1.5rem, 5vw, 3rem);
         }
+        .br-index {
+          display: grid;
+          grid-template-columns: 1fr auto auto;
+          gap: 1.5rem;
+          align-items: baseline;
+          padding: 1.5rem 0;
+          transition: opacity 0.2s ease;
+        }
+        .br-index:hover { opacity: 0.55; }
+        .br-editorial {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: clamp(2rem, 5vw, 5rem);
+          align-items: center;
+        }
+        .br-rev .br-media { order: 2; }
+        .br-stats {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 1.25rem;
+        }
+        .br-models {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          gap: 1px;
+          background: ${LINE};
+          border: 1px solid ${LINE};
+        }
+        .br-hero-img:hover { transform: scale(1.03); }
+        .br-card:hover .br-card-img { transform: scale(1.05); filter: grayscale(0%) contrast(1.05) !important; }
         @media (max-width: 900px) {
-          .brand-intro-grid { grid-template-columns: 1fr !important; }
-          .brand-stats-grid { grid-template-columns: repeat(2, 1fr) !important; }
-          .model-grid { grid-template-columns: repeat(4, 1fr) !important; }
+          .br-editorial { grid-template-columns: 1fr; }
+          .br-rev .br-media { order: 0; }
+          .br-models { grid-template-columns: repeat(3, 1fr); }
         }
         @media (max-width: 560px) {
-          .model-grid { grid-template-columns: repeat(2, 1fr) !important; }
+          .br-index { grid-template-columns: 1fr auto; }
+          .br-index > :nth-child(2) { display: none; }
+          .br-stats { grid-template-columns: repeat(2, 1fr); }
+          .br-models { grid-template-columns: repeat(2, 1fr); }
         }
       `}</style>
-    </>
+    </div>
   );
 }

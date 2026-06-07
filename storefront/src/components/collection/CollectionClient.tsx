@@ -337,6 +337,7 @@ export default function CollectionClient({
 
         {/* ── Page Header ── */}
         <div
+          className="collection-header"
           style={{
             padding: "2rem 1.5rem 1.25rem",
             borderBottom: "1px solid #e0ddd8",
@@ -387,6 +388,7 @@ export default function CollectionClient({
             backgroundColor: "#f3f3f1",
             position: "sticky",
             top: "72px",
+            marginTop: 0,
             zIndex: 10,
           }}
         >
@@ -742,6 +744,7 @@ export default function CollectionClient({
 
       <style>{`
         @media (max-width: 900px) {
+          .collection-header { display: none !important; }
           .collection-sidebar { display: none !important; }
           .mobile-filter-bar { display: flex !important; }
           .collection-grid { grid-template-columns: repeat(2, 1fr) !important; }

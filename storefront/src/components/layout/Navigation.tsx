@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, User, Search, Heart, ShoppingBag } from "lucide-react";
+import { Menu, X, User, Search, Heart, ShoppingBag, ChevronDown } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import { useWishlist } from "@/lib/wishlist";
 import SearchOverlay from "@/components/ui/SearchOverlay";
@@ -18,8 +18,32 @@ const NAV_LINKS = [
   { label: "Монтаж",           href: "/installation",                              highlight: false },
 ];
 
+// ── Mobile menu data ──
+const MENU_BRANDS = [
+  { label: "Ballu",      href: "/collection?brand=Ballu" },
+  { label: "Haier",      href: "/collection?brand=Haier" },
+  { label: "Hisense",    href: "/collection?brand=Hisense" },
+  { label: "Все бренды", href: "/brands" },
+];
+
+const MENU_SECONDARY = [
+  { label: "Доставка",                      href: "/delivery" },
+  { label: "Гарантия",                      href: "/guarantee" },
+  { label: "Монтаж",                        href: "/installation" },
+  { label: "Шоурум",                        href: "/showroom" },
+  { label: "Дизайнерам",                    href: "/designers" },
+  { label: "Пользовательское соглашение",   href: "/terms" },
+  { label: "Политика конфиденциальности",   href: "/privacy" },
+];
+
+const MENU_TERTIARY = [
+  { label: "О нас",     href: "/about" },
+  { label: "Контакты",  href: "/contact" },
+];
+
 export default function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [brandsOpen, setBrandsOpen] = useState(false);
   const { count, items, total, remove, update, isOpen, openCart, closeCart } = useCart();
   const { count: wishlistCount } = useWishlist();
   const [searchOpen, setSearchOpen] = useState(false);
@@ -123,67 +147,121 @@ export default function Navigation() {
       />
       {/* Slide-in panel from left */}
       <div
-        className={`fixed top-0 left-0 bottom-0 z-[60] w-[min(320px,85vw)] bg-[#0a0a0a] flex flex-col transition-transform duration-300 ease-[cubic-bezier(0.25,0.1,0.25,1)] lg:hidden ${menuOpen ? "translate-x-0" : "-translate-x-full"}`}
+        className={`fixed top-0 left-0 bottom-0 z-[60] w-[min(440px,90vw)] bg-[#f4f4f1] text-[#080808] flex flex-col overflow-y-auto transition-transform duration-300 ease-[cubic-bezier(0.25,0.1,0.25,1)] lg:hidden ${menuOpen ? "translate-x-0" : "-translate-x-full"}`}
         aria-hidden={!menuOpen}
+        style={{ fontFamily: "var(--font-barlow)" }}
       >
-        {/* Menu header */}
-        <div className="flex items-center justify-between px-5 h-[64px] border-b border-white/10 shrink-0">
-          <Link
-            href="/"
-            onClick={() => setMenuOpen(false)}
-            className="text-lg uppercase text-white"
-            style={{ fontFamily: "var(--font-display)", fontWeight: 600, letterSpacing: "0.24em", lineHeight: 0.9 }}
-          >
-            ENDMARKET
-          </Link>
+        {/* Close */}
+        <div className="flex items-center justify-start px-6 pt-6 pb-4 shrink-0">
           <button
             onClick={() => setMenuOpen(false)}
-            className="p-2 -mr-2 text-white/70 hover:text-white transition-colors touch-manipulation"
+            className="-ml-2 p-2 text-[#080808] active:opacity-60 transition-opacity touch-manipulation"
             aria-label="Закрыть меню"
           >
-            <X className="w-5 h-5" />
+            <X className="w-7 h-7" strokeWidth={1.25} />
           </button>
         </div>
 
-        {/* Nav links */}
-        <div className="flex-1 overflow-y-auto py-2">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.label}
-              href={link.href}
-              onClick={() => setMenuOpen(false)}
-              className={`flex items-center px-5 h-[52px] text-sm uppercase border-b border-white/[0.06] transition-colors ${link.highlight ? "text-white" : "text-white/60 hover:text-white"}`}
-              style={{ fontFamily: "var(--font-body)", fontWeight: link.highlight ? 600 : 500, letterSpacing: "0.16em" }}
-            >
-              {link.label}
-            </Link>
-          ))}
-          <button
-            onClick={() => { setMenuOpen(false); openCart(); }}
-            className="flex items-center w-full px-5 h-[52px] text-sm uppercase border-b border-white/[0.06] text-white/60 hover:text-white transition-colors touch-manipulation"
-            style={{ fontFamily: "var(--font-body)", fontWeight: 500, letterSpacing: "0.16em" }}
-          >
-            Корзина{count > 0 ? ` (${count})` : ""}
-          </button>
+        {/* Primary — account / wishlist with icons */}
+        <nav className="px-6 flex flex-col">
           <Link
             href="/account"
             onClick={() => setMenuOpen(false)}
-            className="flex items-center px-5 h-[52px] text-sm uppercase border-b border-white/[0.06] text-white/60 hover:text-white transition-colors"
-            style={{ fontFamily: "var(--font-body)", fontWeight: 500, letterSpacing: "0.16em" }}
+            className="flex items-center gap-3 py-2.5 text-[1.75rem] leading-none font-bold tracking-[-0.01em] active:opacity-60 transition-opacity"
           >
-            Мой профиль
+            Вход <User className="w-5 h-5" strokeWidth={1.5} />
           </Link>
           <Link
             href="/wishlist"
             onClick={() => setMenuOpen(false)}
-            className="flex items-center px-5 h-[52px] text-sm uppercase border-b border-white/[0.06] text-white/60 hover:text-white transition-colors"
-            style={{ fontFamily: "var(--font-body)", fontWeight: 500, letterSpacing: "0.16em" }}
+            className="flex items-center gap-3 py-2.5 text-[1.75rem] leading-none font-bold tracking-[-0.01em] active:opacity-60 transition-opacity"
           >
-            Избранное{wishlistCount > 0 ? ` (${wishlistCount})` : ""}
+            Избранное <Heart className="w-5 h-5" strokeWidth={1.5} />
+            {wishlistCount > 0 && (
+              <span className="text-[0.8125rem] font-medium text-[#a8a8a2] tracking-normal">({wishlistCount})</span>
+            )}
           </Link>
+
+          {/* Catalog */}
+          <Link
+            href="/collection"
+            onClick={() => setMenuOpen(false)}
+            className="py-2.5 text-[1.75rem] leading-none font-bold tracking-[-0.01em] active:opacity-60 transition-opacity"
+          >
+            Все модели
+          </Link>
+
+          {/* Expandable brands */}
+          <button
+            onClick={() => setBrandsOpen((v) => !v)}
+            className="flex items-center gap-2 py-2.5 text-[1.75rem] leading-none font-bold tracking-[-0.01em] text-left active:opacity-60 transition-opacity touch-manipulation"
+            aria-expanded={brandsOpen}
+          >
+            Бренды
+            <ChevronDown className={`w-6 h-6 transition-transform duration-200 ${brandsOpen ? "rotate-180" : ""}`} strokeWidth={1.5} />
+          </button>
+          {brandsOpen && (
+            <div className="flex flex-col pl-1 pb-1">
+              {MENU_BRANDS.map((b) => (
+                <Link
+                  key={b.label}
+                  href={b.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="py-1.5 text-[1.0625rem] text-[#4d4d45] active:opacity-60 transition-opacity"
+                >
+                  {b.label}
+                </Link>
+              ))}
+            </div>
+          )}
+
+          {/* Cart */}
+          <button
+            onClick={() => { setMenuOpen(false); openCart(); }}
+            className="flex items-center gap-3 py-2.5 text-[1.75rem] leading-none font-bold tracking-[-0.01em] text-left active:opacity-60 transition-opacity touch-manipulation"
+          >
+            Корзина <ShoppingBag className="w-5 h-5" strokeWidth={1.5} />
+            {count > 0 && (
+              <span className="text-[0.8125rem] font-medium text-[#a8a8a2] tracking-normal">({count})</span>
+            )}
+          </button>
+        </nav>
+
+        {/* Divider */}
+        <div className="mx-6 mt-6 border-t border-black/10" />
+
+        {/* Secondary — info links */}
+        <div className="px-6 py-6 flex flex-col">
+          {MENU_SECONDARY.map((l) => (
+            <Link
+              key={l.label}
+              href={l.href}
+              onClick={() => setMenuOpen(false)}
+              className="py-2 text-[1.0625rem] leading-snug text-[#2a2a22] active:opacity-60 transition-opacity"
+            >
+              {l.label}
+            </Link>
+          ))}
         </div>
 
+        {/* Divider */}
+        <div className="mx-6 border-t border-black/10" />
 
+        {/* Tertiary — about */}
+        <div className="px-6 py-6 flex flex-col">
+          {MENU_TERTIARY.map((l) => (
+            <Link
+              key={l.label}
+              href={l.href}
+              onClick={() => setMenuOpen(false)}
+              className="py-2 text-[1.0625rem] leading-snug text-[#2a2a22] active:opacity-60 transition-opacity"
+            >
+              {l.label}
+            </Link>
+          ))}
+        </div>
+
+        <div className="h-6 shrink-0" />
       </div>
 
       {/* ── Cart backdrop ── */}
@@ -299,8 +377,11 @@ export default function Navigation() {
         )}
       </div>
 
-      {/* ── Search Overlay ── */}
-      <SearchOverlay isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+      {/* ── Search Overlay / Floating FAB ── */}
+      <SearchOverlay
+        isOpen={searchOpen}
+        onClose={() => setSearchOpen(false)}
+      />
     </>
   );
 }

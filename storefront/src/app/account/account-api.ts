@@ -101,3 +101,37 @@ export async function logoutCustomer() {
     }),
   })
 }
+
+// Change password for the currently authenticated customer.
+export async function updatePassword(password: string) {
+  return accountFetch<{ ok: true }>("/api/account", {
+    method: "POST",
+    body: JSON.stringify({
+      action: "update-password",
+      password,
+    }),
+  })
+}
+
+// Trigger Medusa's reset-password flow — emails a reset-token link.
+export async function requestPasswordReset(email: string) {
+  return accountFetch<{ ok: true }>("/api/account", {
+    method: "POST",
+    body: JSON.stringify({
+      action: "request-password-reset",
+      email,
+    }),
+  })
+}
+
+// Complete the reset using the token from the emailed link.
+export async function confirmPasswordReset(token: string, password: string) {
+  return accountFetch<{ ok: true }>("/api/account", {
+    method: "POST",
+    body: JSON.stringify({
+      action: "confirm-password-reset",
+      token,
+      password,
+    }),
+  })
+}

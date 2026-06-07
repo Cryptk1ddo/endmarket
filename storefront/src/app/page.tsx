@@ -16,11 +16,52 @@ export default function HomePage() {
       <style>{`
         .banner-img { transition: transform 1.5s ease-out; }
         .hero-banner:hover .banner-img { transform: scale(1.04); }
-        .metrics-strip { flex-wrap: wrap; row-gap: 0.65rem; }
+        .metrics-strip {
+          background: #f3f3f1;
+          border-bottom: 1px solid #e0ddd8;
+        }
+        .metrics-grid {
+          display: grid;
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 0;
+          width: 100%;
+        }
+        .metric-item {
+          padding: 0 1.5rem;
+          min-height: 3.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          border-left: 1px solid #e6e2dd;
+        }
+        .metric-item:first-child { border-left: none; }
         @media (max-width: 640px) {
           .hero-section { grid-template-columns: 1fr !important; }
           .promo-bar { grid-template-columns: 1fr !important; }
-          .metrics-strip { padding: 0.875rem 1.25rem !important; }
+          .promo-cell {
+            padding: 0.45rem 0.9rem !important;
+            font-size: 0.56rem !important;
+            letter-spacing: 0.12em !important;
+            line-height: 1.35 !important;
+          }
+          .metrics-strip {
+            padding: 0.2rem 0 !important;
+          }
+          .metrics-grid {
+            grid-template-columns: 1fr 1fr;
+          }
+          .metric-item {
+            min-height: 2.6rem;
+            padding: 0.45rem 0.8rem;
+            justify-content: flex-start;
+            text-align: left;
+            border-left: none;
+            border-top: 1px solid #ece8e3;
+          }
+          .metric-item:nth-child(-n + 2) {
+            border-top: none;
+          }
         }
       `}</style>
 
@@ -41,13 +82,13 @@ export default function HomePage() {
           textTransform: "uppercase",
         }}
       >
-        <div style={{ backgroundColor: "#f3f3f1", color: "#6e6e66", padding: "0.625rem 1.5rem", textAlign: "center", borderBottom: "1px solid #e0ddd8", borderRight: "1px solid #e0ddd8" }}>
+        <div className="promo-cell" style={{ backgroundColor: "#f3f3f1", color: "#6e6e66", padding: "0.625rem 1.5rem", textAlign: "center", borderBottom: "1px solid #e0ddd8", borderRight: "1px solid #e0ddd8" }}>
           Ballu, Haier, Hisense — официальный дистрибьютор |{"\ "}
           <Link href="/collection" style={{ color: "#080808", textDecoration: "underline", textUnderlineOffset: "3px" }}>
             Смотреть каталог
           </Link>
         </div>
-        <div style={{ backgroundColor: "#eaeae8", color: "#6e6e66", padding: "0.625rem 1.5rem", textAlign: "center", borderBottom: "1px solid #e0ddd8" }}>
+        <div className="promo-cell" style={{ backgroundColor: "#eaeae8", color: "#6e6e66", padding: "0.625rem 1.5rem", textAlign: "center", borderBottom: "1px solid #e0ddd8" }}>
           Доставка по всей России — 1–7 дней |{"\ "}
           <Link href="/delivery" style={{ color: "#080808", textDecoration: "underline", textUnderlineOffset: "3px" }}>
             Подробнее
@@ -114,11 +155,10 @@ export default function HomePage() {
       </section>
 
       {/* ── Brand metrics strip ── */}
-      <div className="metrics-strip" style={{ display: "flex", alignItems: "center", padding: "1rem 2rem", borderBottom: "1px solid #e0ddd8", backgroundColor: "#f8f8f6" }}>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "0", fontFamily: "var(--font-body)", fontSize: "0.625rem", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#8f8f88" }}>
-          {["4 БРЕНДА", "12 МОДЕЛЕЙ", "ОФИЦИАЛЬНЫЙ ДИСТРИБЬЮТОР", "ГАРАНТИЯ ПРОИЗВОДИТЕЛЯ"].map((stat, i) => (
-            <span key={stat} style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-              {i > 0 && <span style={{ margin: "0 1rem", opacity: 0.4 }}>·</span>}
+      <div className="metrics-strip" style={{ display: "flex", alignItems: "center", padding: "0.35rem 0" }}>
+        <div className="metrics-grid" style={{ fontFamily: "var(--font-body)", fontSize: "0.625rem", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#8f8f88" }}>
+          {["4 БРЕНДА", "12 МОДЕЛЕЙ", "ОФИЦИАЛЬНЫЙ ДИСТРИБЬЮТОР", "ГАРАНТИЯ ПРОИЗВОДИТЕЛЯ"].map((stat) => (
+            <span key={stat} className="metric-item">
               {stat}
             </span>
           ))}

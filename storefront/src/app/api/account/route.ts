@@ -222,6 +222,49 @@ export async function POST(req: NextRequest) {
       return res
     }
 
+    // Change password for the logged-in customer using their session token.
+    if (action === "update-password") {
+      const token = getToken(req)
+
+      if (!token) {
+        return NextResponse.json({ error: "Not authenticated" }, { status: 401 })
+      }
+
+      await medusaFetch("/auth/customer/emailpass/update", {
+        method: "POST",
+        token,
+        body: { password: body.password },
+      })
+
+      return NextResponse.json({ ok: true })
+    }
+
+    // Generate a reset token + emit the reset event (Medusa sends the email).
+    // Always resolves OK so the endpoint can't be used to probe registered emails.
+    if (action === "request-password-reset") {
+      try {
+        await medusaFetch("/auth/customer/emailpass/reset-password", {
+          method: "POST",
+          body: { identifier: body.email },
+        })
+      } catch {
+        /* swallow — do not leak whether the email exists */
+      }
+
+      return NextResponse.json({ ok: true })
+    }
+
+    // Complete the reset: the emailed token authorizes the password update.
+    if (action === "confirm-password-reset") {
+      await medusaFetch("/auth/customer/emailpass/update", {
+        method: "POST",
+        token: body.token,
+        body: { password: body.password },
+      })
+
+      return NextResponse.json({ ok: true })
+    }
+
     return NextResponse.json({ error: "Invalid action" }, { status: 400 })
   } catch (error) {
     return errorResponse(error)
