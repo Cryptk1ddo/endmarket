@@ -110,7 +110,8 @@ export default function FeaturedCollections({ products }: { products: Product[] 
                   objectFit: "cover",
                   filter: "grayscale(15%)",
                 }}
-              />
+                unoptimized
+/>
             </div>
 
             {/* Label */}

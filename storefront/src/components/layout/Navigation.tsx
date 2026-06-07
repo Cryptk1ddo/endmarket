@@ -73,7 +73,7 @@ export default function Navigation() {
           <div className="flex items-center gap-1 md:gap-4 shrink-0">
             <div className="flex items-center">
               <Link
-                href="/profile"
+                href="/account"
                 className="hidden md:flex p-2.5 text-white hover:text-gray-300 transition-colors touch-manipulation"
                 aria-label="Профиль"
               >
@@ -166,7 +166,7 @@ export default function Navigation() {
             Корзина{count > 0 ? ` (${count})` : ""}
           </button>
           <Link
-            href="/profile"
+            href="/account"
             onClick={() => setMenuOpen(false)}
             className="flex items-center px-5 h-[52px] text-sm uppercase border-b border-white/[0.06] text-white/60 hover:text-white transition-colors"
             style={{ fontFamily: "var(--font-body)", fontWeight: 500, letterSpacing: "0.16em" }}
@@ -235,7 +235,8 @@ export default function Navigation() {
                     fill
                     sizes="80px"
                     style={{ objectFit: "cover", filter: "grayscale(15%)" }}
-                  />
+                    unoptimized
+/>
                 </div>
                 <div className="flex flex-col justify-between">
                   <div>

@@ -99,7 +99,8 @@ export default function ProductShowcase({ featured }: { featured: Product[] }) {
                   transition: "transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1)",
                   transform: hoveredId === product.id ? "scale(1.04)" : "scale(1)",
                 }}
-              />
+                unoptimized
+/>
             </div>
 
             {/* Info */}

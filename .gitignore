@@ -102,3 +102,21 @@ Dockerfile.debug
 # Local backups/debug
 *.bak.*
 Dockerfile.debug
+
+# Local/server env files
+.env
+.env.*
+storefront/.env.production
+
+# Backups
+*.bak.*
+*.backup
+*.old
+
+# Local import assets
+import/images/
+import/*.csv
+
+# Build/cache
+.next/
+node_modules/

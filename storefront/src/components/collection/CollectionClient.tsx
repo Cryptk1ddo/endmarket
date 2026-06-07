@@ -541,7 +541,8 @@ export default function CollectionClient({
                             transform: isHovered ? "scale(1.035)" : "scale(1)",
                             opacity: activeIdx === i ? 1 : 0,
                           }}
-                        />
+                          unoptimized
+/>
                       ))}
                       {/* Dot indicators — only when multiple images + hovered */}
                       {imgs.length > 1 && isHovered && (

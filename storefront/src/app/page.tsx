@@ -69,7 +69,8 @@ export default function HomePage() {
             className="banner-img"
             style={{ objectFit: "cover", objectPosition: "center top", filter: "brightness(0.75)" }}
             priority
-          />
+            unoptimized
+/>
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.1) 50%, transparent 100%)" }} />
           <div style={{ position: "absolute", bottom: "2.5rem", left: "clamp(1.5rem, 4vw, 2.5rem)", right: "1.5rem" }}>
             <p style={{ margin: "0 0 0.875rem", fontFamily: "var(--font-body)", fontSize: "0.625rem", fontWeight: 500, letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(243,243,241,0.72)" }}>
@@ -94,7 +95,8 @@ export default function HomePage() {
             className="banner-img"
             style={{ objectFit: "cover", objectPosition: "center", filter: "brightness(0.7)" }}
             priority
-          />
+            unoptimized
+/>
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.1) 50%, transparent 100%)" }} />
           <div style={{ position: "absolute", bottom: "2.5rem", left: "clamp(1.5rem, 4vw, 2.5rem)", right: "1.5rem" }}>
             <p style={{ margin: "0 0 0.875rem", fontFamily: "var(--font-body)", fontSize: "0.625rem", fontWeight: 500, letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(243,243,241,0.72)" }}>

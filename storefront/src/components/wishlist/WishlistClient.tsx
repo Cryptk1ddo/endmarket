@@ -61,7 +61,8 @@ export default function WishlistClient() {
                     fill
                     sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
                     style={{ objectFit: "cover", filter: "grayscale(10%)" }}
-                  />
+                    unoptimized
+/>
                   {/* Remove button */}
                   <button
                     onClick={() => toggle(product)}

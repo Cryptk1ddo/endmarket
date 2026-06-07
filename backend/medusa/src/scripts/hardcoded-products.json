@@ -1,0 +1,2442 @@
+[
+  {
+    "id": "ballu-bsw-07hn1",
+    "slug": "ballu-bsw-07hn1",
+    "name": "Ballu BSW-07HN1",
+    "subtitle": "Настенный инверторный кондиционер, 7 BTU (20 м²)",
+    "collection": "Настенные",
+    "brand": "Ballu",
+    "price": 26900,
+    "featured": true,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Тихая работа от 19 дБ. Обогрев при −15 °C. Автоочистка испарителя.",
+    "longDescription": "BSW-07HN1 — базовая инверторная серия Ballu с увеличенным диапазоном обогрева. Работает при наружной температуре до −15 °C. Встроенная функция самоочистки испарителя предотвращает размножение бактерий. Уровень шума внутреннего блока от 19 дБ.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,05 кВт (7 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,20 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 20 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 19 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Габариты вн. блока",
+        "value": "695 × 260 × 195 мм"
+      }
+    ],
+    "imageSeed": "ballu-07",
+    "image": "/generated/ac-campaigns/ballu-bsw-07hn1/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/ballu-bsw-07hn1/a-studio-hero.webp",
+      "/generated/ac-campaigns/ballu-bsw-07hn1/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/ballu-bsw-07hn1/c-exterior-weather.webp",
+      "/generated/ac-campaigns/ballu-bsw-07hn1/d-product-card-bento.webp",
+      "/generated/ac-campaigns/ballu-bsw-07hn1/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "ballu-bsw-09hn1",
+    "slug": "ballu-bsw-09hn1",
+    "name": "Ballu BSW-09HN1",
+    "subtitle": "Настенный инверторный кондиционер, 9 BTU (25 м²)",
+    "collection": "Настенные",
+    "brand": "Ballu",
+    "price": 31900,
+    "featured": true,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Оптимальный выбор для спальни и гостиной до 25 м².",
+    "longDescription": "BSW-09HN1 — самая востребованная модель серии. Идеально подходит для спальни, гостиной или кабинета площадью до 25 м². Инверторный компрессор обеспечивает точное поддержание температуры и снижает потребление электроэнергии до 40%.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,65 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,90 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 22 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Габариты вн. блока",
+        "value": "780 × 280 × 203 мм"
+      }
+    ],
+    "imageSeed": "ballu-09",
+    "image": "/generated/ac-campaigns/ballu-bsw-09hn1/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/ballu-bsw-09hn1/a-studio-hero.webp",
+      "/generated/ac-campaigns/ballu-bsw-09hn1/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/ballu-bsw-09hn1/c-exterior-weather.webp",
+      "/generated/ac-campaigns/ballu-bsw-09hn1/d-product-card-bento.webp",
+      "/generated/ac-campaigns/ballu-bsw-09hn1/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "ballu-bsw-12hn1",
+    "slug": "ballu-bsw-12hn1",
+    "name": "Ballu BSW-12HN1",
+    "subtitle": "Настенный инверторный кондиционер, 12 BTU (35 м²)",
+    "collection": "Настенные",
+    "brand": "Ballu",
+    "price": 38900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Мощный инверторный агрегат для просторных помещений.",
+    "longDescription": "BSW-12HN1 рассчитан на просторные гостиные, переговорные или торговые помещения площадью до 35 м². Функция I Feel — датчик температуры в пульте ДУ для точного контроля климата в зоне присутствия.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "3,52 кВт (12 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "3,81 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 35 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 24 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Габариты вн. блока",
+        "value": "880 × 300 × 215 мм"
+      }
+    ],
+    "imageSeed": "ballu-12",
+    "image": "/generated/ac-campaigns/ballu-bsw-12hn1/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/ballu-bsw-12hn1/a-studio-hero.webp",
+      "/generated/ac-campaigns/ballu-bsw-12hn1/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/ballu-bsw-12hn1/c-exterior-weather.webp",
+      "/generated/ac-campaigns/ballu-bsw-12hn1/d-product-card-bento.webp",
+      "/generated/ac-campaigns/ballu-bsw-12hn1/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "ballu-bsw-18hn1",
+    "slug": "ballu-bsw-18hn1",
+    "name": "Ballu BSW-18HN1",
+    "subtitle": "Настенный инверторный кондиционер, 18 BTU (50 м²)",
+    "collection": "Настенные",
+    "brand": "Ballu",
+    "price": 54900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A",
+    "description": "Высокая производительность для больших открытых пространств.",
+    "longDescription": "BSW-18HN1 обеспечивает климат в помещениях до 50 м². Двойной поток воздуха — горизонтальный и вертикальный — гарантирует равномерное распределение температуры без сквозняков.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "5,27 кВт (18 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "5,57 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 50 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 30 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Габариты вн. блока",
+        "value": "1080 × 330 × 260 мм"
+      }
+    ],
+    "imageSeed": "ballu-18",
+    "image": "/generated/ac-campaigns/ballu-bsw-18hn1/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/ballu-bsw-18hn1/a-studio-hero.webp",
+      "/generated/ac-campaigns/ballu-bsw-18hn1/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/ballu-bsw-18hn1/c-exterior-weather.webp",
+      "/generated/ac-campaigns/ballu-bsw-18hn1/d-product-card-bento.webp",
+      "/generated/ac-campaigns/ballu-bsw-18hn1/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "ballu-bswi-09hn1",
+    "slug": "ballu-bswi-09hn1",
+    "name": "Ballu BSWI-09HN1",
+    "subtitle": "Настенный инвертор Ultra, 9 BTU (25 м²)",
+    "collection": "Настенные",
+    "brand": "Ballu",
+    "price": 49900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A++",
+    "description": "Серия Ultra с обогревом при −25 °C. Wi-Fi. Шум 20 дБ.",
+    "longDescription": "BSWI-09HN1 серии Ultra — расширенная версия с увеличенным рабочим диапазоном. Работает при наружной температуре до −25 °C. Титановый фильтр против бактерий. Wi-Fi встроен. Управление через приложение Ballu Home.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,65 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "3,20 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 20 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "ballu-bswi-09",
+    "image": "/generated/ac-campaigns/ballu-bswi-09hn1/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/ballu-bswi-09hn1/a-studio-hero.webp",
+      "/generated/ac-campaigns/ballu-bswi-09hn1/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/ballu-bswi-09hn1/c-exterior-weather.webp",
+      "/generated/ac-campaigns/ballu-bswi-09hn1/d-product-card-bento.webp",
+      "/generated/ac-campaigns/ballu-bswi-09hn1/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "ballu-bswi-12hn1",
+    "slug": "ballu-bswi-12hn1",
+    "name": "Ballu BSWI-12HN1",
+    "subtitle": "Настенный инвертор Ultra, 12 BTU (35 м²)",
+    "collection": "Настенные",
+    "brand": "Ballu",
+    "price": 58900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A++",
+    "description": "Производительная модель с обогревом до −25 °C. Wi-Fi.",
+    "longDescription": "BSWI-12HN1 Ultra — для гостиных и переговорных до 35 м². Режим Smart Heat адаптирует мощность обогрева к уличной температуре автоматически. Встроенный Wi-Fi совместим с голосовыми помощниками.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "3,52 кВт (12 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "4,00 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 35 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 22 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "ballu-bswi-12",
+    "image": "/generated/ac-campaigns/ballu-bswi-12hn1/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/ballu-bswi-12hn1/a-studio-hero.webp",
+      "/generated/ac-campaigns/ballu-bswi-12hn1/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/ballu-bswi-12hn1/c-exterior-weather.webp",
+      "/generated/ac-campaigns/ballu-bswi-12hn1/d-product-card-bento.webp",
+      "/generated/ac-campaigns/ballu-bswi-12hn1/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "ballu-bswi-18hn1",
+    "slug": "ballu-bswi-18hn1",
+    "name": "Ballu BSWI-18HN1",
+    "subtitle": "Настенный инвертор Ultra, 18 BTU (50 м²)",
+    "collection": "Настенные",
+    "brand": "Ballu",
+    "price": 79900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A++",
+    "description": "Флагман серии Ultra для пространств до 50 м².",
+    "longDescription": "BSWI-18HN1 Ultra — высокопроизводительная настенная система для просторных помещений. Технология Turbo обеспечивает быстрое достижение заданной температуры. Обогрев при −25 °C без снижения КПД.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "5,27 кВт (18 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "6,00 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 50 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 30 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "ballu-bswi-18",
+    "image": "/generated/ac-campaigns/ballu-bswi-18hn1/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/ballu-bswi-18hn1/a-studio-hero.webp",
+      "/generated/ac-campaigns/ballu-bswi-18hn1/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/ballu-bswi-18hn1/c-exterior-weather.webp",
+      "/generated/ac-campaigns/ballu-bswi-18hn1/d-product-card-bento.webp",
+      "/generated/ac-campaigns/ballu-bswi-18hn1/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "ballu-bswi-24hn1",
+    "slug": "ballu-bswi-24hn1",
+    "name": "Ballu BSWI-24HN1",
+    "subtitle": "Настенный инвертор Ultra, 24 BTU (70 м²)",
+    "collection": "Настенные",
+    "brand": "Ballu",
+    "price": 99900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Максимальная мощность серии Ultra для зон до 70 м².",
+    "longDescription": "BSWI-24HN1 Ultra — мощнейшая настенная модель Ballu для больших открытых пространств: студии, торговые залы, лобби. Двухмоторная конструкция вентилятора обеспечивает равномерное распределение воздуха.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "7,03 кВт (24 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "7,50 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 70 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 36 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "ballu-bswi-24",
+    "image": "/generated/ac-campaigns/ballu-bswi-24hn1/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/ballu-bswi-24hn1/a-studio-hero.webp",
+      "/generated/ac-campaigns/ballu-bswi-24hn1/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/ballu-bswi-24hn1/c-exterior-weather.webp",
+      "/generated/ac-campaigns/ballu-bswi-24hn1/d-product-card-bento.webp",
+      "/generated/ac-campaigns/ballu-bswi-24hn1/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "ballu-blc-07hn1",
+    "slug": "ballu-blc-07hn1",
+    "name": "Ballu BLC-07HN1",
+    "subtitle": "Кассетный кондиционер, 7 BTU (20 м²)",
+    "collection": "Кассетные",
+    "brand": "Ballu",
+    "price": 89900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Потолочный кассетный блок для офисов и торговых залов.",
+    "longDescription": "BLC-07HN1 — кассетный блок для встройки в подвесной потолок. Четырёхсторонний обдув обеспечивает равномерный климат в открытой планировке. Панель 600×600 мм подходит к стандартным потолочным системам.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,05 кВт (7 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,20 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 20 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Панель",
+        "value": "600 × 600 мм"
+      },
+      {
+        "label": "Обдув",
+        "value": "4-сторонний"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 32 дБ"
+      }
+    ],
+    "imageSeed": "ballu-blc-07",
+    "image": "/generated/ac-campaigns/ballu-blc-07hn1/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/ballu-blc-07hn1/a-studio-hero.webp",
+      "/generated/ac-campaigns/ballu-blc-07hn1/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/ballu-blc-07hn1/c-exterior-weather.webp",
+      "/generated/ac-campaigns/ballu-blc-07hn1/d-product-card-bento.webp",
+      "/generated/ac-campaigns/ballu-blc-07hn1/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "ballu-bld-09hn1",
+    "slug": "ballu-bld-09hn1",
+    "name": "Ballu BLD-09HN1",
+    "subtitle": "Канальный кондиционер, 9 BTU (25 м²)",
+    "collection": "Канальные",
+    "brand": "Ballu",
+    "price": 84900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Скрытый канальный блок для межпотолочного пространства.",
+    "longDescription": "BLD-09HN1 — канальная система для скрытого монтажа. Блок устанавливается в межпотолочное пространство; воздух распределяется через систему воздуховодов. Идеально для ресторанов, бутиков, офисов представительского класса.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,65 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,80 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Статическое давление",
+        "value": "до 30 Па"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 28 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      }
+    ],
+    "imageSeed": "ballu-bld-09",
+    "image": "/generated/ac-campaigns/ballu-bld-09hn1/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/ballu-bld-09hn1/a-studio-hero.webp",
+      "/generated/ac-campaigns/ballu-bld-09hn1/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/ballu-bld-09hn1/c-exterior-weather.webp",
+      "/generated/ac-campaigns/ballu-bld-09hn1/d-product-card-bento.webp",
+      "/generated/ac-campaigns/ballu-bld-09hn1/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "haier-as07tt4hra",
+    "slug": "haier-as07tt4hra",
+    "name": "Haier AS07TT4HRA",
+    "subtitle": "Настенный инверторный кондиционер, 7 BTU (20 м²)",
+    "collection": "Настенные",
+    "brand": "Haier",
+    "price": 33900,
+    "featured": true,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A++",
+    "description": "Ультратонкий дизайн 172 мм. Самоочистка. Обогрев при −20 °C.",
+    "longDescription": "Серия Tundra — лидер продаж Haier. Толщина корпуса 172 мм обеспечивает органичный вид на любой стене. Двойная самоочистка испарителя. Расширенный диапазон обогрева до −20 °C снаружи.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,00 кВт (7 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,20 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 20 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 18 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−20 °C"
+      },
+      {
+        "label": "Толщина корпуса",
+        "value": "172 мм"
+      }
+    ],
+    "imageSeed": "haier-07",
+    "image": "/generated/ac-campaigns/haier-as07tt4hra/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/haier-as07tt4hra/a-studio-hero.webp",
+      "/generated/ac-campaigns/haier-as07tt4hra/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/haier-as07tt4hra/c-exterior-weather.webp",
+      "/generated/ac-campaigns/haier-as07tt4hra/d-product-card-bento.webp",
+      "/generated/ac-campaigns/haier-as07tt4hra/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "haier-as09tt4hra",
+    "slug": "haier-as09tt4hra",
+    "name": "Haier AS09TT4HRA",
+    "subtitle": "Настенный инверторный кондиционер, 9 BTU (25 м²)",
+    "collection": "Настенные",
+    "brand": "Haier",
+    "price": 39900,
+    "featured": true,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A++",
+    "description": "Наиболее продаваемая модель Tundra. Wi-Fi, голосовое управление.",
+    "longDescription": "AS09TT4HRA объединяет экономичность A++ и современные функции. Управление через приложение hOn, совместимость с Алисой и Google Assistant. Тихий режим — 18 дБ.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,60 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,80 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 18 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−20 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "haier-09",
+    "image": "/generated/ac-campaigns/haier-as09tt4hra/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/haier-as09tt4hra/a-studio-hero.webp",
+      "/generated/ac-campaigns/haier-as09tt4hra/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/haier-as09tt4hra/c-exterior-weather.webp",
+      "/generated/ac-campaigns/haier-as09tt4hra/d-product-card-bento.webp",
+      "/generated/ac-campaigns/haier-as09tt4hra/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "haier-as12tt4hra",
+    "slug": "haier-as12tt4hra",
+    "name": "Haier AS12TT4HRA",
+    "subtitle": "Настенный инверторный кондиционер, 12 BTU (35 м²)",
+    "collection": "Настенные",
+    "brand": "Haier",
+    "price": 47900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A++",
+    "description": "Тихий и экономичный агрегат для гостиной или офиса до 35 м².",
+    "longDescription": "AS12TT4HRA — оптимальный выбор для гостиных и переговорных. Режим Auto Cleaning предотвращает образование плесени. Фильтр с катехинами нейтрализует бактерии и вирусы.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "3,50 кВт (12 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "3,70 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 35 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 20 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−20 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "haier-12",
+    "image": "/generated/ac-campaigns/haier-as12tt4hra/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/haier-as12tt4hra/a-studio-hero.webp",
+      "/generated/ac-campaigns/haier-as12tt4hra/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/haier-as12tt4hra/c-exterior-weather.webp",
+      "/generated/ac-campaigns/haier-as12tt4hra/d-product-card-bento.webp",
+      "/generated/ac-campaigns/haier-as12tt4hra/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "haier-as18tt4hra",
+    "slug": "haier-as18tt4hra",
+    "name": "Haier AS18TT4HRA",
+    "subtitle": "Настенный инверторный кондиционер, 18 BTU (50 м²)",
+    "collection": "Настенные",
+    "brand": "Haier",
+    "price": 67900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Мощный агрегат для просторных зон с Wi-Fi управлением.",
+    "longDescription": "AS18TT4HRA обеспечивает стабильный климат в помещениях до 50 м². Режим экономии отслеживает занятость помещения. Работа в режиме обогрева при −20 °C без потери эффективности.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "5,20 кВт (18 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "5,40 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 50 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 32 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−20 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "haier-18",
+    "image": "/generated/ac-campaigns/haier-as18tt4hra/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/haier-as18tt4hra/a-studio-hero.webp",
+      "/generated/ac-campaigns/haier-as18tt4hra/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/haier-as18tt4hra/c-exterior-weather.webp",
+      "/generated/ac-campaigns/haier-as18tt4hra/d-product-card-bento.webp",
+      "/generated/ac-campaigns/haier-as18tt4hra/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "haier-as07qm2hia",
+    "slug": "haier-as07qm2hia",
+    "name": "Haier AS07QM2HIA",
+    "subtitle": "Expert Smart, 7 BTU (20 м²)",
+    "collection": "Настенные",
+    "brand": "Haier",
+    "price": 52900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A+++",
+    "description": "Серия Expert Smart. A+++. Обогрев до −25 °C. Шум 16 дБ.",
+    "longDescription": "AS07QM2HIA Expert Smart — флагманская настенная серия Haier. Класс A+++. Датчики CO₂ и влажности автоматически регулируют вентиляцию. Бесшумный режим 16 дБ для сна.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,00 кВт (7 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,40 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 20 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 16 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Датчики",
+        "value": "CO₂, влажность"
+      }
+    ],
+    "imageSeed": "haier-expert-07",
+    "image": "/generated/ac-campaigns/haier-as07qm2hia/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/haier-as07qm2hia/a-studio-hero.webp",
+      "/generated/ac-campaigns/haier-as07qm2hia/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/haier-as07qm2hia/c-exterior-weather.webp",
+      "/generated/ac-campaigns/haier-as07qm2hia/d-product-card-bento.webp",
+      "/generated/ac-campaigns/haier-as07qm2hia/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "haier-as09qm2hia",
+    "slug": "haier-as09qm2hia",
+    "name": "Haier AS09QM2HIA",
+    "subtitle": "Expert Smart, 9 BTU (25 м²)",
+    "collection": "Настенные",
+    "brand": "Haier",
+    "price": 62900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A+++",
+    "description": "A+++, 16 дБ, датчики CO₂ и влажности. Haier Expert Smart.",
+    "longDescription": "AS09QM2HIA Expert Smart — наиболее востребованная модель флагманской серии. Алгоритм Intelligent Comfort адаптирует температуру и скорость вентилятора к предпочтениям пользователя автоматически.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,60 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "3,00 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 16 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "haier-expert-09",
+    "image": "/generated/ac-campaigns/haier-as09qm2hia/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/haier-as09qm2hia/a-studio-hero.webp",
+      "/generated/ac-campaigns/haier-as09qm2hia/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/haier-as09qm2hia/c-exterior-weather.webp",
+      "/generated/ac-campaigns/haier-as09qm2hia/d-product-card-bento.webp",
+      "/generated/ac-campaigns/haier-as09qm2hia/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "haier-as12qm2hia",
+    "slug": "haier-as12qm2hia",
+    "name": "Haier AS12QM2HIA",
+    "subtitle": "Expert Smart, 12 BTU (35 м²)",
+    "collection": "Настенные",
+    "brand": "Haier",
+    "price": 74900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A+++",
+    "description": "Флагман Expert Smart для гостиных и офисов до 35 м².",
+    "longDescription": "AS12QM2HIA предназначен для просторных гостиных, переговорных и кабинетов. Режим Fresh Air подаёт очищенный наружный воздух без открывания окон. Самоочистка золотым нано-покрытием.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "3,50 кВт (12 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "4,00 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 35 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 18 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "haier-expert-12",
+    "image": "/generated/ac-campaigns/haier-as12qm2hia/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/haier-as12qm2hia/a-studio-hero.webp",
+      "/generated/ac-campaigns/haier-as12qm2hia/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/haier-as12qm2hia/c-exterior-weather.webp",
+      "/generated/ac-campaigns/haier-as12qm2hia/d-product-card-bento.webp",
+      "/generated/ac-campaigns/haier-as12qm2hia/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "haier-as18qm2hia",
+    "slug": "haier-as18qm2hia",
+    "name": "Haier AS18QM2HIA",
+    "subtitle": "Expert Smart, 18 BTU (50 м²)",
+    "collection": "Настенные",
+    "brand": "Haier",
+    "price": 94900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A+++",
+    "description": "Максимальная мощность Expert Smart для пространств до 50 м².",
+    "longDescription": "AS18QM2HIA Expert Smart — флагманская настенная система для просторных зон. Технология 3D Airflow обеспечивает равномерный климат без тепловых пятен. Голосовое управление через Яндекс.Алису.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "5,20 кВт (18 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "5,80 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 50 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 22 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "haier-expert-18",
+    "image": "/generated/ac-campaigns/haier-as18qm2hia/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/haier-as18qm2hia/a-studio-hero.webp",
+      "/generated/ac-campaigns/haier-as18qm2hia/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/haier-as18qm2hia/c-exterior-weather.webp",
+      "/generated/ac-campaigns/haier-as18qm2hia/d-product-card-bento.webp",
+      "/generated/ac-campaigns/haier-as18qm2hia/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "haier-ab48s2sd1fa",
+    "slug": "haier-ab48s2sd1fa",
+    "name": "Haier AB48S2SD1FA",
+    "subtitle": "Кассетный кондиционер, 48 BTU (140 м²)",
+    "collection": "Кассетные",
+    "brand": "Haier",
+    "price": 139900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A",
+    "description": "Мощный кассетный блок для торговых и представительских пространств.",
+    "longDescription": "AB48S2SD1FA — кассетная система для крупных открытых пространств: торговые залы, рестораны, лобби до 140 м². Четырёхсторонний обдув с автоматической жалюзийной системой. Управление через BACnet для интеграции в системы умного здания.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "14,00 кВт (48 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "15,50 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 140 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-410A"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A"
+      },
+      {
+        "label": "Обдув",
+        "value": "4-сторонний"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 44 дБ"
+      },
+      {
+        "label": "Панель",
+        "value": "950 × 950 мм"
+      }
+    ],
+    "imageSeed": "haier-cassette",
+    "image": "/generated/ac-campaigns/haier-ab48s2sd1fa/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/haier-ab48s2sd1fa/a-studio-hero.webp",
+      "/generated/ac-campaigns/haier-ab48s2sd1fa/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/haier-ab48s2sd1fa/c-exterior-weather.webp",
+      "/generated/ac-campaigns/haier-ab48s2sd1fa/d-product-card-bento.webp",
+      "/generated/ac-campaigns/haier-ab48s2sd1fa/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "haier-ac36cs1era",
+    "slug": "haier-ac36cs1era",
+    "name": "Haier AC36CS1ERA",
+    "subtitle": "Напольно-потолочный кондиционер, 36 BTU (90 м²)",
+    "collection": "Напольно-потолочные",
+    "brand": "Haier",
+    "price": 154900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A",
+    "description": "Мощная консольная система для торговых и офисных пространств.",
+    "longDescription": "AC36CS1ERA рассчитан на просторные торговые залы, рестораны и офисы до 90 м². Двойной воздушный поток (горизонтальный и вертикальный) исключает застойные зоны. Совместим с системой управления Smart Air.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "10,55 кВт (36 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "11,20 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 90 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 40 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный (hOn App)"
+      }
+    ],
+    "imageSeed": "haier-console",
+    "image": "/generated/ac-campaigns/haier-ac36cs1era/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/haier-ac36cs1era/a-studio-hero.webp",
+      "/generated/ac-campaigns/haier-ac36cs1era/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/haier-ac36cs1era/c-exterior-weather.webp",
+      "/generated/ac-campaigns/haier-ac36cs1era/d-product-card-bento.webp",
+      "/generated/ac-campaigns/haier-ac36cs1era/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "hisense-as07hr4sydkg",
+    "slug": "hisense-as07hr4sydkg",
+    "name": "Hisense AS-07HR4SYDKG",
+    "subtitle": "Настенный инверторный кондиционер, 7 BTU (20 м²)",
+    "collection": "Настенные",
+    "brand": "Hisense",
+    "price": 28900,
+    "featured": true,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Надёжный бюджетный инвертор. Обогрев при −15 °C. Фильтр PM 2.5.",
+    "longDescription": "Серия Hi-Comfort — оптимальное соотношение цены и качества от Hisense. Встроенный фильтр PM 2.5 задерживает мелкодисперсные частицы. Режим Night Comfort снижает шум до минимума в ночное время.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,05 кВт (7 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,20 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 20 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 20 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Фильтр",
+        "value": "PM 2.5"
+      }
+    ],
+    "imageSeed": "hisense-07",
+    "image": "/generated/ac-campaigns/hisense-as07hr4sydkg/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/hisense-as07hr4sydkg/a-studio-hero.webp",
+      "/generated/ac-campaigns/hisense-as07hr4sydkg/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/hisense-as07hr4sydkg/c-exterior-weather.webp",
+      "/generated/ac-campaigns/hisense-as07hr4sydkg/d-product-card-bento.webp",
+      "/generated/ac-campaigns/hisense-as07hr4sydkg/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "hisense-as09hr4sydkg",
+    "slug": "hisense-as09hr4sydkg",
+    "name": "Hisense AS-09HR4SYDKG",
+    "subtitle": "Настенный инверторный кондиционер, 9 BTU (25 м²)",
+    "collection": "Настенные",
+    "brand": "Hisense",
+    "price": 33900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Популярная модель с Wi-Fi. Самодиагностика системы.",
+    "longDescription": "AS-09HR4SYDKG Hi-Comfort оснащён встроенным Wi-Fi и приложением Hi-Smart. Функция самодиагностики сигнализирует об ошибках. Режим обезвлажнивания устраняет избыточную влагу без изменения температуры.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,65 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,80 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 22 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "hisense-09",
+    "image": "/generated/ac-campaigns/hisense-as09hr4sydkg/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/hisense-as09hr4sydkg/a-studio-hero.webp",
+      "/generated/ac-campaigns/hisense-as09hr4sydkg/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/hisense-as09hr4sydkg/c-exterior-weather.webp",
+      "/generated/ac-campaigns/hisense-as09hr4sydkg/d-product-card-bento.webp",
+      "/generated/ac-campaigns/hisense-as09hr4sydkg/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "hisense-as12hr4sydkg",
+    "slug": "hisense-as12hr4sydkg",
+    "name": "Hisense AS-12HR4SYDKG",
+    "subtitle": "Настенный инверторный кондиционер, 12 BTU (35 м²)",
+    "collection": "Настенные",
+    "brand": "Hisense",
+    "price": 40900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "12 BTU с расширенным обогревом до −15 °C. Фильтр PM 2.5.",
+    "longDescription": "AS-12HR4SYDKG обеспечивает равномерный климат в помещениях до 35 м². Четырёхступенчатая регулировка воздушного потока. Встроенный таймер и функция автоперезапуска после отключения электроэнергии.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "3,52 кВт (12 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "3,70 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 35 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 24 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Фильтр",
+        "value": "PM 2.5"
+      }
+    ],
+    "imageSeed": "hisense-12",
+    "image": "/generated/ac-campaigns/hisense-as12hr4sydkg/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/hisense-as12hr4sydkg/a-studio-hero.webp",
+      "/generated/ac-campaigns/hisense-as12hr4sydkg/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/hisense-as12hr4sydkg/c-exterior-weather.webp",
+      "/generated/ac-campaigns/hisense-as12hr4sydkg/d-product-card-bento.webp",
+      "/generated/ac-campaigns/hisense-as12hr4sydkg/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "hisense-as18hr4sydkg",
+    "slug": "hisense-as18hr4sydkg",
+    "name": "Hisense AS-18HR4SYDKG",
+    "subtitle": "Настенный инверторный кондиционер, 18 BTU (50 м²)",
+    "collection": "Настенные",
+    "brand": "Hisense",
+    "price": 56900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Мощный агрегат для больших помещений. Автоочистка, Wi-Fi.",
+    "longDescription": "AS-18HR4SYDKG — флагман серии Hi-Comfort для помещений до 50 м². Режим Auto-Clean предотвращает накопление влаги и бактерий на испарителе. Поддержка голосового управления через Алису.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "5,27 кВт (18 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "5,50 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 50 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 32 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "hisense-18",
+    "image": "/generated/ac-campaigns/hisense-as18hr4sydkg/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/hisense-as18hr4sydkg/a-studio-hero.webp",
+      "/generated/ac-campaigns/hisense-as18hr4sydkg/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/hisense-as18hr4sydkg/c-exterior-weather.webp",
+      "/generated/ac-campaigns/hisense-as18hr4sydkg/d-product-card-bento.webp",
+      "/generated/ac-campaigns/hisense-as18hr4sydkg/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "hisense-as07qc4svetg4",
+    "slug": "hisense-as07qc4svetg4",
+    "name": "Hisense AS07QC4SVETG4",
+    "subtitle": "Expert, 7 BTU (20 м²)",
+    "collection": "Настенные",
+    "brand": "Hisense",
+    "price": 44900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A++",
+    "description": "Серия Expert с обогревом при −25 °C. Wi-Fi, Air Sense.",
+    "longDescription": "AS07QC4SVETG4 Expert — флагманская настенная серия Hisense. Технология Air Sense мониторит качество воздуха и автоматически регулирует режим. Обогрев при −25 °C без снижения КПД. Ночной режим — 16 дБ.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,05 кВт (7 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,50 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 20 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 16 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "hisense-expert-07",
+    "image": "/generated/ac-campaigns/hisense-as07qc4svetg4/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/hisense-as07qc4svetg4/a-studio-hero.webp",
+      "/generated/ac-campaigns/hisense-as07qc4svetg4/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/hisense-as07qc4svetg4/c-exterior-weather.webp",
+      "/generated/ac-campaigns/hisense-as07qc4svetg4/d-product-card-bento.webp",
+      "/generated/ac-campaigns/hisense-as07qc4svetg4/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "hisense-as09qc4svetg4",
+    "slug": "hisense-as09qc4svetg4",
+    "name": "Hisense AS09QC4SVETG4",
+    "subtitle": "Expert, 9 BTU (25 м²)",
+    "collection": "Настенные",
+    "brand": "Hisense",
+    "price": 54900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A++",
+    "description": "A++, 16 дБ, −25 °C. Hisense Expert.",
+    "longDescription": "AS09QC4SVETG4 Expert — наиболее востребованная модель флагманской серии. Gold Fin антикоррозионное покрытие теплообменника. Режим Self-Clean предотвращает образование бактерий и плесени.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,65 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "3,00 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 16 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "hisense-expert-09",
+    "image": "/generated/ac-campaigns/hisense-as09qc4svetg4/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/hisense-as09qc4svetg4/a-studio-hero.webp",
+      "/generated/ac-campaigns/hisense-as09qc4svetg4/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/hisense-as09qc4svetg4/c-exterior-weather.webp",
+      "/generated/ac-campaigns/hisense-as09qc4svetg4/d-product-card-bento.webp",
+      "/generated/ac-campaigns/hisense-as09qc4svetg4/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "hisense-as12qc4svetg4",
+    "slug": "hisense-as12qc4svetg4",
+    "name": "Hisense AS12QC4SVETG4",
+    "subtitle": "Expert, 12 BTU (35 м²)",
+    "collection": "Настенные",
+    "brand": "Hisense",
+    "price": 64900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A++",
+    "description": "Флагман Expert для гостиных и офисов до 35 м².",
+    "longDescription": "AS12QC4SVETG4 Expert — производительная система для просторных помещений. Технология TurboFrost обеспечивает максимальную мощность за минимальное время. Управление через Hi-Smart совместимо с Apple HomeKit.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "3,52 кВт (12 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "4,00 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 35 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 20 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "hisense-expert-12",
+    "image": "/generated/ac-campaigns/hisense-as12qc4svetg4/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/hisense-as12qc4svetg4/a-studio-hero.webp",
+      "/generated/ac-campaigns/hisense-as12qc4svetg4/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/hisense-as12qc4svetg4/c-exterior-weather.webp",
+      "/generated/ac-campaigns/hisense-as12qc4svetg4/d-product-card-bento.webp",
+      "/generated/ac-campaigns/hisense-as12qc4svetg4/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "hisense-as18qc4svetg4",
+    "slug": "hisense-as18qc4svetg4",
+    "name": "Hisense AS18QC4SVETG4",
+    "subtitle": "Expert, 18 BTU (50 м²)",
+    "collection": "Настенные",
+    "brand": "Hisense",
+    "price": 79900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A++",
+    "description": "Максимальная мощность Expert для пространств до 50 м².",
+    "longDescription": "AS18QC4SVETG4 Expert — флагман Hisense для больших помещений. Расширенный диапазон обогрева до −25 °C. Режим Auto Fan подстраивает скорость вентилятора к температуре помещения. Встроен фильтр HEPA.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "5,27 кВт (18 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "5,80 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 50 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 26 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−25 °C"
+      },
+      {
+        "label": "Фильтр",
+        "value": "HEPA + PM 2.5"
+      }
+    ],
+    "imageSeed": "hisense-expert-18",
+    "image": "/generated/ac-campaigns/hisense-as18qc4svetg4/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/hisense-as18qc4svetg4/a-studio-hero.webp",
+      "/generated/ac-campaigns/hisense-as18qc4svetg4/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/hisense-as18qc4svetg4/c-exterior-weather.webp",
+      "/generated/ac-campaigns/hisense-as18qc4svetg4/d-product-card-bento.webp",
+      "/generated/ac-campaigns/hisense-as18qc4svetg4/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "hisense-as09ur4sxcdg",
+    "slug": "hisense-as09ur4sxcdg",
+    "name": "Hisense AS09UR4SXCDG",
+    "subtitle": "Кассетный кондиционер, 9 BTU (25 м²)",
+    "collection": "Кассетные",
+    "brand": "Hisense",
+    "price": 94900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Кассетный блок для офисов и торговых зон с 4-сторонним обдувом.",
+    "longDescription": "AS09UR4SXCDG — компактный кассетный блок для встройки в подвесной потолок. Четырёхсторонний обдув обеспечивает равномерный климат в помещениях до 25 м². Панель 570×570 мм. Управление через Hi-Smart.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,65 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,80 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Обдув",
+        "value": "4-сторонний"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 33 дБ"
+      },
+      {
+        "label": "Панель",
+        "value": "570 × 570 мм"
+      }
+    ],
+    "imageSeed": "hisense-cassette-09",
+    "image": "/generated/ac-campaigns/hisense-as09ur4sxcdg/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/hisense-as09ur4sxcdg/a-studio-hero.webp",
+      "/generated/ac-campaigns/hisense-as09ur4sxcdg/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/hisense-as09ur4sxcdg/c-exterior-weather.webp",
+      "/generated/ac-campaigns/hisense-as09ur4sxcdg/d-product-card-bento.webp",
+      "/generated/ac-campaigns/hisense-as09ur4sxcdg/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "hisense-as12ur4sxcdg",
+    "slug": "hisense-as12ur4sxcdg",
+    "name": "Hisense AS12UR4SXCDG",
+    "subtitle": "Кассетный кондиционер, 12 BTU (35 м²)",
+    "collection": "Кассетные",
+    "brand": "Hisense",
+    "price": 109900,
+    "featured": false,
+    "material": "Инверторный компрессор DC",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Производительный кассет для помещений до 35 м².",
+    "longDescription": "AS12UR4SXCDG — мощный кассетный блок для открытых офисных пространств, ресторанов и торговых залов до 35 м². Режим Auto Louver автоматически направляет воздух в зоны присутствия. Функция Self-Clean сохраняет гигиену испарителя.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "3,52 кВт (12 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "3,70 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 35 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный DC"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Обдув",
+        "value": "4-сторонний"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 35 дБ"
+      },
+      {
+        "label": "Панель",
+        "value": "570 × 570 мм"
+      }
+    ],
+    "imageSeed": "hisense-cassette-12",
+    "image": "/generated/ac-campaigns/hisense-as12ur4sxcdg/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/hisense-as12ur4sxcdg/a-studio-hero.webp",
+      "/generated/ac-campaigns/hisense-as12ur4sxcdg/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/hisense-as12ur4sxcdg/c-exterior-weather.webp",
+      "/generated/ac-campaigns/hisense-as12ur4sxcdg/d-product-card-bento.webp",
+      "/generated/ac-campaigns/hisense-as12ur4sxcdg/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "daikin-ftxb20c",
+    "slug": "daikin-ftxb20c",
+    "name": "Daikin FTXB20C",
+    "subtitle": "Sensira, 7 BTU (20 м²)",
+    "collection": "Настенные",
+    "brand": "Daikin",
+    "price": 64900,
+    "featured": true,
+    "material": "Инверторный компрессор Swing",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Японское качество в доступном формате. R-32. Обогрев при −15 °C.",
+    "longDescription": "FTXB20C серии Sensira — точка входа в экосистему Daikin. Компрессор Swing производства Daikin обеспечивает долгий ресурс и тихую работу. Хладагент R-32. Режим обогрева работает при −15 °C снаружи.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,00 кВт (7 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "2,50 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 20 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный Swing"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 21 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Производство",
+        "value": "Япония / Чехия"
+      }
+    ],
+    "imageSeed": "daikin-ftxb20",
+    "image": "/generated/ac-campaigns/daikin-ftxb20c/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/daikin-ftxb20c/a-studio-hero.webp",
+      "/generated/ac-campaigns/daikin-ftxb20c/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/daikin-ftxb20c/c-exterior-weather.webp",
+      "/generated/ac-campaigns/daikin-ftxb20c/d-product-card-bento.webp",
+      "/generated/ac-campaigns/daikin-ftxb20c/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "daikin-ftxb25c",
+    "slug": "daikin-ftxb25c",
+    "name": "Daikin FTXB25C",
+    "subtitle": "Sensira, 9 BTU (25 м²)",
+    "collection": "Настенные",
+    "brand": "Daikin",
+    "price": 74900,
+    "featured": false,
+    "material": "Инверторный компрессор Swing",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Оптимальная модель Sensira для спален и кабинетов.",
+    "longDescription": "FTXB25C — наиболее продаваемая модель серии Sensira. Компрессор Swing производства Daikin. Режим Coanda направляет воздушный поток вдоль потолка, предотвращая сквозняки. Таймер и еженедельный планировщик встроены.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,50 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "3,20 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный Swing"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 21 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Производство",
+        "value": "Япония / Чехия"
+      }
+    ],
+    "imageSeed": "daikin-ftxb25",
+    "image": "/generated/ac-campaigns/daikin-ftxb25c/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/daikin-ftxb25c/a-studio-hero.webp",
+      "/generated/ac-campaigns/daikin-ftxb25c/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/daikin-ftxb25c/c-exterior-weather.webp",
+      "/generated/ac-campaigns/daikin-ftxb25c/d-product-card-bento.webp",
+      "/generated/ac-campaigns/daikin-ftxb25c/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "daikin-ftxb35c",
+    "slug": "daikin-ftxb35c",
+    "name": "Daikin FTXB35C",
+    "subtitle": "Sensira, 12 BTU (35 м²)",
+    "collection": "Настенные",
+    "brand": "Daikin",
+    "price": 89900,
+    "featured": false,
+    "material": "Инверторный компрессор Swing",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Производительная Sensira для гостиных и переговорных.",
+    "longDescription": "FTXB35C Sensira обеспечивает комфорт в помещениях до 35 м². Встроенный самоочищающийся фильтр Streamer нейтрализует аллергены, бактерии и вирусы. Оснащён датчиком движения для автоматической регулировки.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "3,40 кВт (12 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "4,00 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 35 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный Swing"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 23 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Опционально (BRP069C4x)"
+      }
+    ],
+    "imageSeed": "daikin-ftxb35",
+    "image": "/generated/ac-campaigns/daikin-ftxb35c/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/daikin-ftxb35c/a-studio-hero.webp",
+      "/generated/ac-campaigns/daikin-ftxb35c/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/daikin-ftxb35c/c-exterior-weather.webp",
+      "/generated/ac-campaigns/daikin-ftxb35c/d-product-card-bento.webp",
+      "/generated/ac-campaigns/daikin-ftxb35c/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "daikin-ftxb50c",
+    "slug": "daikin-ftxb50c",
+    "name": "Daikin FTXB50C",
+    "subtitle": "Sensira, 18 BTU (50 м²)",
+    "collection": "Настенные",
+    "brand": "Daikin",
+    "price": 114900,
+    "featured": false,
+    "material": "Инверторный компрессор Swing",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Флагман Sensira для больших пространств до 50 м².",
+    "longDescription": "FTXB50C — наиболее мощная модель серии Sensira. Двухмоторный вентилятор обеспечивает равномерное распределение воздуха. Режим Coanda+Force направляет поток к полу при обогреве для комфорта у ног.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "5,00 кВт (18 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "5,80 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 50 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный Swing"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 30 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Опционально (BRP069C4x)"
+      }
+    ],
+    "imageSeed": "daikin-ftxb50",
+    "image": "/generated/ac-campaigns/daikin-ftxb50c/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/daikin-ftxb50c/a-studio-hero.webp",
+      "/generated/ac-campaigns/daikin-ftxb50c/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/daikin-ftxb50c/c-exterior-weather.webp",
+      "/generated/ac-campaigns/daikin-ftxb50c/d-product-card-bento.webp",
+      "/generated/ac-campaigns/daikin-ftxb50c/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "daikin-ftxf25d",
+    "slug": "daikin-ftxf25d",
+    "name": "Daikin FTXF25D",
+    "subtitle": "Perfera, 9 BTU (25 м²)",
+    "collection": "Настенные",
+    "brand": "Daikin",
+    "price": 129900,
+    "featured": true,
+    "material": "Инверторный компрессор Swing",
+    "finish": "Класс энергоэффективности A+++",
+    "description": "Флагман Daikin. A+++, Flash Streamer, обогрев при −20 °C.",
+    "longDescription": "FTXF25D серии Perfera — эталон настенного кондиционирования от Daikin. Класс A+++. Технология Flash Streamer уничтожает вирусы, бактерии и аллергены. Встроенный Wi-Fi BRP069C4x. Датчик движения 3D автоматически регулирует режим.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,50 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "3,40 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный Swing"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 19 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−20 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "daikin-ftxf25",
+    "image": "/generated/ac-campaigns/daikin-ftxf25d/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/daikin-ftxf25d/a-studio-hero.webp",
+      "/generated/ac-campaigns/daikin-ftxf25d/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/daikin-ftxf25d/c-exterior-weather.webp",
+      "/generated/ac-campaigns/daikin-ftxf25d/d-product-card-bento.webp",
+      "/generated/ac-campaigns/daikin-ftxf25d/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "daikin-ftxf35d",
+    "slug": "daikin-ftxf35d",
+    "name": "Daikin FTXF35D",
+    "subtitle": "Perfera, 12 BTU (35 м²)",
+    "collection": "Настенные",
+    "brand": "Daikin",
+    "price": 149900,
+    "featured": false,
+    "material": "Инверторный компрессор Swing",
+    "finish": "Класс энергоэффективности A+++",
+    "description": "Perfera для гостиных и переговорных. A+++, Flash Streamer.",
+    "longDescription": "FTXF35D Perfera — производительная система для помещений до 35 м². Flash Streamer уничтожает вирусы и аллергены. Режим Intelligent Eye снижает потребление при отсутствии людей в помещении.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "3,40 кВт (12 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "4,00 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 35 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный Swing"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 19 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−20 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "daikin-ftxf35",
+    "image": "/generated/ac-campaigns/daikin-ftxf35d/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/daikin-ftxf35d/a-studio-hero.webp",
+      "/generated/ac-campaigns/daikin-ftxf35d/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/daikin-ftxf35d/c-exterior-weather.webp",
+      "/generated/ac-campaigns/daikin-ftxf35d/d-product-card-bento.webp",
+      "/generated/ac-campaigns/daikin-ftxf35d/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "daikin-ftxf50d",
+    "slug": "daikin-ftxf50d",
+    "name": "Daikin FTXF50D",
+    "subtitle": "Perfera, 18 BTU (50 м²)",
+    "collection": "Настенные",
+    "brand": "Daikin",
+    "price": 174900,
+    "featured": false,
+    "material": "Инверторный компрессор Swing",
+    "finish": "Класс энергоэффективности A+++",
+    "description": "Флагман серии Perfera для больших пространств до 50 м².",
+    "longDescription": "FTXF50D Perfera — наиболее мощная настенная система класса A+++ от Daikin. Алгоритм Demand Control оптимизирует потребление электроэнергии. Flash Streamer + PM 2.5 фильтр обеспечивают клинически чистый воздух.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "5,00 кВт (18 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "5,80 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 50 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный Swing"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+++"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 22 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−20 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Встроенный"
+      }
+    ],
+    "imageSeed": "daikin-ftxf50",
+    "image": "/generated/ac-campaigns/daikin-ftxf50d/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/daikin-ftxf50d/a-studio-hero.webp",
+      "/generated/ac-campaigns/daikin-ftxf50d/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/daikin-ftxf50d/c-exterior-weather.webp",
+      "/generated/ac-campaigns/daikin-ftxf50d/d-product-card-bento.webp",
+      "/generated/ac-campaigns/daikin-ftxf50d/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "daikin-fha60a",
+    "slug": "daikin-fha60a",
+    "name": "Daikin FHA60A",
+    "subtitle": "Sky Air, напольно-потолочный, 21 BTU (60 м²)",
+    "collection": "Напольно-потолочные",
+    "brand": "Daikin",
+    "price": 119900,
+    "featured": true,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Консольный блок Sky Air для больших пространств без подвесного потолка.",
+    "longDescription": "FHA60A — напольно-потолочная (консольная) сплит-система Daikin Sky Air для установки в зонах, где монтаж кассетного блока невозможен. Трёхступенчатое воздухораспределение обеспечивает равномерный климат в помещениях до 60 м².",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "6,00 кВт (21 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "6,80 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 60 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 34 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−20 °C"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Опционально (BRP069C4x)"
+      }
+    ],
+    "imageSeed": "daikin-fha",
+    "image": "/generated/ac-campaigns/daikin-fha60a/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/daikin-fha60a/a-studio-hero.webp",
+      "/generated/ac-campaigns/daikin-fha60a/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/daikin-fha60a/c-exterior-weather.webp",
+      "/generated/ac-campaigns/daikin-fha60a/d-product-card-bento.webp",
+      "/generated/ac-campaigns/daikin-fha60a/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "daikin-fbq35d",
+    "slug": "daikin-fbq35d",
+    "name": "Daikin FBQ35D",
+    "subtitle": "Sky Air, кассетный, 12 BTU (35 м²)",
+    "collection": "Кассетные",
+    "brand": "Daikin",
+    "price": 149900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Кассетный блок Sky Air для офисов и торговых пространств.",
+    "longDescription": "FBQ35D Sky Air — коммерческая кассетная система Daikin для встройки в подвесной потолок. Четырёхсторонний обдув. Панель 600×600 мм. Управление через централизованную систему Daikin D-BACS.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "3,40 кВт (12 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "4,00 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 35 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Панель",
+        "value": "600 × 600 мм"
+      },
+      {
+        "label": "Обдув",
+        "value": "4-сторонний"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 31 дБ"
+      }
+    ],
+    "imageSeed": "daikin-fbq35",
+    "image": "/generated/ac-campaigns/daikin-fbq35d/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/daikin-fbq35d/a-studio-hero.webp",
+      "/generated/ac-campaigns/daikin-fbq35d/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/daikin-fbq35d/c-exterior-weather.webp",
+      "/generated/ac-campaigns/daikin-fbq35d/d-product-card-bento.webp",
+      "/generated/ac-campaigns/daikin-fbq35d/e-smart-home.webp"
+    ]
+  },
+  {
+    "id": "daikin-fdxs25e",
+    "slug": "daikin-fdxs25e",
+    "name": "Daikin FDXS25E",
+    "subtitle": "Sky Air, канальный, 9 BTU (25 м²)",
+    "collection": "Канальные",
+    "brand": "Daikin",
+    "price": 129900,
+    "featured": false,
+    "material": "Инверторный компрессор",
+    "finish": "Класс энергоэффективности A+",
+    "description": "Канальный блок Sky Air для скрытой установки в межпотолочном пространстве.",
+    "longDescription": "FDXS25E Sky Air — канальная система для полностью скрытой установки в межпотолочное пространство. Воздух распределяется через систему воздуховодов. Встроенный фильтр G4. Статическое давление до 30 Па для разводки по нескольким помещениям.",
+    "specs": [
+      {
+        "label": "Мощность охлаждения",
+        "value": "2,50 кВт (9 000 BTU/ч)"
+      },
+      {
+        "label": "Мощность обогрева",
+        "value": "3,20 кВт"
+      },
+      {
+        "label": "Площадь помещения",
+        "value": "до 25 м²"
+      },
+      {
+        "label": "Тип компрессора",
+        "value": "Инверторный"
+      },
+      {
+        "label": "Хладагент",
+        "value": "R-32"
+      },
+      {
+        "label": "Класс энергоэфф.",
+        "value": "A+"
+      },
+      {
+        "label": "Статическое давление",
+        "value": "до 30 Па"
+      },
+      {
+        "label": "Шум (внутр. блок)",
+        "value": "от 26 дБ"
+      },
+      {
+        "label": "Обогрев до",
+        "value": "−15 °C"
+      }
+    ],
+    "imageSeed": "daikin-fdxs25",
+    "image": "/generated/ac-campaigns/daikin-fdxs25e/a-studio-hero.webp",
+    "images": [
+      "/generated/ac-campaigns/daikin-fdxs25e/a-studio-hero.webp",
+      "/generated/ac-campaigns/daikin-fdxs25e/b-lifestyle-interior.webp",
+      "/generated/ac-campaigns/daikin-fdxs25e/c-exterior-weather.webp",
+      "/generated/ac-campaigns/daikin-fdxs25e/d-product-card-bento.webp",
+      "/generated/ac-campaigns/daikin-fdxs25e/e-smart-home.webp"
+    ]
+  }
+]

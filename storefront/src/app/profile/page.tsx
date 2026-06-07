@@ -1,11 +1,7 @@
-import type { Metadata } from "next";
-import ProfileClient from "./ProfileClient";
+import { redirect } from "next/navigation"
 
-export const metadata: Metadata = {
-  title: "Личный кабинет — ENDMARKET",
-  description: "Управление заказами, профилем и настройками аккаунта.",
-};
+export const dynamic = "force-dynamic"
 
-export default function ProfilePage() {
-  return <ProfileClient />;
+export default function LegacyProfileRedirectPage() {
+  redirect("/account")
 }

@@ -80,7 +80,8 @@ export default function InspirationGallery() {
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ objectFit: "cover", filter: "grayscale(20%)" }}
-              />
+                unoptimized
+/>
             </div>
             <div style={{ padding: "0.875rem 1.25rem 1.25rem" }}>
               <p className="label" style={{ color: "#a8a8a2" }}>{item.caption}</p>

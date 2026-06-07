@@ -102,7 +102,8 @@ export default function RegistrationPopup() {
             sizes="(max-width: 768px) 45vw, 340px"
             style={{ objectFit: "cover", filter: "grayscale(18%) contrast(1.06) brightness(0.7)" }}
             priority
-          />
+            unoptimized
+/>
           <div
             style={{
               position: "absolute",

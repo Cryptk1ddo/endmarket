@@ -11,7 +11,7 @@ const csp = [
   "style-src 'self' 'unsafe-inline'",
   // Image sources: own domain + future R2 bucket + Metrica noscript pixel
   [
-    "img-src 'self' data: blob:",
+    "img-src 'self' data: blob: https://api.endmarket.ru https://media.endmarket.ru https://endmarket.ru https://www.endmarket.ru http://localhost:9000 https://localhost:9000 http://127.0.0.1:9000 https://127.0.0.1:9000 https://mc.yandex.ru",
     "https://mc.yandex.ru",
     isProd && process.env.R2_PUBLIC_URL ? process.env.R2_PUBLIC_URL : "",
     // Medusa/Strapi hosted images
@@ -21,7 +21,7 @@ const csp = [
   "font-src 'self' data:",
   // API connections: add prod URLs via env
   [
-    "connect-src 'self'",
+    "connect-src 'self' https://api.endmarket.ru https://endmarket.ru https://www.endmarket.ru https://media.endmarket.ru https://mc.yandex.ru",
     !isProd ? "http://localhost:9000 http://localhost:1337 http://localhost:7700 ws://localhost:3000 ws://localhost:*" : "",
     process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL || "",
     process.env.NEXT_PUBLIC_STRAPI_URL || "",
@@ -63,6 +63,7 @@ const nextConfig: NextConfig = {
   // Medusa SDK runs server-side only — keep it out of the client bundle
   serverExternalPackages: ["@medusajs/js-sdk"],
   images: {
+    unoptimized: true,
     remotePatterns: [
       // Medusa backend images (localhost in dev, prod URL in prod)
       { protocol: "http", hostname: "localhost", port: "9000" },

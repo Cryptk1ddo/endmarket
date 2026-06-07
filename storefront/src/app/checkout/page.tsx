@@ -519,7 +519,8 @@ export default function CheckoutPage() {
                           fill
                           style={{ objectFit: "cover", filter: "grayscale(20%)" }}
                           sizes="80px"
-                        />
+                          unoptimized
+/>
                       </div>
                       <div style={{ flex: 1 }}>
                         <p

@@ -44,7 +44,7 @@ services:
       - .env.backend
     environment:
       MEDUSA_WORKER_MODE: server
-      DISABLE_MEDUSA_ADMIN: "true"
+      DISABLE_MEDUSA_ADMIN: "false"
     depends_on:
       postgres:
         condition: service_healthy

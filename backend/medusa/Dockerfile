@@ -13,6 +13,15 @@ ENV npm_config_fund=false
 
 ENV MEDUSA_TELEMETRY_DISABLED=true
 
+ARG MEDUSA_BACKEND_URL=https://api.endmarket.ru
+ARG MEDUSA_STOREFRONT_URL=https://endmarket.ru
+ARG MEDUSA_ADMIN_PATH=/dashboard
+
+ENV MEDUSA_BACKEND_URL=${MEDUSA_BACKEND_URL}
+ENV MEDUSA_STOREFRONT_URL=${MEDUSA_STOREFRONT_URL}
+ENV MEDUSA_ADMIN_PATH=${MEDUSA_ADMIN_PATH}
+ENV DISABLE_MEDUSA_ADMIN=false
+
 COPY package*.json ./
 
 RUN --mount=type=cache,target=/root/.npm \
@@ -42,6 +51,7 @@ RUN --mount=type=cache,target=/root/.npm \
     npm ci --include=dev --no-audit --no-fund
 
 COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/dist/public ./public
 
 COPY --from=builder /app/.medusa ./.medusa
 

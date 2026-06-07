@@ -143,7 +143,8 @@ export default function ProductFilter({ products }: { products: Product[] }) {
                 sizes="260px"
                 className="pcard-img"
                 style={{ objectFit: "cover", filter: "grayscale(10%)" }}
-              />
+                unoptimized
+/>
               {product.featured && (
                 <div
                   style={{

@@ -1,26 +1,18 @@
-import { loadEnv, defineConfig } from "@medusajs/framework/utils"
+import { defineConfig, loadEnv } from "@medusajs/framework/utils"
 
 loadEnv(process.env.NODE_ENV || "development", process.cwd())
 
-const isProd = process.env.NODE_ENV === "production"
-
 function requireSecret(name: string, fallback: string): string {
-  const val = process.env[name]
-  if (!val) {
-    if (isProd) throw new Error(`Missing required secret: ${name}`)
-    return fallback
+  const value = process.env[name]
+
+  if (!value && process.env.NODE_ENV === "production") {
+    throw new Error(`${name} is required in production`)
   }
-  if (isProd && ["supersecret", "secret", "changeme"].includes(val.toLowerCase())) {
-    throw new Error(`Insecure default for ${name} in production`)
-  }
-  return val
+
+  return value || fallback
 }
 
-module.exports = defineConfig({
-  admin: {
-    disable: true,
-    path: "/dashboard",
-  },
+export default defineConfig({
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
     databaseDriverOptions: {
@@ -36,14 +28,52 @@ module.exports = defineConfig({
     },
     redisUrl: process.env.REDIS_URL,
     http: {
-      storeCors: process.env.STORE_CORS || "http://localhost:3000",
-      adminCors: process.env.ADMIN_CORS || "http://localhost:3000,http://localhost:7001",
-      authCors: process.env.AUTH_CORS || "http://localhost:3000,http://localhost:7001",
+      storeCors:
+        process.env.STORE_CORS ||
+        "https://endmarket.ru,https://www.endmarket.ru,http://localhost:3000",
+      adminCors:
+        process.env.ADMIN_CORS ||
+        "https://api.endmarket.ru,http://localhost:7000,http://localhost:7001",
+      authCors:
+        process.env.AUTH_CORS ||
+        "https://api.endmarket.ru,https://endmarket.ru,https://www.endmarket.ru,http://localhost:3000,http://localhost:7000,http://localhost:7001",
       jwtSecret: requireSecret("JWT_SECRET", "dev-jwt-secret-change-in-prod"),
-      cookieSecret: requireSecret("COOKIE_SECRET", "dev-cookie-secret-change-in-prod"),
+      cookieSecret: requireSecret(
+        "COOKIE_SECRET",
+        "dev-cookie-secret-change-in-prod"
+      ),
     },
   },
+
+  modules: [
+    {
+      resolve: "@medusajs/medusa/file",
+      options: {
+        providers: [
+          {
+            resolve: "@medusajs/medusa/file-s3",
+            id: "s3",
+            options: {
+              file_url: process.env.S3_FILE_URL,
+              access_key_id: process.env.S3_ACCESS_KEY_ID,
+              secret_access_key: process.env.S3_SECRET_ACCESS_KEY,
+              region: process.env.S3_REGION || "auto",
+              bucket: process.env.S3_BUCKET,
+              endpoint: process.env.S3_ENDPOINT,
+              additional_client_config: {
+                forcePathStyle: true,
+              },
+            },
+          },
+        ],
+      },
+    },
+  ],
+
   admin: {
-    backendUrl: process.env.MEDUSA_BACKEND_URL || "http://localhost:9000",
+    disable: process.env.DISABLE_MEDUSA_ADMIN === "true",
+    path: process.env.MEDUSA_ADMIN_PATH || "/dashboard",
+    backendUrl: process.env.MEDUSA_BACKEND_URL || "https://api.endmarket.ru",
+    storefrontUrl: process.env.MEDUSA_STOREFRONT_URL || "https://endmarket.ru",
   },
 })

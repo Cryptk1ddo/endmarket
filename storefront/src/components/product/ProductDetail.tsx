@@ -128,7 +128,8 @@ export default function ProductDetail({ product }: { product: Product }) {
                   sizes="50vw"
                   style={{ height: "100%", width: "auto", maxWidth: "100%", display: "block" }}
                   priority={n === 0}
-                />
+                  unoptimized
+/>
               </div>
             ))}
             <button
@@ -182,7 +183,8 @@ export default function ProductDetail({ product }: { product: Product }) {
                 style={{ objectFit: "contain", filter: "grayscale(12%) contrast(1.03)" }}
                 priority
                 loading="eager"
-              />
+                unoptimized
+/>
 
             </div>
             <button
@@ -246,7 +248,8 @@ export default function ProductDetail({ product }: { product: Product }) {
                     fill
                     sizes="25vw"
                     style={{ objectFit: "contain", filter: "grayscale(18%)" }}
-                  />
+                    unoptimized
+/>
                 </button>
               ))}
             </div>
@@ -674,7 +677,8 @@ export default function ProductDetail({ product }: { product: Product }) {
                         sizes="(max-width: 768px) 50vw, 25vw"
                         style={{ objectFit: "cover", filter: "grayscale(12%)", transition: "transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1)" }}
                         className="related-img"
-                      />
+                        unoptimized
+/>
                     </div>
                     <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.875rem", fontWeight: 400, color: "#080808", margin: "0 0 0.25rem" }}>{rp.name}</p>
                     <p style={{ fontFamily: "var(--font-barlow)", fontSize: "0.875rem", fontWeight: 300, color: "#6e6e66", margin: 0 }}>₽{rp.price.toLocaleString()}</p>
