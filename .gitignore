@@ -120,3 +120,7 @@ import/*.csv
 # Build/cache
 .next/
 node_modules/
+
+# Server-only temporary files
+*.broken.*
+storefront/public/product-images-import.csv
